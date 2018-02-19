@@ -1,5 +1,5 @@
 import os, sys
-sys.path.append(os.path.abspath("../../beautiful-reports/django"))
+sys.path.append(os.path.abspath("../../graphite/graphite"))
 from settings.base import *
 
 # Development Settings
@@ -11,6 +11,7 @@ SUPER_DEBUG=False
 
 PROJECT_DIRECTORY = os.path.dirname(__file__)
 PAGES_DIRECTORY = os.path.join(PROJECT_DIRECTORY, "pages")
+STATIC_ROOT = os.path.join(BASE_DIR, "report", "static")
 
 STATICFILES_DIRS = [
     os.path.join(PROJECT_DIRECTORY, "static"),
