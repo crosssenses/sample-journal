@@ -1,0 +1,43 @@
+published:              false
+brand:                  graphite by impact·distillery
+background_url:         images/background.jpg
+title:                  Title EN…
+subtitle:               Subtitle EN…
+authors:                Authors EN…
+year:                   2018
+cite_as:                "Cite as EN…"
+date_publication:       Februar 2018
+date_submission:
+date_last_updated:
+logo_url:               images/logo_hiig-01.png
+pdf_url:                
+doi:                    
+contact_email:          
+data_usage:
+disclaimer:
+author_info:            Author_info EN…
+author_info_sticky:     true
+keywords:               Keywords EN…
+terms_of_use:
+imprint:
+licence:
+abstract:               Abstract EN…
+:---------------------------------------------------:
+tabs:
+  - title: "Gesamte Studie"
+    ref: "/"
+    slug: index
+    include_abstract: true
+    md_container: article
+  - title: "Executive Summary"
+    ref: "/summary/"
+    slug: summary
+    md_container: section
+  - title: "Herausgeber"
+    ref: "/editors/"
+    slug: editors
+    md_container: section
+  - title: "Verzeichnisse"
+    ref: "/directories/"
+    slug: directories
+    md_container: section
