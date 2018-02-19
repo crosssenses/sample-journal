@@ -9,11 +9,9 @@ SUPER_DEBUG=False
 
 # Path settings
 
-PROJECT_DIR = os.path.dirname(__file__)
-PAGES_DIRECTORY = PROJECT_DIR
-OUTPUT_DIRECTORY=os.path.join(BASE_DIR, "_build")
+PROJECT_DIRECTORY = os.path.dirname(__file__)
+PAGES_DIRECTORY = PROJECT_DIRECTORY
 
 STATICFILES_DIRS = [
-    STATIC_ROOT,
-    os.path.join(PROJECT_DIR, "static"),
+    os.path.join(PROJECT_DIRECTORY, "static"),
 ]
