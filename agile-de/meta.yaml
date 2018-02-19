@@ -1,29 +1,43 @@
+published:              false
 brand:                  graphite by impact·distillery
 background_url:         images/background.jpg
-title:                  Agilität – ein neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter?
-subtitle:               Learn. Match. Partner.
-authors:                Andrea Kahlenberg, Jumana Klotsch und Jenny Fadranski 
+title:                  Title…
+subtitle:               Subtitle…
+authors:                Authors…
 year:                   2018
-cite_as:                "Kahlenberg, A., Klotsch, J., Fadranski, J. (2018) Agilität Neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter? Whitepaper des LRN LAB by innogy Consulting."
+cite_as:                "Cite as…"
 date_publication:       Februar 2018
 date_submission:
 date_last_updated:
-logo_url:
-pdf_url:
-doi:
-contact_email:
+logo_url:               images/logo_hiig-01.png
+pdf_url:                
+doi:                    
+contact_email:          
 data_usage:
 disclaimer:
-author_info:
-author_info_sticky:
-keywords:
+author_info:            Author_info…
+author_info_sticky:     true
+keywords:               Keywords…
 terms_of_use:
 imprint:
 licence:
-abstract:
+abstract:               Abstract…
+:---------------------------------------------------:
 tabs:
   - title: "Gesamte Studie"
     ref: "/"
     slug: index
     include_abstract: true
     md_container: article
+  - title: "Executive Summary"
+    ref: "/summary/"
+    slug: summary
+    md_container: section
+  - title: "Herausgeber"
+    ref: "/editors/"
+    slug: editors
+    md_container: section
+  - title: "Verzeichnisse"
+    ref: "/directories/"
+    slug: directories
+    md_container: section
