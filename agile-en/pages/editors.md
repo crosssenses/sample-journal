@@ -1,13 +1,12 @@
-# Über das LRN LAB
+# LRN LAB
 
-Wir verbinden Welten! Aufgewachsen im Konzern, haben wir uns als Digital Lab neu erfunden und sind nun auf der Reise als Start-up. Unsere Mission ist die digitale Transformation. Kunden schätzen unseren manchmal forschenden und mal orientierungsgebenden Ansatz. Dabei schöpfen wir beim Kreieren von Lösungen aus den Erfahrungen als Start-up und der Konzern-Transformation von RWE und Innogy. 
+We connect worlds! Coming from the background of a major energy group, we reinvented ourselves as the Digital Lab and are now on the move as a start-up. Our mission is the digital transformation. Customers appreciate our approach, which may be based on enquiry and at other times may give them guidance. In creating solutions, we can draw on our experience as a start-up, resulting from the Group transformation of RWE and Innogy. 
 
-Weil auch wir die Zukunft nicht vorhersehen können, sind wir überzeugt, dass wir belastbare Theorien brauchen, um Entscheidungen zu treffen, die mit der Zukunft rechnen. Unser interdisziplinäres Team aus Agile Coaches, systemischen Change-Beratern, Trainern, eLearning Experten und Trendanalysten stemmt sowohl große digitale Transformationen, als auch kleinere Trainings- und Reflexionsimpulse zu Design Thinking oder Agile Leadership. Darin implementieren wir die Perspektive der systemischen Metatheorie, die eine Alternative zur linearen Denkweise der Planbarkeit bietet und die systemische Komplexität von Unternehmen und ihrer Umwelt mit einbezieht. Veränderung beginnt mit der Erkenntnis, dass "Change" nicht ein weiteres Unternehmensziel ist, sondern der Versuch, die eigenen Muster im Umgang mit der Umwelt zu dekonstruieren. In diesem Prozess eröffnet sich fast von allein eine andere Zukunft. 
+Although we cannot predict the future, we are convinced that we need robust theories to make future-oriented decisions. Our interdisciplinary team of agility coaches, systemic change consultants, trainers, e-learning experts, and trend analysts can facilitate both major digital transformations and smaller-scale training and suggestions to encourage reflection on design thinking or agile leadership. In this context, we implement the perspective of systemic metatheory, by offering an alternative to plan-based linear thinking and taking into account the systemic complexity of companies and their environment. Change begins with the recognition that change itself is not just another corporate target, but rather the endeavour to deconstruct one’s own patterns in dealing with the environment. This process leads to the almost automatic opening-up of different kinds of future.   
 
 
-# Autorinnen 
+# Authors 
 
--   Andrea Kahlenberg 
--   Jumana Klotsch
--   Jenny Fadranski 
-
+- Andrea Kahlenberg
+- Jumana Klotsch
+- Jenny Fadranski 
