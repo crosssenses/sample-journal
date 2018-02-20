@@ -1,0 +1,4 @@
+
+@function mstats-color($key) {
+  @return map-get($mstats-colors, $key);
+}
