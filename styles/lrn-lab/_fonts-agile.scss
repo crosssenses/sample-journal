@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "innogy";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/site/templates/fonts/innogyRegular.eot") format("embedded-opentype"), url("/site/templates/fonts/innogyRegular.woff2") format("woff2"), url("/site/templates/fonts/innogyRegular.woff") format("woff"), url("/site/templates/fonts/innogyRegular.ttf") format("truetype"), url("/site/templates/fonts/innogyRegular.svg#innogyRegular") format("svg");
+}
+
+@font-face {
+  font-family: "innogy";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/site/templates/fonts/innogyLight.eot") format("embedded-opentype"), url("/site/templates/fonts/innogyLight.woff2") format("woff2"), url("/site/templates/fonts/innogyLight.woff") format("woff"), url("/site/templates/fonts/innogyLight.ttf") format("truetype"), url("/site/templates/fonts/innogyLight.svg#innogyLight") format("svg");
+}
+
+
+/* ---------- OLD ----------- */
+
+
 /* open-sans-300 - latin_latin-ext */
 @font-face {
   font-family: 'Open Sans';

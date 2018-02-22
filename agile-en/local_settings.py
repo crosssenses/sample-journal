@@ -16,3 +16,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, "report", "static")
 STATICFILES_DIRS = [
     os.path.join(PROJECT_DIRECTORY, "static"),
 ]
+
+TEMPLATES[0]["DIRS"].append(os.path.join(
+    os.path.dirname(PROJECT_DIRECTORY),
+    "jinja2",
+))
