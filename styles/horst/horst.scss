@@ -11,8 +11,8 @@
 
 //Import Theme HORST
 // @import "fonts";
-@import "fonts";
-@import "variables";
+@import "fonts-agile";
+@import "variables-agile";
 
 // Import Core Bootstrap 4
 @import "../bootstrap/variables";
@@ -54,6 +54,7 @@
 
 //Overwrite Bootstrap with Theme Details
 @import "theme";
+@import "theme-agile";
 
 //Import Iconset
 @import "../materialdesignicons/materialdesignicons.scss";
