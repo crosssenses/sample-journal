@@ -113,10 +113,17 @@ $mstats-colors: (
   plum:      #a3195b
 );
 
+$lrn-lab-colors: (
+    fbright: #e60055,
+    fmuted:  #a50032,
+    gbright: #64b42d,
+    gmuted:  #00875a
+);
+
+
 $theme-colors: (
-  primary: #007ba3,
-//  secondary: $gray-600,
-  secondary: #306f86,
+  primary: map-get($lrn-lab-colors, fmuted),
+  secondary: map-get($lrn-lab-colors, gmuted),
   success: $green,
   info: $cyan,
   warning: $yellow,
