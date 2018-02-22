@@ -1,6 +1,6 @@
 import os, sys
-sys.path.append(os.path.abspath("../../graphite/graphite"))
-from settings.base import *
+sys.path.append(os.path.abspath("../../graphite"))
+from local_django.settings.base import *
 
 # Development Settings
 
