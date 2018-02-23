@@ -1,6 +1,3 @@
-Agilität – ein neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter?
-
-Kaum ein Begriff geistert aktuell so häufig durch Organisationen wie dieser. Organisationen wollen agil sein, Teams sollen agil arbeiten und überhaupt muss alles plötzlich schneller gehen. Ist diese Bewegung eine Farce, oder haben wir es wirklich mit einem ernst zu nehmenden Phänomen zu tun? Fakt ist, dass die erfolgreichen Organisationen des digitalen Zeitalters besonders anpassungsfähig sind gegenüber Veränderungen in ihrer Umwelt. Die Globalisierung erhöht die Intensität der Waren-, Informations-, und Migrationsströme und destabilisiert politische und wirtschaftliche Ordnungen. Politikwissenschaftler Ian Bremmer nennt es die Zero Gravity World. Damit gemeint ist die wachsende politische Instabilität aufgrund sich verschiebender Wirtschaftsmacht. Der Begriff kann aber auch verstanden werden als Zustandsbeschreibung einer Welt, in der die ökonomischen Bedingungen volatil sind, technologischer Fortschritt exponentiell und in der die kulturelle Evolution des Menschen alte Werte und Organisationsweisen in Frage stellt. 
 
 # Zeitalter der Disruption 
 

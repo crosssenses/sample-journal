@@ -1,7 +1,3 @@
-Agility – just a new buzzword, or an ability required by organisations for their survival in the digital era?
-
-This is one of the most common terms you will hear today in many organisations. Organisations want to be agile, teams are supposed to work in an agile way and everything, suddenly, needs to happen so much faster. Is this movement just a farce, or are we really faced with a serious phenomenon? The fact is that successful organisations in the digital age are noticeably quick to adapt to changes in their environment. Globalisation increases the intensity of flows of good, information, and migration, by destabilising the political and economic order. The political scientist Ian Bremmer refers to this as Zero Gravity World. What he means here is the growing political instability in view of shifts in economic power. But the term can also be understood as a status description of a world in which economic conditions are volatile, technological advances exponential and cultural evolution of human beings challenges old values and organisational modes. 
-
 # Age of Disruption
 
 ## Short retrospective: high market dynamism and disruption are not fundamentally new features
