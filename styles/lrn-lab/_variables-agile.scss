@@ -117,13 +117,15 @@ $lrn-lab-colors: (
     fbright: #e60055,
     fmuted:  #a50032,
     gbright: #64b42d,
-    gmuted:  #00875a
+    gmuted:  #00875a,
+    bbright: #009BA5,
+    bmuted:  #005F69
 );
 
 
 $theme-colors: (
-  primary: map-get($lrn-lab-colors, fmuted),
-  secondary: map-get($lrn-lab-colors, gmuted),
+  primary: map-get($lrn-lab-colors, bmuted),
+  secondary: map-get($lrn-lab-colors, fmuted),
   success: $green,
   info: $cyan,
   warning: $yellow,
