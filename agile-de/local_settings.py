@@ -17,7 +17,10 @@ STATICFILES_DIRS = [
     os.path.join(PROJECT_DIRECTORY, "static"),
 ]
 
-TEMPLATES[0]["DIRS"].append(os.path.join(
+LOCAL_JINJA_PATH = os.path.join(
     os.path.dirname(PROJECT_DIRECTORY),
     "jinja2",
-))
+)
+
+TEMPLATES[0]["DIRS"] = [LOCAL_JINJA_PATH, ] + TEMPLATES[0]["DIRS"]
+
