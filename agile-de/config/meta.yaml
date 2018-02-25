@@ -1,5 +1,5 @@
 brand:                  graphite by impact·distillery
-background_url:         images/background.jpg
+background_url:         static/images/background.jpg
 title:                  "Agilität"
 subtitle:               "Neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter?"
 authors:                Andrea Kahlenberg, Jumana Klotsch und Jenny Fadranski
@@ -8,10 +8,10 @@ cite_as:                "Kahlenberg, A., Klotsch, J., Fadranski, J. (2018) Agili
 date_publication:       Februar 2018
 date_submission:
 date_last_updated:
-logo_url:               images/logo_hiig-01.png
-pdf_url:
-doi:
-contact_email:
+logo_url:               assets/images/logo_hiig-01.png
+pdf_url:                
+doi:                    
+contact_email:          
 data_usage:
 disclaimer:
 author_info:            Author_info…
