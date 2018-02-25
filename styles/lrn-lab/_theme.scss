@@ -71,11 +71,8 @@ object{
 /* General Variables */
 
 $standard-margin: 2rem;
+$path-to-img: "../img";
 
-/* Jumbotron Theme per Article */
-
-$header-image-url: url("images/lrn-lab-jumbo-back.png");
-$header-image-position: center center;
 
 $ms-icons: (
     link       :  earth,
@@ -215,7 +212,7 @@ $z-index: (
     background-color: theme-color("primary");
 //    background: $header-image-url;
 //    background-position: $header-image-position;
-    background-image: url(../img/lrn-lab-theme-20.svg);
+    background-image: url(#{$path-to-img}/lrn-lab-theme-20.svg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -244,7 +241,7 @@ $z-index: (
             height: 100%;
 
             background-color: theme-color("secondary");
-            mask-image: url('../img/triange.svg');
+            mask-image: url(#{$path-to-img}/triange.svg);
             mask-repeat: no-repeat;
             mask-size: cover;
             mask-position: left bottom;
@@ -258,7 +255,7 @@ $z-index: (
             @extend .my-auto;
 
             background-color: transparent;
-            background-image: url('../img/lrn-lab-theme-21.svg');
+            background-image: url(#{$path-to-img}/lrn-lab-theme-21.svg);
             background-repeat: no-repeat;
             background-position: left center;
             background-size: contain;
