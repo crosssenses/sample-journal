@@ -74,7 +74,7 @@ $standard-margin: 2rem;
 
 /* Jumbotron Theme per Article */
 
-$header-image-url: url("/static/img/jumbo-background.jpg");
+$header-image-url: url("images/lrn-lab-jumbo-back.png");
 $header-image-position: center center;
 
 $ms-icons: (
@@ -212,31 +212,12 @@ $z-index: (
     @extend .jumbotron;
     @extend .jumbotron-fluid;
     @extend .mb-0;
-//    background: linear-gradient(
-//                     -9deg,
-//                     rgba(0,0,0, .5),
-//                     rgba(0,0,0, .7)
-//                ),
-//                $header-image-url;
-    background: $header-image-url;
-    background-position: $header-image-position;
+    background-color: theme-color("primary");
+//    background: $header-image-url;
+//    background-position: $header-image-position;
+    background-image: url(../../images/lrn-lab-theme-20.svg);
     background-repeat: no-repeat;
     background-size: cover;
-
-
-//    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,ffffff+50,ffffff+100 */
-//    background: map-get($lrn-lab-colors, bmuted); /* Old browsers */
-//    background: -moz-linear-gradient(left, map-get($lrn-lab-colors, bmuted) 0%, map-get($lrn-lab-colors, bmuted) 50%, map-get($lrn-lab-colors, fmuted) 50%, map-get($lrn-lab-colors, fmuted) 100%); /* FF3.6-15 */
-//    background: -webkit-linear-gradient(left, map-get($lrn-lab-colors, bmuted) 0%,map-get($lrn-lab-colors, bmuted) 50%,map-get($lrn-lab-colors, fmuted) 50%,map-get($lrn-lab-colors, fmuted) 100%); /* Chrome10-25,Safari5.1-6 */
-//    background: linear-gradient(to right, map-get($lrn-lab-colors, bmuted) 0%,map-get($lrn-lab-colors, bmuted) 50%,map-get($lrn-lab-colors, fmuted) 50%,map-get($lrn-lab-colors, fmuted) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-//    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='map-get($lrn-lab-colors, bmuted)', endColorstr='map-get($lrn-lab-colors, fmuted)',GradientType=1 ); /* IE6-9 */
-
-
-//    background-color: rgba(0,112,120,1);
-//    background: @include filter-gradient(#007078, #b90441, horizontal);
-//    background: @include background-image(linear-gradient(left top, rgba(0,112,120,1) 0%, rgba(0,112,120,1) 47%, rgba(185,4,65,1) 48%, rgba(185,4,65,1) 100%));
-
-    background: linear-gradient(155deg, rgba(0,112,120,1) 0%, rgba(0,114,121,1) 50%, rgba(185,5,65,1) 50%, rgba(185,4,65,1) 100%);
 
 
     /* Hiding the TOC under the header */
@@ -244,18 +225,6 @@ $z-index: (
     z-index: map-get($z-index, header);
 
     padding: 0px;
-    
-    .image1 {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left bottom;
-    }
-
-    .image2 {
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: left bottom;
-    }
 
     .card {
         background: none;
@@ -263,14 +232,36 @@ $z-index: (
         border: 0;
         min-height: 300px;
         flex-direction: inherit;
+        text-align: right;
+        position: relative;
+
+        .card-image{
+            position: absolute;
+            left: 0;
+            @extend .offset-lg-1;
+
+            width: 100vw;
+            height: 100%;
+
+            background-color: transparent;
+            background-image: url('../../images/triange-fiery_fuchsia_muted.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left bottom;
+        }
 
         .card-body{
-            @extend .col-sm-8;
+            @extend .col-sm-11;
+            @extend .offset-lg-1;
             @extend .py-4;
             @extend .px-0;
-            @extend .m-auto;
-            @extend .mr-auto;
+            @extend .my-auto;
 
+            background-color: transparent;
+            background-image: url('../../images/lrn-lab-theme-21.svg');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
             font-align: right;
 
             .author{
@@ -279,16 +270,20 @@ $z-index: (
             }
 
             .card-title{
-//                @extend .col-md-9;
+                @extend .col-md-6;
+                @extend .offset-md-5;
                 @extend .p-0;
                 @extend .my-4;
                 font-weight: 600;
+                color: white;
             }
 
             .card-subtitle{
+                @extend .col-md-6;
+                @extend .offset-md-5;
                 font-size: 1.2em;
                 font-weight: 500;
-                color: gray(600);
+                color: white;
             }
         }
 
