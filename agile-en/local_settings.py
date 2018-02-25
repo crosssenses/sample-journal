@@ -12,7 +12,7 @@ SUPER_DEBUG=False
 PROJECT_DIRECTORY = os.path.dirname(__file__)
 PAGES_DIRECTORY = os.path.join(PROJECT_DIRECTORY, "pages")
 OUTPUT_DIRECTORY = os.path.join(PROJECT_DIRECTORY, "_build")
-STATIC_ROOT = os.path.join(BASE_DIR, "report", "static")
+STATIC_ROOT = os.path.join(PROJECT_DIRECTORY, "_build", "static")
 
 STATICFILES_DIRS = [
     os.path.join(PROJECT_DIRECTORY, "static"),
