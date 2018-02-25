@@ -224,12 +224,20 @@ $z-index: (
     background-size: cover;
 
 
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,ffffff+50,ffffff+100 */
-    background: map-get($lrn-lab-colors, bmuted); /* Old browsers */
-    background: -moz-linear-gradient(left, map-get($lrn-lab-colors, bmuted) 0%, map-get($lrn-lab-colors, bmuted) 50%, map-get($lrn-lab-colors, fmuted) 50%, map-get($lrn-lab-colors, fmuted) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, map-get($lrn-lab-colors, bmuted) 0%,map-get($lrn-lab-colors, bmuted) 50%,map-get($lrn-lab-colors, fmuted) 50%,map-get($lrn-lab-colors, fmuted) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, map-get($lrn-lab-colors, bmuted) 0%,map-get($lrn-lab-colors, bmuted) 50%,map-get($lrn-lab-colors, fmuted) 50%,map-get($lrn-lab-colors, fmuted) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='map-get($lrn-lab-colors, bmuted)', endColorstr='map-get($lrn-lab-colors, fmuted)',GradientType=1 ); /* IE6-9 */
+//    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,ffffff+50,ffffff+100 */
+//    background: map-get($lrn-lab-colors, bmuted); /* Old browsers */
+//    background: -moz-linear-gradient(left, map-get($lrn-lab-colors, bmuted) 0%, map-get($lrn-lab-colors, bmuted) 50%, map-get($lrn-lab-colors, fmuted) 50%, map-get($lrn-lab-colors, fmuted) 100%); /* FF3.6-15 */
+//    background: -webkit-linear-gradient(left, map-get($lrn-lab-colors, bmuted) 0%,map-get($lrn-lab-colors, bmuted) 50%,map-get($lrn-lab-colors, fmuted) 50%,map-get($lrn-lab-colors, fmuted) 100%); /* Chrome10-25,Safari5.1-6 */
+//    background: linear-gradient(to right, map-get($lrn-lab-colors, bmuted) 0%,map-get($lrn-lab-colors, bmuted) 50%,map-get($lrn-lab-colors, fmuted) 50%,map-get($lrn-lab-colors, fmuted) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+//    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='map-get($lrn-lab-colors, bmuted)', endColorstr='map-get($lrn-lab-colors, fmuted)',GradientType=1 ); /* IE6-9 */
+
+
+//    background-color: rgba(0,112,120,1);
+//    background: @include filter-gradient(#007078, #b90441, horizontal);
+//    background: @include background-image(linear-gradient(left top, rgba(0,112,120,1) 0%, rgba(0,112,120,1) 47%, rgba(185,4,65,1) 48%, rgba(185,4,65,1) 100%));
+
+    background: linear-gradient(155deg, rgba(0,112,120,1) 0%, rgba(0,114,121,1) 50%, rgba(185,5,65,1) 50%, rgba(185,4,65,1) 100%);
+
 
     /* Hiding the TOC under the header */
     position: relative;

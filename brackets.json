@@ -1,0 +1,23 @@
+{
+    "defaultExtension": "md",
+    "path": {
+        "*.md": {
+            "spaceUnits": 2
+        },
+        "*.html": {
+            "spaceUnits": 2,
+            "wordWrap": true
+        },
+        "*.scss": {
+            "spaceUnits": 4
+        },
+        "*.css": {
+            "spaceUnits": 4
+        },
+        "*.py": {
+            "spaceUnits": 4
+        }
+    },
+    "wordWrap": false,
+    "spaceUnits": 4,
+}
