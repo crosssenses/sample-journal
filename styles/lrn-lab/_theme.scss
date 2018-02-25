@@ -257,10 +257,13 @@ $z-index: (
         flex-direction: inherit;
 
         .card-body{
-            @extend .col-sm-10;
+            @extend .col-sm-8;
             @extend .py-4;
             @extend .px-0;
             @extend .m-auto;
+            @extend .mr-auto;
+
+            font-align: right;
 
             .author{
                 @extend .h3;
@@ -268,7 +271,7 @@ $z-index: (
             }
 
             .card-title{
-                @extend .col-md-9;
+//                @extend .col-md-9;
                 @extend .p-0;
                 @extend .my-4;
                 font-weight: 600;
