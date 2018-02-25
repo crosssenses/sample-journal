@@ -260,7 +260,7 @@ object{
         background: none;
         border-radius: 0;
         border: 0;
-        min-height: 300px;
+        min-height: 400px;
         flex-direction: inherit;
         text-align: right;
         position: relative;
@@ -634,11 +634,21 @@ img{
 
 .ms-chapter{
     @extend .ms-header;
+    @extend .mt-5;
+    @extend .mb-3;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: map-get($lrn-lab-colors, fbright);
 
     .container-fluid{
+        background-image: url(#{$path-to-img}/lrn-lab-theme-20.svg);
+        background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+
+        .container .ms-row-full{
+            min-height: 80vh;
+        }
     }
 
     .ms-row-full{
@@ -654,17 +664,26 @@ img{
         .ms-col-content{
             @extend .py-4;
             @extend .px-0;
-            @extend .my-auto;
+            @extend .mt-auto;
+            @extend .mb-4;
         }
     }
 
     h2{
+        @extend .col-md-6;
         color: white;
         margin-bottom: 0 !important;
-
         @include media-breakpoint-down(sm) {
             font-size: 1.5rem;
         }
+    }
+
+    p{
+        @extend .col-md-6;
+        font-size: 1.2em;
+        font-weight: 300;
+        color: white;
+        font-family: $headings-font-family;
     }
 }
 

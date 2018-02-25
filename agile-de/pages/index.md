@@ -1,6 +1,6 @@
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/punks.jpg"
+image: "assets/images/mahdis-mousavi-327389_b.jpg"
 title: "Zeitalter der Disruption"
 subtitle: "Welche Fragen stellen sich Unternehmen in Zeiten von hoher Markdynamik?"
 :--------------------------:
@@ -14,7 +14,7 @@ Eine Statistik des American Enterprise Institute  zeigt, dass die meisten Untern
 Disruptive Innovationen können sich ihren Weg schleichend nach oben bahnen, so wie das Beispiel Netflix zeigt. Netflix begann sein Geschäft noch mit dem postalischen DVD-Verleih und machte damit zuerst den Videotheken Konkurrenz. Sie können aber auch innerhalb kürzester Zeit bestehende Märkte zerstören, wie im Fall von Google Maps. Innerhalb eines Jahres war der Markt für Navigationsgeräte und deren Software durch den kostenlosen Karten- und Navigationssoftwareanbieter überrollt worden. Insbesondere der technologische Fortschritt, das exponentielle Wachstum von Information, Wissen, Rechenleistung und Speicherkapazität und darauf basierende Technologien treiben Disruptionen. Die smarte Verwendung neuer Technologien wird im digitalen 21. Jahrhundert über Unternehmenserfolge entscheiden. 
 
 :----- FULL_FIGURE -----:
-file: assets/images/punks.jpg
+file: assets/images/agile_figure_1-16.jpg
 caption: "Grafik 1: Nur 60 Unternehmen der Fortune 500 aus dem Jahr 1955 gehörten auch noch im Jahr 2016 zu dieser Gruppe"
 :------------------:
 
@@ -40,7 +40,7 @@ Quelle: Fairplay in der digitalen Welt, 2016.
 Die großen wertschöpfenden Unternehmen des 21. Jahrhunderts entstammen der Internetökonomie, in der man nach Fließbändern vergeblich sucht. Stattdessen generieren Internetservices wertvolle Datenschätze, mit denen sich viel Geld verdienen lässt. Sie dienen u.a. der Entwicklung intelligenter Maschinen, erlauben gezieltere Produktplatzierung und füttern Algorithmen, die stetig mehr Geschäftsprozesse automatisieren. Das Wirtschaftswachstum des 20. Jahrhunderts hingegen beruhte insbesondere auf maschinell produzierendem Gewerbe und tayloristischen Organisationsprinzipien: Planung und Kontrolle. Diese Prinzipien werden in agilen Organisationen, die die Komplexität des Internetökonomie bewältigen, abgelöst durch Selbstorganisation und neue Freiräume. 
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/punks.jpg"
+image: "assets/images/ben-o-bro-170472_bw.jpg"
 title: "Komplexe Welt – Komplexe Organisationen"
 subtitle: "Wie schaffen Flexibilität und Stabliltät eine agile Unternehmenskultur mit Intentifikationskraft?"
 :--------------------------:
@@ -74,7 +74,7 @@ Aber auch die Frage nach dem Sinn der eigenen Tätigkeit und dem Sinn der Organi
 Es sind kleinere und mittlere Unternehmen, die mit Selbstorganisation experimentieren. Beim Unternehmen Trumpf konnten sich 4500 Mitarbeiter vom Produktionshelfer bis zur Führungskraft zwei Jahre lang aussuchen, wie viele Stunden sie arbeiten. Beim veganen Kondomhersteller Einhorn wurde der 8-Stunden-Tag abgeschafft. Die Digitalagentur Elbdudler ist dazu übergegangen, ihren Mitarbeitern ihr Wunschgehalt zu zahlen. Diese konkreten Maßnahmen erhöhter Selbstbestimmung und Selbstorganisation fördert ein anderes Mindset und haben positive Auswirkungen auf die Performance des Unternehmens. 
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/punks.jpg"
+image: "assets/images/arindam-mahanta-217437.jpg"
 title: "Agilität & Leadership"
 subtitle: "Was sind die Schlüssel für agile Unternehmensstrukturen  und wie sieht Führung darin aus?"
 :--------------------------:
