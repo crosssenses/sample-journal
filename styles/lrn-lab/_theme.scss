@@ -215,7 +215,7 @@ $z-index: (
     background-color: theme-color("primary");
 //    background: $header-image-url;
 //    background-position: $header-image-position;
-    background-image: url(../../images/lrn-lab-theme-20.svg);
+    background-image: url(../img/lrn-lab-theme-20.svg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -244,7 +244,7 @@ $z-index: (
             height: 100%;
 
             background-color: transparent;
-            background-image: url('../../images/triange-fiery_fuchsia_muted.svg');
+            background-image: url('../img/triange-fiery_fuchsia_muted.svg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: left bottom;
@@ -258,7 +258,7 @@ $z-index: (
             @extend .my-auto;
 
             background-color: transparent;
-            background-image: url('../../images/lrn-lab-theme-21.svg');
+            background-image: url('../img/lrn-lab-theme-21.svg');
             background-repeat: no-repeat;
             background-position: left center;
             background-size: contain;
