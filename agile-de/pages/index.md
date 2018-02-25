@@ -9,7 +9,7 @@ Eine Statistik des American Enterprise Institute  zeigt, dass die meisten Untern
 
 Disruptive Innovationen können sich ihren Weg schleichend nach oben bahnen, so wie das Beispiel Netflix zeigt. Netflix begann sein Geschäft noch mit dem postalischen DVD-Verleih und machte damit zuerst den Videotheken Konkurrenz. Sie können aber auch innerhalb kürzester Zeit bestehende Märkte zerstören, wie im Fall von Google Maps. Innerhalb eines Jahres war der Markt für Navigationsgeräte und deren Software durch den kostenlosen Karten- und Navigationssoftwareanbieter überrollt worden. Insbesondere der technologische Fortschritt, das exponentielle Wachstum von Information, Wissen, Rechenleistung und Speicherkapazität und darauf basierende Technologien treiben Disruptionen. Die smarte Verwendung neuer Technologien wird im digitalen 21. Jahrhundert über Unternehmenserfolge entscheiden. 
 
-:----- FIGURE -----:
+:----- FULL_FIGURE -----:
 file: images/punks.jpg
 caption: "Grafik 1: Nur 60 Unternehmen der Fortune 500 aus dem Jahr 1955 gehörten auch noch im Jahr 2016 zu dieser Gruppe"
 :------------------:
