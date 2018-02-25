@@ -232,7 +232,8 @@ $z-index: (
         text-align: right;
         position: relative;
 
-        .card-image{
+        &:before{
+            content: '';
             position: absolute;
             left: 0;
             @extend .offset-lg-1;
