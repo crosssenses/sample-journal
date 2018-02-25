@@ -13,20 +13,40 @@
   font-family: 'innogy';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/innogyRegular.woff2") format("woff2"),
-       url("../fonts/innogyRegular.woff") format("woff");
+  src: local('innogy');
 }
 
 @font-face {
   font-family: 'innogy';
   font-style: normal;
   font-weight: 300;
-  src: url("https://lrn-lab.com/site/templates/fonts/innogyLight.eot") format("embedded-opentype"),
-       url("https://lrn-lab.com/site/templates/fonts/innogyLight.woff2") format("woff2"),
-       url("https://lrn-lab.com/site/templates/fonts/innogyLight.woff") format("woff"),
-       url("https://lrn-lab.com/site/templates/fonts/innogyLight.ttf") format("truetype"),
-       url("https://lrn-lab.com/site/templates/fonts/innogyLight.svg#innogyLight") format("svg");
+  src: local('innogy Light');
 }
+
+@font-face {
+  font-family: 'innogy';
+  font-style: normal;
+  font-weight: 500;
+  src: local('innogy Medium');
+}
+
+@font-face {
+  font-family: 'innogy';
+  font-style: normal;
+  font-weight: 600;
+  src: local('innogy Bold');
+}
+
+//@font-face {
+//  font-family: 'innogy';
+//  font-style: normal;
+//  font-weight: 300;
+//  src: local('innogy'), url("https://lrn-lab.com/site/templates/fonts/innogyLight.eot") format("embedded-opentype"),
+//       url("https://lrn-lab.com/site/templates/fonts/innogyLight.woff2") format("woff2"),
+//       url("https://lrn-lab.com/site/templates/fonts/innogyLight.woff") format("woff"),
+//       url("https://lrn-lab.com/site/templates/fonts/innogyLight.ttf") format("truetype"),
+//       url("https://lrn-lab.com/site/templates/fonts/innogyLight.svg#innogyLight") format("svg");
+//}
 
 
 /* ---------- OLD ----------- */
