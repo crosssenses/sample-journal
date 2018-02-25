@@ -1,5 +1,4 @@
 {
-    "defaultExtension": "md",
     "path": {
         "*.md": {
             "spaceUnits": 2
