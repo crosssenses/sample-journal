@@ -1,5 +1,9 @@
 
-# Zeitalter der Disruption 
+:----- CHAPTER_HEADER -----:
+image: "assets/images/punks.jpg"
+title: "Zeitalter der Disruption"
+subtitle: "Welche Fragen stellen sich Unternehmen in Zeiten von hoher Markdynamik?"
+:--------------------------:
 
 ## Kurzer Rückblick: Hohe Marktdynamik und Disruption sind nichts grundlegend Neues
 
@@ -38,7 +42,7 @@ Die großen wertschöpfenden Unternehmen des 21. Jahrhunderts entstammen der Int
 :----- CHAPTER_HEADER -----:
 image: "assets/images/punks.jpg"
 title: "Komplexe Welt – Komplexe Organisationen"
-subtitle: "Subtitle…"
+subtitle: "Wie schaffen Flexibilität und Stabliltät eine agile Unternehmenskultur mit Intentifikationskraft?"
 :--------------------------:
 
 ## Neue Geschäftsmodelle haben Auswirkungen auf Unternehmenskulturen – Menschen suchen nach dem Sinn in ihrer Tätigkeit
@@ -69,7 +73,11 @@ Aber auch die Frage nach dem Sinn der eigenen Tätigkeit und dem Sinn der Organi
 
 Es sind kleinere und mittlere Unternehmen, die mit Selbstorganisation experimentieren. Beim Unternehmen Trumpf konnten sich 4500 Mitarbeiter vom Produktionshelfer bis zur Führungskraft zwei Jahre lang aussuchen, wie viele Stunden sie arbeiten. Beim veganen Kondomhersteller Einhorn wurde der 8-Stunden-Tag abgeschafft. Die Digitalagentur Elbdudler ist dazu übergegangen, ihren Mitarbeitern ihr Wunschgehalt zu zahlen. Diese konkreten Maßnahmen erhöhter Selbstbestimmung und Selbstorganisation fördert ein anderes Mindset und haben positive Auswirkungen auf die Performance des Unternehmens. 
 
-# Agilität & Leadership
+:----- CHAPTER_HEADER -----:
+image: "assets/images/punks.jpg"
+title: "Agilität & Leadership"
+subtitle: "Was sind die Schlüssel für agile Unternehmensstrukturen  und wie sieht Führung darin aus?"
+:--------------------------:
 
 ## Selbstorganisation ist ein Schlüssel zum Erfolg: Braucht es dann überhaupt noch Führung? Drei Prinzipien für Agile Leadership
 

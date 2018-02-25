@@ -636,6 +636,11 @@ img{
     @extend .ms-header;
     background-color: map-get($lrn-lab-colors, fbright);
 
+    .container-fluid{
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     .ms-row-full{
         background: none;
         min-height: 300px;
