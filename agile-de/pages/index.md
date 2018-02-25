@@ -35,7 +35,11 @@ Quelle: Fairplay in der digitalen Welt, 2016.
 
 Die großen wertschöpfenden Unternehmen des 21. Jahrhunderts entstammen der Internetökonomie, in der man nach Fließbändern vergeblich sucht. Stattdessen generieren Internetservices wertvolle Datenschätze, mit denen sich viel Geld verdienen lässt. Sie dienen u.a. der Entwicklung intelligenter Maschinen, erlauben gezieltere Produktplatzierung und füttern Algorithmen, die stetig mehr Geschäftsprozesse automatisieren. Das Wirtschaftswachstum des 20. Jahrhunderts hingegen beruhte insbesondere auf maschinell produzierendem Gewerbe und tayloristischen Organisationsprinzipien: Planung und Kontrolle. Diese Prinzipien werden in agilen Organisationen, die die Komplexität des Internetökonomie bewältigen, abgelöst durch Selbstorganisation und neue Freiräume. 
 
-# Komplexe Welt – Komplexe Organisationen
+:----- CHAPTER_HEADER -----:
+image: "assets/images/punks.jpg"
+title: "Komplexe Welt – Komplexe Organisationen"
+subtitle: "Subtitle…"
+:--------------------------:
 
 ## Neue Geschäftsmodelle haben Auswirkungen auf Unternehmenskulturen – Menschen suchen nach dem Sinn in ihrer Tätigkeit
 
