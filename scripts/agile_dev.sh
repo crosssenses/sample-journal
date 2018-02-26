@@ -18,8 +18,8 @@ then
   tmux split-window -v -t beautiful:1.1
   tmux send-keys -t beautiful:1.0 "cd agile-de; python manage.py runserver 8001" C-m
   tmux send-keys -t beautiful:1.1 "cd agile-en; python manage.py runserver 8002" C-m
-  tmux send-keys -t beautiful:1.2 "sass --watch styles/lrn-lab/agile.scss:agile-de/static/css/bootstrap-horst.css" C-m
-  tmux send-keys -t beautiful:1.3 "sass --watch styles/lrn-lab/agile.scss:agile-en/static/css/bootstrap-horst.css" C-m
+  tmux send-keys -t beautiful:1.2 "sass --watch styles/lrn-lab/agile.scss:agile-de/theme/css/bootstrap-horst.css" C-m
+  tmux send-keys -t beautiful:1.3 "sass --watch styles/lrn-lab/agile.scss:agile-en/theme/css/bootstrap-horst.css" C-m
   # tmux send-keys -t beautiful:1.1 "paver elastic" C-m
   # tmux send-keys -t beautiful:1.3 "paver rqworker" C-m
 fi
