@@ -1,5 +1,6 @@
+styles:                 theme/css/bootstrap-horst.css
 brand:                  graphite by impact·distillery
-background_url:         static/images/background.jpg
+background_url:         theme/images/background.jpg
 title:                  "Agilität"
 subtitle:               "Neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter?"
 authors:                Andrea Kahlenberg, Jumana Klotsch und Jenny Fadranski
