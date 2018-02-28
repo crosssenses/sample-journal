@@ -1065,6 +1065,16 @@ figure{
     }
 }
 
+.ms-plugin-full_figure {
+    background: #ededed;
+    position: relative;
+
+    &:before{
+        @extend .triangleUp;
+        background-color: white;
+    }
+}
+
 /* Video */
 // Crop letterbox fom 4.:3 image to show only 16by9
 .embed-responsive img.embed-responsive-item{
