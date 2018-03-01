@@ -1254,7 +1254,7 @@ pre {
   .offset-lg-0 {
     margin-left: 0; }
 
-  .offset-lg-1, .triangleUp, .ms-header .card:before, .ms-chapter .card:before, .ms-row .ms-col-content, .ms-header .card .card-body, .ms-chapter .card .card-body {
+  .offset-lg-1, .triangleUp, .ms-header .card:before, .ms-chapter .card:before, .ms-plugin-full_figure:before, .ms-row .ms-col-content, .ms-header .card .card-body, .ms-chapter .card .card-body {
     margin-left: 8.3333333333%; }
 
   .offset-lg-2 {
@@ -6671,7 +6671,7 @@ a.text-dark:focus, a.text-dark:hover {
 object {
   pointer-events: none; }
 
-.triangleUp, .ms-header .card:before, .ms-chapter .card:before {
+.triangleUp, .ms-header .card:before, .ms-chapter .card:before, .ms-plugin-full_figure:before {
   content: '';
   position: absolute;
   left: 0;
@@ -7160,6 +7160,12 @@ figure .ms-col-content *:focus {
   outline: none; }
 figure .ms-col-content a {
   -webkit-appearance: unset; }
+
+.ms-plugin-full_figure {
+  background: #ededed;
+  position: relative; }
+  .ms-plugin-full_figure:before {
+    background-color: white; }
 
 /* Video */
 .embed-responsive img.embed-responsive-item {
