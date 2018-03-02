@@ -10,7 +10,7 @@
 /* General Variables */
 
 $standard-margin: 2rem;
-$path-to-img: "../images";
+$path-to-img: "https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img";
 
 
 $ms-icons: (
@@ -116,10 +116,17 @@ object{
     height: 100%;
 
     background-color: theme-color("secondary");
+
+    -webkit-mask-image: url(#{$path-to-img}/triange.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: left bottom;
+
     mask-image: url(#{$path-to-img}/triange.svg);
     mask-repeat: no-repeat;
     mask-size: cover;
     mask-position: left bottom;
+
 }
 
 .triangleDown{
@@ -131,10 +138,18 @@ object{
     height: 100%;
 
     background-color: theme-color("secondary");
+
+    -webkit-mask-image: url(#{$path-to-img}/triangeDown.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    -webkit-mask-position: left bottom;
+
     mask-image: url(#{$path-to-img}/triangeDown.svg);
     mask-repeat: no-repeat;
     mask-size: cover;
-    mask-position: right bottom;
+    mask-position: left bottom;
+
+
 }
 
 
@@ -281,7 +296,7 @@ object{
             background-repeat: no-repeat;
             background-position: left center;
             background-size: contain;
-            font-align: right;
+            text-align: right;
 
             .author{
                 @extend .h3;
@@ -693,7 +708,7 @@ section .ms-col-content p{
 
 article{
 
-    p{
+    p, li{
         @extend .serif;
     }
 
@@ -1066,13 +1081,14 @@ figure{
 }
 
 .ms-plugin-full_figure {
-    background: #ededed;
+    background: #efefef;
     position: relative;
+    box-shadow: inset 0px 0px 10px #ccc;
 
-    &:before{
-        @extend .triangleUp;
-        background-color: white;
-    }
+//    &:before{
+//        @extend .triangleUp;
+//        background-color: white;
+//    }
 }
 
 /* Video */

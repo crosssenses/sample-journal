@@ -22,7 +22,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 :-------------------------------------------:
 
 :----- FULL_FIGURE -----:
-file: assets/images/agile_figure_1-16.svg
+file: assets/images/Innogy-13.svg
 caption: "Grafik 1: Nur 60 Unternehmen der Fortune 500 aus dem Jahr 1955 gehörten auch noch im Jahr 2016 zu dieser Gruppe"
 :------------------:
 

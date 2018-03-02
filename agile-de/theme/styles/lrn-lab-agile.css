@@ -1254,7 +1254,7 @@ pre {
   .offset-lg-0 {
     margin-left: 0; }
 
-  .offset-lg-1, .triangleUp, .ms-header .card:before, .ms-chapter .card:before, .ms-plugin-full_figure:before, .ms-row .ms-col-content, .ms-header .card .card-body, .ms-chapter .card .card-body {
+  .offset-lg-1, .triangleUp, .ms-header .card:before, .ms-chapter .card:before, .ms-row .ms-col-content, .ms-header .card .card-body, .ms-chapter .card .card-body {
     margin-left: 8.33333%; }
 
   .offset-lg-2 {
@@ -6650,7 +6650,7 @@ a.text-dark:focus, a.text-dark:hover {
   text-transform: uppercase;
   letter-spacing: 0.04em; }
 
-.serif, article p {
+.serif, article p, article li {
   font-family: "Linux Libertine", Georgia, Times, serif;
   font-size: 1.3rem;
   font-weight: 400; }
@@ -6675,14 +6675,18 @@ a.text-dark:focus, a.text-dark:hover {
 object {
   pointer-events: none; }
 
-.triangleUp, .ms-header .card:before, .ms-chapter .card:before, .ms-plugin-full_figure:before {
+.triangleUp, .ms-header .card:before, .ms-chapter .card:before {
   content: '';
   position: absolute;
   left: 0;
   width: 100vw;
   height: 100%;
   background-color: #a50032;
-  mask-image: url(../images/triange.svg);
+  -webkit-mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/triange.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  -webkit-mask-position: left bottom;
+  mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/triange.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
   mask-position: left bottom; }
@@ -6694,10 +6698,14 @@ object {
   width: 100vw;
   height: 100%;
   background-color: #a50032;
-  mask-image: url(../images/triangeDown.svg);
+  -webkit-mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/triangeDown.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  -webkit-mask-position: left bottom;
+  mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/triangeDown.svg);
   mask-repeat: no-repeat;
   mask-size: cover;
-  mask-position: right bottom; }
+  mask-position: left bottom; }
 
 .ms-row.ms-plugin .ms-col-content {
   display: flex;
@@ -6732,7 +6740,7 @@ object {
 /* Jumbotron */
 .ms-header, .ms-chapter {
   background-color: #005F69;
-  background-image: url(../images/lrn-lab-theme-20.svg);
+  background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/lrn-lab-theme-20.svg);
   background-repeat: no-repeat;
   background-size: cover;
   /* Hiding the TOC under the header */
@@ -6750,11 +6758,11 @@ object {
     position: relative; }
     .ms-header .card .card-body, .ms-chapter .card .card-body {
       background-color: transparent;
-      background-image: url(../images/lrn-lab-theme-21.svg);
+      background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/lrn-lab-theme-21.svg);
       background-repeat: no-repeat;
       background-position: left center;
       background-size: contain;
-      font-align: right; }
+      text-align: right; }
       .ms-header .card .card-body .author, .ms-chapter .card .card-body .author {
         font-size: 1.4em; }
       .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
@@ -6951,7 +6959,7 @@ h4 {
   background-attachment: fixed;
   background-color: #e60055; }
   .ms-chapter .container-fluid {
-    background-image: url(../images/lrn-lab-theme-20.svg);
+    background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/img/lrn-lab-theme-20.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; }
@@ -7171,10 +7179,9 @@ figure .ms-col-content a {
   -webkit-appearance: unset; }
 
 .ms-plugin-full_figure {
-  background: #ededed;
-  position: relative; }
-  .ms-plugin-full_figure:before {
-    background-color: white; }
+  background: #efefef;
+  position: relative;
+  box-shadow: inset 0px 0px 10px #ccc; }
 
 /* Video */
 .embed-responsive img.embed-responsive-item {
