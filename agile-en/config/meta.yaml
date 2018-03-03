@@ -1,5 +1,8 @@
+styles:                 theme/styles/lrn-lab-agile.css
 brand:                  graphite by impact·distillery
 background_url:         static/images/background.jpg
+short_url:              https://idist.io/g/lrn-lab-agile-en
+social_image_url:       https://idist.io/g/lrn-lab-agile-en/assets/images/social.png
 title:                  "Agility"
 subtitle:               "A new buzzword, or an ability required by organisations for their survival in the digital era?"
 authors:                Andrea Kahlenberg, Jumana Klotsch, and Jenny Fadranski
@@ -8,13 +11,13 @@ cite_as:                "Kahlenberg, A., Klotsch, J., Fadranski, J. (2018) Agili
 date_publication:       Februar 2018
 date_submission:
 date_last_updated:
-logo_url:               assets/images/logo_hiig-01.png
+logo_url:               assets/images/logo-lrn-lab.png
 pdf_url:                
 doi:                    
 contact_email:          
 data_usage:
 disclaimer:
-author_info:            Author_info…
+author_info:            Agility – a whitepaper by LRN LAB by innogy Consulting
 author_info_sticky:     true
 keywords:               Agilität, Digitale Transformation, Disruption, Leadership, Organisationstheorie, Stabilität und Flexibilität, Unsicherheit, Komplexität, Kulturwandel
 terms_of_use:
