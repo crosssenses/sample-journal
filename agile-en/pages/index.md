@@ -19,16 +19,37 @@ The technological progress in particular functions as a disruption driver.
 
 What are organisational forms and culture called for, if companies are to make the best use of technological advances and keep up with the flow of successful digitalisation? An essential credo of digitalisation says *“disrupt yourself”*, before somebody does it to you. This principle was recognised by Amazon CEO Jeff Bezos at an early stage, who commissioned a team to destroy Amazon’s own book business back in 2006 – at the time its second most successful area, second only to its trade in music. He gave them this project just after turning down the offer from Apple’s then CEO, Steve Jobs, to work together with Amazon to develop a music streaming service. Apple launched iTunes and made massive inroads into Amazon’s core business. Bezos realised that self-attack is the best mode of defence.
 
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_fortune-en.svg
+caption: Caption…
+:--------------:
+
 Platforms are currently the predominant business model in the digital industry as they offer value-creating interactions between customers and producers. They facilitate this interaction by using digital technologies. Costumers and producers enjoy direct platform access to market to use or distribute services. The big advantage of the platform model lies in the fact that companies no longer need any assets of their own, which tie up capital. An overview of the most successful platform companies today reflects this trend:
 
-- The world’s biggest taxi company owns no taxis (Uber)
-- The world’s biggest hotel chain owns no property (Airbnb) 
-- The world’s biggest phone companies have no telecommunication infrastructure (Skype, WeChat)
-- The world’s biggest retail dealer has no inventory (Alibaba)
-- The most popular media owner creates no content (Facebook)
-- The most rapidly growing banks have no money of their own (SocietyOne)
-- The world’s biggest streaming platform does not own a cinema (Netflix)
-- The world’s biggest software suppliers do not programme the apps themselves (Apple & Google) 
+:----- INFOBOX -----:
+none: none
+---
+The world’s biggest taxi company owns no taxis (Uber)
+
+The world’s biggest hotel chain owns no property (Airbnb) 
+
+The world’s biggest phone companies have no telecommunication infrastructure (Skype, WeChat)
+
+The world’s biggest retail dealer has no inventory (Alibaba)
+
+The most popular media owner creates no content (Facebook)
+
+The most rapidly growing banks have no money of their own (SocietyOne)
+
+The world’s biggest streaming platform does not own a cinema (Netflix)
+
+The world’s biggest software suppliers do not programme the apps themselves (Apple & Google) 
+:-----------------:
+
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_brands-en.svg
+caption: The most powerfull brands today are emerging from the internet economy
+:--------------:
 
 The biggest value-creating companies of the 21st century come from the internet economy, where you would struggle to find an assembly line. Instead, internet services create valuable data amounts supporting the generation of large sums of money. For example, they support the development of smart machines, facilitate more deliberate product placement and feed algorithms which are constantly making business processes more automated. The economic growth of the 20th century on the other hand was mainly based on mechanical production for commercial purposes and Tayloristic organisational principles like planning and controlling. In agile organisations, which can handle the complexity of the internet economy, these principles have been replaced by self-organisation and new kinds of latitude.
 :--- KEYSTATEMENT ---:
@@ -44,6 +65,11 @@ subtitle: "Corporate cultures are changing – people seek meaning in their acti
 It isn’t just the business model of successful companies in the internet economy that differs from the business models of the industrial era. We are also observing a massive transformation of organisational and working culture. In his bestseller *Reinventing Organizations*[: REFERENCE | laloux2015 | :], the former McKinsey partner and author Frederic Laloux focuses on changes in collaboration and leadership in organisations. In the age of digitalisation, old-style organisational leadership has reached its limits, Laloux concludes, adding that many employees and executive staff see work on the whole as a necessary evil. How can we counter the complexity of digitalisation, and how can people be given a chance to rediscover enthusiasm for and meaning in their work? The forms of collaboration and leadership models need a radical change, so Laloux. The crucial question for organisations is how they cope with the complexity that has come into being recently on the level of structures and processes. From cybernetics expert Ross Ashby we know that a system will be better capable of handling a complex and dynamic environment to the extent that it is able to make use of its own inner complexity. And inner complexity arises through multifarious social networking – in other words, it is based on the available communication possibilities. It is a matter of increasing the social density.[: REFERENCE | oestereich2017 | :]
 
 The concept of agility combines numerous theories, organisational models and methods, capable of encouraging self-organisation and internal complexity. In the VUCA world (the acronym stands for Volatility, Uncertainty, Complexity, Ambiguity), organisations with great internal complexity are economically more successful. They are more like living organisms than like rigid hierarchies, and self-organisation enables them to mobilise new resources. A study by McKinsey[: REFERENCE | mckinsey2017 | :] shows that companies whose industries are particularly subject to uncertainties are likely to introduce change processes with the goal to become more agile. 
+
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_businesses-en.svg
+caption: Caption…
+:--------------:
 
 ## Complexity needs both stability and flexibility: what can agile organisations do better than others?
 
@@ -81,16 +107,28 @@ The answer is yes – leadership is always going to be necessary. However, it is
 
 Leaders need to ask the following questions in particular: How does this company basically work? What decisions are taken, why and by whom? What processes need how much rapidity, flexibility and stability? What patterns and dysfunctionalities can be identified? In most cases faulty developments are less attributable to employees than they are down to the ingrained and daily repeated behavioural attitudes in the company. These are caused by structures, and, as a result, give rise to dysfunctional patterns.
 
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_questions-en.svg
+caption: Caption…
+:--------------:
+
 ## Agile leadership principle no. 1: attitude
 
 A person’s attitude feeds on his/her fundamental convictions, assumptions and experiences. With an eye to developing an agile organisation it is crucial that individuals should become conscious of the complexity and fragmentary nature of the world. We have the choice whether we fall victim to the error of supposing that the world is comprehensible and easy to explain and that the powerful determine the state of the world and the company. We can likewise acknowledge the complex interconnections of the many systems (human being, family, company, state, economy, law, leisure) and scrutinise polarised thinking in terms of opposites like good and evil, right and wrong, success and failure. This is a complex exercise itself, as we human beings have learned to think in a linear way and it is difficult for us to think in exponential and systemic terms.
 
 Just as with the individual, in organisations fundamental convictions and patterns come to be established as well – for example a trust-based attitude to people, or alternatively a coexistence characterised by mistrust. The values of the agile manifesto, which originated with software development, sum up the necessary attitude of the ‘agile mindset’ effectively in the following terms:
 
-- Individuals and interactions over processes and tools
-- Working software over comprehensive documentation
-- Customer collaboration over contract negotiation
-- Responding to change over following a plan[: REFERENCE | beck2001 | :]
+:----- INFOBOX -----:
+title: Beck 2001
+---
+Individuals and interactions over processes and tools
+
+Working software over comprehensive documentation
+
+Customer collaboration over contract negotiation
+
+Responding to change over following a plan
+:-------------------:
 
 But to avoid this being just a scratch on the surface, the new behavioural modes need to be anchored in the structures of a company. Christoph Keese describes the way in which at Netflix neither working hours, working days nor periods of leave are clocked up. The founder and CEO Reed Hastings, moreover, does not have a fixed office of his own and is a leader of the new age: The Netflix CEO lives out an understanding of his role that could become a standard for many managers in the age of digitalisation. Executive staff no longer take up a position in the foreground, but rather keep themselves back. They hardly ever assign concrete tasks any more, but rather put the right questions and give teams the job of finding the answers. They hardly ever formulate rules any more, but rather concentrate on effectively getting across their own culture. They do not hand out instructions from above to below, but distribute impulses in all directions. They do not think in terms of fulfilling plans, but uncover truths, identify weak points and reward honesty. They do not disempower, but encourage freedom. They are not complacent, but are always challenging themselves and their business models. They do not put on a show of strength, but display vulnerability. They are not insecure, but take care to avoid any excessive assurance. They do not give orders but listen. They despise status symbols and ask for acknowledgement to be based on their projects. They do not control any structure of commands, but rather coordinate working groups.[: REFERENCE | keese2016 | :]
 
