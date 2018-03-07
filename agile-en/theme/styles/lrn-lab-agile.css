@@ -8,23 +8,23 @@
 @font-face {
   font-family: 'innogy';
   font-style: normal;
-  font-weight: 400;
-  src: local("innogy"); }
+  font-weight: 300;
+  src: local("innogy Light"), url("../fonts/innogy-Light.eot") format("embedded-opentype"), url("../fonts/innogy-Light.woff2") format("woff2"), url("../fonts/innogy-Light.woff") format("woff"), url("../fonts/innogy-Light.ttf") format("truetype"), url("../fonts/innogy-Light.svg#innogyLight") format("svg"); }
 @font-face {
   font-family: 'innogy';
   font-style: normal;
-  font-weight: 300;
-  src: local("innogy Light"); }
+  font-weight: 400;
+  src: local("innogy"), url("../fonts/innogy-Regular.eot") format("embedded-opentype"), url("../fonts/innogy-Regular.woff2") format("woff2"), url("../fonts/innogy-Regular.woff") format("woff"), url("../fonts/innogy-Regular.ttf") format("truetype"), url("../fonts/innogy-Regular.svg#innogyRegular") format("svg"); }
 @font-face {
   font-family: 'innogy';
   font-style: normal;
   font-weight: 500;
-  src: local("innogy Medium"); }
+  src: local("innogy Medium"), url("../fonts/innogy-Medium.eot") format("embedded-opentype"), url("../fonts/innogy-Medium.woff2") format("woff2"), url("../fonts/innogy-Medium.woff") format("woff"), url("../fonts/innogy-Medium.ttf") format("truetype"), url("../fonts/innogy-Medium.svg#innogyMedium") format("svg"); }
 @font-face {
   font-family: 'innogy';
   font-style: normal;
   font-weight: 600;
-  src: local("innogy Bold"); }
+  src: local("innogy Bold"), url("../fonts/innogy-Bold.eot") format("embedded-opentype"), url("../fonts/innogy-Bold.woff2") format("woff2"), url("../fonts/innogy-Bold.woff") format("woff"), url("../fonts/innogy-Bold.ttf") format("truetype"), url("../fonts/innogy-Bold.svg#innogyBold") format("svg"); }
 /* ---------- OLD ----------- */
 /* open-sans-300 - latin_latin-ext */
 @font-face {
