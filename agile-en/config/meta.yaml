@@ -39,7 +39,11 @@ tabs:
     ref: "/summary/"
     slug: summary
     md_container: section
-  - title: "Bibliography"
+  - title: "Sources"
     ref: "/directories/"
     slug: directories
+    md_container: section
+  - title: "Imprint"
+    ref: "/imprint/"
+    slug: imprint
     md_container: section
