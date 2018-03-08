@@ -112,7 +112,7 @@ file: assets/images/figures/Innogy-Agile_questions-en.svg
 caption: What companies that want to become more agile need to question
 :--------------:
 
-## Agile leadership principle no. 1: attitude
+### Agile leadership principle no. 1: attitude
 
 A person’s attitude feeds on his/her fundamental convictions, assumptions and experiences. With an eye to developing an agile organisation it is crucial that individuals should become conscious of the complexity and fragmentary nature of the world. We have the choice whether we fall victim to the error of supposing that the world is comprehensible and easy to explain and that the powerful determine the state of the world and the company. We can likewise acknowledge the complex interconnections of the many systems (human being, family, company, state, economy, law, leisure) and scrutinise polarised thinking in terms of opposites like good and evil, right and wrong, success and failure. This is a complex exercise itself, as we human beings have learned to think in a linear way and it is difficult for us to think in exponential and systemic terms.
 
@@ -134,7 +134,7 @@ But to avoid this being just a scratch on the surface, the new behavioural modes
 
 In most companies, moreover, it is not clear what role is assigned to employees who are the object of leadership, so to speak. Employees too have a responsibility to adopt a self-determining attitude in relation to those in leadership positions: in being conscious that no one has power over them, unless they give it to them; that they will be disappointed and also disappoint others. Employees can ask themselves: am I aware of my changing environment, do I learn from others and let others learn from me, do I talk to others rather than passing judgment on them, and do I share important information with the other person?   
 
-## Agile leadership principle no. 2: responsive structures
+### Agile leadership principle no. 2: responsive structures
 
 Responsiveness means the ability of the organisation to respond adequately and adapt to market conditions. This generally succeeds only when complex problems are tackled on an interdisciplinary basis. Agile structures avoid the distribution of work and any kind of differentiation in the value creation process. Agility lays more emphasis on the question of which value-creating activities are necessary in order to satisfy the requirements of the market, and how an autonomous team can handle the associated tasks.[: REFERENCE | kasch2013 | :] In concrete terms, this means that thinking in terms of specialisation and special areas of expertise must give way to a new kind of logic. In German industry, in particular, Keese states, thinking and organising in terms of specialist departments and specialisations was a big factor for success in the past, as it resulted in top-quality industrial products. With digitalisation, however, it has become a problem. Rethinking the situation is a difficult business, because it entails a loss of certainty – because expanding horizontally means branching out into the unknown. Nobody knows anybody in this alien field, nobody knows what the rules are and people are no longer conscious of their own strengths. When a person feels good as a member of his own specialist group, he isn’t going to want to get active as a builder of bridges.[: REFERENCE | keese2016 | :] According to Keese we can only escape from this pattern with the help of a leadership culture that calls for audacity and encourages experiments. But the zero-error culture in Germany makes this practically impossible.
 :--- LINK ---:
@@ -146,7 +146,7 @@ Laloux formulates the necessary restructuring in a much more radical way, under 
 [Holacracy at Zappos](https://hbr.org/ideacast/2016/07/the-zappos-holacracy-experiment.html)
 :--------------------:
 
-## Agile leadership principle no. 3: networking
+### Agile leadership principle no. 3: networking
 
 The more global networking increases, the more companies also become a part of complex networks. The communicative networking leads to fundamental reorganisation of work and of the organisation itself. In theoretical and practical terms, a company can float in the Cloud completely with all its data and can be accessed from any part of the world. But its internal structures as well generally tend to resemble networks rather than the classic form of an organisational diagram. In particular, information technology supports a higher degree of internal and external referentiality. What would the structure of a company be like, if the company sees itself as being a network? Rigid structures and hierarchies, such as reproduced in the classic organisational diagram, would lose their legitimacy. The focus would tend to shift from positions and committees in the direction of processes and the presentation of different hierarchies, like those of competence, experience and formal power of decision. 
 :--- KEYSTATEMENT ---:
