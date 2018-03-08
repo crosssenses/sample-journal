@@ -109,7 +109,7 @@ Leaders need to ask the following questions in particular: How does this company
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_questions-en.svg
-caption: Caption…
+caption: What companies that want to become more agile need to question
 :--------------:
 
 ## Agile leadership principle no. 1: attitude
