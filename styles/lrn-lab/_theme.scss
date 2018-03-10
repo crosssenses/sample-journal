@@ -26,7 +26,7 @@ $ms-icons: (
     download   :  download,
     slidedeck  :  chart-pie,
     reference  :  tooltip-text,
-    translate  :  translate
+    translate  :  translate,
 );
 
 /* z-index List */
@@ -709,8 +709,27 @@ section .ms-col-content p{
 
 article{
 
-    p, li{
+    p{
         @extend .serif;
+    }
+
+
+    ul{
+        @extend .serif;
+
+        list-style: none;
+        padding-left: 3rem;
+
+        li:before{
+            @extend .mdi;
+            @extend .mdi-chevron-right !optional;
+
+            position: absolute;
+            left: 1.5rem;
+
+            font-weight: bold !important;
+            color: theme-color(primary);
+        }
     }
 
     h3 {

@@ -26,25 +26,14 @@ caption: Companies that were both 1955 and 2016 amongst the Fortune 500. (Perry,
 
 Platforms are currently the predominant business model in the digital industry as they offer value-creating interactions between customers and producers. They facilitate this interaction by using digital technologies. Costumers and producers enjoy direct platform access to market to use or distribute services. The big advantage of the platform model lies in the fact that companies no longer need any assets of their own, which tie up capital. An overview of the most successful platform companies today reflects this trend:
 
-:----- INFOBOX -----:
-none: none
----
-The world’s biggest taxi company owns no taxis (Uber)
-
-The world’s biggest hotel chain owns no property (Airbnb) 
-
-The world’s biggest phone companies have no telecommunication infrastructure (Skype, WeChat)
-
-The world’s biggest retail dealer has no inventory (Alibaba)
-
-The most popular media owner creates no content (Facebook)
-
-The most rapidly growing banks have no money of their own (SocietyOne)
-
-The world’s biggest streaming platform does not own a cinema (Netflix)
-
-The world’s biggest software suppliers do not programme the apps themselves (Apple & Google) 
-:-----------------:
+- The world’s biggest taxi company owns no taxis (Uber)
+- The world’s biggest hotel chain owns no property (Airbnb) 
+- The world’s biggest phone companies have no telecommunication infrastructure (Skype & WeChat)
+- The world’s biggest retail dealer has no inventory (Alibaba)
+- The most popular media owner creates no content (Facebook)
+- The most rapidly growing banks have no money of their own (SocietyOne)
+- The world’s biggest streaming platform does not own a cinema (Netflix)
+- The world’s biggest software suppliers do not programme the apps themselves (Apple & Google) 
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_brands-en.svg
