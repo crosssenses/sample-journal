@@ -21,7 +21,7 @@ What are organisational forms and culture called for, if companies are to make t
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_fortune-en.svg
-caption: Companies that were both 1955 and 2016 amongst the Fortune 500.
+caption: Companies that were both 1955 and 2016 amongst the Fortune 500. (Perry, 2016)
 :--------------:
 
 Platforms are currently the predominant business model in the digital industry as they offer value-creating interactions between customers and producers. They facilitate this interaction by using digital technologies. Costumers and producers enjoy direct platform access to market to use or distribute services. The big advantage of the platform model lies in the fact that companies no longer need any assets of their own, which tie up capital. An overview of the most successful platform companies today reflects this trend:
@@ -48,7 +48,7 @@ The world’s biggest software suppliers do not programme the apps themselves (A
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_brands-en.svg
-caption: Top 5 of the world‘s most valuable brands.
+caption: Top 5 of the world‘s most valuable brands. (Fairplay in der digitalen Welt, 2016)
 :--------------:
 
 The biggest value-creating companies of the 21st century come from the internet economy, where you would struggle to find an assembly line. Instead, internet services create valuable data amounts supporting the generation of large sums of money. For example, they support the development of smart machines, facilitate more deliberate product placement and feed algorithms which are constantly making business processes more automated. The economic growth of the 20th century on the other hand was mainly based on mechanical production for commercial purposes and Tayloristic organisational principles like planning and controlling. In agile organisations, which can handle the complexity of the internet economy, these principles have been replaced by self-organisation and new kinds of latitude.
@@ -68,7 +68,7 @@ The concept of agility combines numerous theories, organisational models and met
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_businesses-en.svg
-caption: Organisation-wide agile transformations in relation to perceived instabilty of businnes environment
+caption: Organisation-wide agile transformations in relation to perceived instabilty of businnes environment (How to create an agile organization, 2017)
 :--------------:
 
 ## Complexity needs both stability and flexibility: what can agile organisations do better than others?

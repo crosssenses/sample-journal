@@ -20,6 +20,13 @@ Disruptive Innovationen können sich ihren Weg schleichend nach oben bahnen, so 
 
 Welche Organisationsform und -kultur braucht es, um sich den technologischen Fortschritt zunutze zu machen und auf der Erfolgswelle der Digitalisierung mit zu schwimmen? Ein wesentliches Credo der Digitalisierung lautet: “Disrupt yourself” – bevor es jemand anderes tut. Dies hatte Jeff Bezos, CEO von Amazon, bereits früh erkannt. Er beauftragte bereits im Jahr 2006 ein Team damit, das eigene Buchgeschäft zu zerstören – damals Amazons zweiterfolgreichstes Geschäft, direkt nach dem Musikgeschäft. Diesen Auftrag erteilte er, nachdem er das Angebot vom damaligen Apple-Chef Steve Jobs abgelehnt hatte, gemeinsam einen Streamingdienst für Musik zu entwickeln. Apple launchte iTunes und griff damit massiv Amazons Kerngeschäft an. Bezos begriff danach: Selbstangriff ist die beste Verteidigung. 
 
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_fortune-de.svg
+caption: Unternehmen, die sowohl 1955 als auch 2016 zu den Fortune 500 gehörten. (Perry, 2016)
+:--------------:
+
+
+
 Plattformen sind aktuell das dominante Geschäftsmodell der digitalen Wirtschaft. Plattformen bieten wertschaffende Interaktionen zwischen Kunden und Produzenten. Sie ermöglichen die Interaktion durch den Einsatz digitaler Technologien. Kunden sowie Produzenten haben direkten Zugang zur Plattform, um den gewünschten Service im großen Stil zu vertreiben oder zu nutzen. Der große Vorteil des Plattform-Modells besteht darin, dass Unternehmen keine eigenen Assets mehr benötigen, die Kapital binden. Eine Übersicht der aktuell erfolgreichsten Plattform-Unternehmen spiegelt diesen Trend wider: 
 
 - Das weltgrößte Taxiunternehmen besitzt keine Taxis (Uber)
@@ -32,6 +39,12 @@ Plattformen sind aktuell das dominante Geschäftsmodell der digitalen Wirtschaft
 - Die weltgrößten Software-Anbieter programmieren die Apps nicht selbst. (Apple & Google) 
 
 Quelle: Fairplay in der digitalen Welt, 2016.
+
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_brands-de.svg
+caption: Top 5 der weltweit wertvollsten Marken nach Forbes von 2015 und 2016. (Fairplay in der digitalen Welt, 2016)
+:--------------:
+
 Die großen wertschöpfenden Unternehmen des 21. Jahrhunderts entstammen der Internetökonomie, in der man nach Fließbändern vergeblich sucht. Stattdessen generieren Internetservices wertvolle Datenschätze, mit denen sich viel Geld verdienen lässt. Sie dienen u.a. der Entwicklung intelligenter Maschinen, erlauben gezielte Produktplatzierung und füttern Algorithmen, die stetig mehr Geschäftsprozesse automatisieren. Das Wirtschaftswachstum des 20. Jahrhunderts hingegen beruhte insbesondere auf maschinell produzierendem Gewerbe und tayloristischen Organisationsprinzipien: Planung und Kontrolle. Diese Prinzipien werden in agilen Organisationen, die die Komplexität des Internetökonomie bewältigen, durch Selbstorganisation und neue Freiräume abgelöst. 
 
 :----- CHAPTER_HEADER -----:
@@ -51,6 +64,11 @@ Das Konzept Agilität vereint zahlreiche Theorien, Organisationsmodelle und Meth
 :--- KEYSTATEMENT ---:
 Agilität bedeutet ein höheres Maß an Selbstorganisation und erlaubt einen alternativen Umgang mit Komplexität.
 :--------------------:
+
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_businesses-de.svg
+caption: Organisationsweite agile Transformationen im Verhältnis zu gefühlter Instabilität der Branche (How to create an agile organization, 2017)
+:--------------:
 
 ## Komplexität braucht Stabilität und Flexibilität: Was können agile Organisationen besser als andere?
 
@@ -98,6 +116,11 @@ subtitle: "Was sind die Schlüssel für agile Unternehmensstrukturen und wie sie
 Die Antwort lautet ja, Führung wird es immer geben müssen. Aber sie befindet sich im Wandel. Agilität braucht es auch in der Führung, die sich insbesondere dadurch auszeichnet, dass sie auf viele, statt auf wenige Personen verteilt wird. Agile Leadership umfasst die drei Ebenen der Haltung, reaktionsfähigen Strukturen und Vernetzung. Führung konzentriert sich zunehmend auf das Gestalten der richtigen Rahmenbedingung, das Vorleben der gewünschten Werte und Verhaltensweisen, und das Netzwerkmanagement. Führung ist auch dafür da, um Konflikte zu lösen und im Falle von Eskalation eine Entscheidung zu treffen. 
 
 Führungskräfte müssen sich insbesondere fragen: Wie funktioniert das Unternehmen grundsätzlich? Welche Entscheidungen werden warum getroffen und vom wem? Welche Prozesse benötigen wie viel Schnelligkeit, Flexibilität und Stabilität? Welche Muster und Dysfunktionalitäten lassen sich dabei erkennen? Meist sind Fehlentwicklungen weniger auf Mitarbeiter zurückzuführen, sondern auf die eingeübten und täglich reproduzierten Verhaltensweisen im Unternehmen, die durch Strukturen bedingt sind und dadurch dysfunktionale Muster abbilden.
+
+:--- FULL_FIGURE ---:
+file: assets/images/figures/Innogy-Agile_questions-de.svg
+caption: Was Organisationen, die agiler werden wollen, hinterfragen müssen
+:--------------:
 
 ### Agile Leadership Prinzip 1: Haltung
 
