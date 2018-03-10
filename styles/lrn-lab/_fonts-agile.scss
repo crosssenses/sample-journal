@@ -87,8 +87,8 @@
   font-style: normal;
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSans-Light'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-300italic - latin_latin-ext */
 @font-face {
@@ -96,8 +96,8 @@
   font-style: italic;
   font-weight: 300;
   src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-regular - latin_latin-ext */
 @font-face {
@@ -105,8 +105,8 @@
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-italic - latin_latin-ext */
 @font-face {
@@ -114,8 +114,8 @@
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'), local('OpenSans-Italic'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-600 - latin_latin-ext */
 @font-face {
@@ -123,8 +123,8 @@
   font-style: normal;
   font-weight: 600;
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-600italic - latin_latin-ext */
 @font-face {
@@ -132,8 +132,8 @@
   font-style: italic;
   font-weight: 600;
   src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-700 - latin_latin-ext */
 @font-face {
@@ -141,8 +141,8 @@
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'), local('OpenSans-Bold'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-700italic - latin_latin-ext */
 @font-face {
@@ -150,8 +150,8 @@
   font-style: italic;
   font-weight: 700;
   src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-800 - latin_latin-ext */
 @font-face {
@@ -159,8 +159,8 @@
   font-style: normal;
   font-weight: 800;
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* open-sans-800italic - latin_latin-ext */
 @font-face {
@@ -168,8 +168,8 @@
   font-style: italic;
   font-weight: 800;
   src: local('Open Sans ExtraBold Italic'), local('OpenSans-ExtraBoldItalic'),
-       url('../fonts/type/open-sans-v15-latin_latin-ext-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/open-sans-v15-latin_latin-ext-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-800italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/open-sans-v15-latin_latin-ext-800italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
@@ -179,8 +179,8 @@
   font-style: normal;
   font-weight: 200;
   src: local('Source Sans Pro ExtraLight'), local('SourceSansPro-ExtraLight'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-200italic - latin_latin-ext */
 @font-face {
@@ -188,8 +188,8 @@
   font-style: italic;
   font-weight: 200;
   src: local('Source Sans Pro ExtraLight Italic'), local('SourceSansPro-ExtraLightItalic'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-200italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-200italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-300 - latin_latin-ext */
 @font-face {
@@ -197,8 +197,8 @@
   font-style: normal;
   font-weight: 300;
   src: local('Source Sans Pro Light'), local('SourceSansPro-Light'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-300italic - latin_latin-ext */
 @font-face {
@@ -206,8 +206,8 @@
   font-style: italic;
   font-weight: 300;
   src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightItalic'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-regular - latin_latin-ext */
 @font-face {
@@ -215,8 +215,8 @@
   font-style: normal;
   font-weight: 400;
   src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-italic - latin_latin-ext */
 @font-face {
@@ -224,8 +224,8 @@
   font-style: italic;
   font-weight: 400;
   src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-600 - latin_latin-ext */
 @font-face {
@@ -233,8 +233,8 @@
   font-style: normal;
   font-weight: 600;
   src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-600italic - latin_latin-ext */
 @font-face {
@@ -242,8 +242,8 @@
   font-style: italic;
   font-weight: 600;
   src: local('Source Sans Pro SemiBold Italic'), local('SourceSansPro-SemiBoldItalic'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-700 - latin_latin-ext */
 @font-face {
@@ -251,8 +251,8 @@
   font-style: normal;
   font-weight: 700;
   src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-700italic - latin_latin-ext */
 @font-face {
@@ -260,8 +260,8 @@
   font-style: italic;
   font-weight: 700;
   src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-900 - latin_latin-ext */
 @font-face {
@@ -269,8 +269,8 @@
   font-style: normal;
   font-weight: 900;
   src: local('Source Sans Pro Black'), local('SourceSansPro-Black'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* source-sans-pro-900italic - latin_latin-ext */
 @font-face {
@@ -278,8 +278,8 @@
   font-style: italic;
   font-weight: 900;
   src: local('Source Sans Pro Black Italic'), local('SourceSansPro-BlackItalic'),
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/type/source-sans-pro-v11-latin_latin-ext-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-900italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('/static/fonts/type/source-sans-pro-v11-latin_latin-ext-900italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
@@ -289,21 +289,21 @@
     font-family: 'Latin Modern Mono';
     font-style: normal;
     font-weight: 400;
-    src: local('Latin Modern Mono'), url('../fonts/type/lmmono10-regular.woff') format('woff');
+    src: local('Latin Modern Mono'), url('/static/fonts/type/lmmono10-regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Latin Modern Mono';
     font-style: italic;
     font-weight: 400;
-    src: local('Latin Modern Mono Slanted'), url('../fonts/type/lmmono10-italic.woff') format('woff');
+    src: local('Latin Modern Mono Slanted'), url('/static/fonts/type/lmmono10-italic.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Latin Modern Mono';
     font-style: normal;
     font-weight: 600;
-    src: local('Latin Modern Mono Bold'), url('../fonts/type/lmmonolt10-bold.woff') format('woff');
+    src: local('Latin Modern Mono Bold'), url('/static/fonts/type/lmmonolt10-bold.woff') format('woff');
 }
 
 
@@ -313,26 +313,26 @@
     font-family: 'Linux Libertine';
     font-style: normal;
     font-weight: 400;
-    src: local('Linux Libertine'), url('../fonts/type/LinLibertine_R.woff') format('woff');
+    src: local('Linux Libertine'), url('/static/fonts/type/LinLibertine_R.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Linux Libertine';
     font-style: italic;
     font-weight: 400;
-    src: local('Linux Libertine Italic'), url('../fonts/type/LinLibertine_RI.woff') format('woff');
+    src: local('Linux Libertine Italic'), url('/static/fonts/type/LinLibertine_RI.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Linux Libertine';
     font-style: normal;
     font-weight: 600;
-    src: local('Linux Libertine Semibold'), local('Linux Libertine Bold'), url('../fonts/type/LinLibertine_RB.woff') format('woff');
+    src: local('Linux Libertine Semibold'), local('Linux Libertine Bold'), url('/static/fonts/type/LinLibertine_RB.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Linux Libertine';
     font-style: italic;
     font-weight: 600;
-    src: local('Linux Libertine'), url('../fonts/type/LinLibertine_RBI.woff') format('woff');
+    src: local('Linux Libertine'), url('/static/fonts/type/LinLibertine_RBI.woff') format('woff');
 }
