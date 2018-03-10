@@ -6916,6 +6916,8 @@ object {
     width: 230px; }
 
 /* Article Top */
+.ms-article-top .ms-article-logo {
+  max-height: 100px; }
 .ms-article-top .btn-toolbar {
   margin-bottom: 2rem;
   text-transform: uppercase;

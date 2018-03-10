@@ -580,6 +580,10 @@ object{
 
     @extend .mb-4;
 
+    .ms-article-logo{
+        max-height: 100px;
+    }
+
     .btn-toolbar{
         margin-bottom: $standard-margin;
         text-transform: uppercase;

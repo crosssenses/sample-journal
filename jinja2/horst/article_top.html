@@ -34,7 +34,11 @@
           {% endif %}
       </aside>
       <aside>
-        <p><img alt="{{ meta.get('author_info') }}" src="{{ meta.get('logo_url') }}"></p>
+        <p><img class="ms-article-logo" alt="{{ meta.get('author_info') }}" src="{{ meta.get('logo_url') }}"></p>
+      </aside>
+      <aside>
+        <h3>{{ lang.get("authors") }}</h3>
+        <p> {{ meta.get("authors") }}</p>
       </aside>
       <aside>
         <h3>{{ lang.get("cite_as") }}</h3>
