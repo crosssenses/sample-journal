@@ -6,17 +6,23 @@ Weil auch wir die Zukunft nicht vorhersehen können, sind wir überzeugt, dass w
 
 # Autorinnen 
 
-Andrea Kahlenberg
+:--- AUTHOR ---:
+file: assets/images/authors/kahlenberg500.jpg
+name: Andrea Kahlenberg
+description: Andrea Kahlenberg ist Founder des LRN LAB und begleitet seit 20 Jahren Unternehmen und Teams bei Transformationen und systemischen Change-Prozessen.
+:--------------:
 
-Andrea Kahlenberg ist Founder des LRN LAB und begleitet seit 20 Jahren Unternehmen und Teams bei Transformationen und systemischen Change-Prozessen.
+:--- AUTHOR ---:
+file: assets/images/authors/klotsch500.jpg
+name: Jumana Klotsch
+description: Jumana Klotsch ist Co-Founder des LRN LAB und seit 10 Jahren als Prozessbegleiterin und Coach im Rahmen von großen Change-, Transformations- und Führungskräfteentwicklungsprogrammen tätig.
+:--------------:
 
-Jumana Klotsch
-
-Jumana Klotsch ist Co-Founder des LRN LAB und seit 10 Jahren als Prozessbegleiterin und Coach im Rahmen von großen Change-, Transformations- und Führungskräfteentwicklungsprogrammen tätig.
-
-Jenny Fadranski
-
-Jenny Fadranski ist Politik- und Kulturwissenschaftlerin und erforscht als Future Analyst für das LRN LAB die komplexe Welt der digitalen Transformation.
+:--- AUTHOR ---:
+file: assets/images/authors/fadranski500.jpg
+name: Jenny Fadranski
+description: Jenny Fadranski ist Politik- und Kulturwissenschaftlerin und erforscht als Future Analyst für das LRN LAB die komplexe Welt der digitalen Transformation.
+:--------------:
 
 # Impressum
 

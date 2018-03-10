@@ -6,17 +6,23 @@ Although we cannot predict the future, we are convinced that we need robust theo
 
 # Authors 
 
-Andrea Kahlenberg
+:--- AUTHOR ---:
+file: assets/images/authors/kahlenberg500.jpg
+name: Andrea Kahlenberg
+description: Andrea Kahlenberg is the founder of LRN LAB and has been supporting companies and teams in transformations and systemic change processes for 20 years.
+:--------------:
 
-Andrea Kahlenberg is the founder of LRN LAB and has been supporting companies and teams in transformations and systemic change processes for 20 years.
+:--- AUTHOR ---:
+file: assets/images/authors/klotsch500.jpg
+name: Jumana Klotsch
+description: Jumana Klotsch is co-founder of LRN LAB and has been working as a process facilitator and coach in the context of major change, transformation and leadership development programs for 10 years.
+:--------------:
 
-Jumana Klotsch
-
-Jumana Klotsch is co-founder of LRN LAB and has been working as a process facilitator and coach in the context of major change, transformation and leadership development programs for 10 years.
-
-Jenny Fadranski 
-
-Jenny Fadranski is a political and cultural scientist and is investigating the complex world of digital transformation as a Future Analyst at LRN LAB.
+:--- AUTHOR ---:
+file: assets/images/authors/fadranski500.jpg
+name: Jenny Fadranski 
+description: Jenny Fadranski is a political and cultural scientist and is investigating the complex world of digital transformation as a Future Analyst at LRN LAB.
+:--------------:
 
 # Imprint
 
