@@ -17,3 +17,31 @@ Jumana Klotsch is co-founder of LRN LAB and has been working as a process facili
 Jenny Fadranski 
 
 Jenny Fadranski is a political and cultural scientist and is investigating the complex world of digital transformation as a Future Analyst at LRN LAB.
+
+# Imprint
+
+Andrea Kahlenberg, Jumana Klotsch, Jenny Fadranski
+
+**Agility – A new buzzword, or an ability required by organisations for their survival in the digital era?**
+
+A whitepaper from LRN LAB by innogy Consulting
+
+innogy Consulting GmbH<br/>
+Lysegang 11<br/>
+45139 Essen<br/>
+
+T +49(0)201/8133-0<br/>
+F +49(0)201/8133-222
+
+Managing Director:<br/>
+Dr. Klaus Grellmann
+
+Company Headquarters: Essen<br/>
+Registered at the Essen District Court<br/>
+Commercial Registry No.HR B 81 78
+
+Credits:<br/>
+Photo p. 20: iStock.com/SeanPavonePhoto · ID:472048811
+
+Design: Larissa Wunderlich – Impact Distillery
+

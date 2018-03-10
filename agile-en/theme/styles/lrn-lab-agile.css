@@ -6842,10 +6842,7 @@ object {
       display: inline-block;
       width: 100%;
       max-width: 100%;
-      overflow: hidden;
       text-decoration: none;
-      text-overflow: ellipsis;
-      white-space: nowrap;
       font-size: 12px;
       text-align: left;
       padding: 0; }
@@ -6903,7 +6900,7 @@ object {
   .ms-toc .ms-toc-abstract-entry {
     position: relative;
     box-sizing: border-box;
-    height: 25px; }
+    padding-bottom: 0.5em; }
   .ms-toc.ms-toc-active .ms-toc-entries, .ms-toc:hover .ms-toc-entries {
     display: block;
     transform: translate3d(10px, 0px, 0px);
