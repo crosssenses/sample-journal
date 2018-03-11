@@ -6947,6 +6947,8 @@ body {
   background: #a50032;
   border: 1px solid #ccc;
   color: white; }
+.ms-article-top .ms-col-marginal h3 {
+  margin-top: 0; }
 
 /* Article */
 h1, h2, h3, h4, h5, h6,
