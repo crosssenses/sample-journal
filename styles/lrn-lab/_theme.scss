@@ -158,6 +158,12 @@ object{
 // Bootstrap Colums
 // --------------------------------------------------
 
+.ms-full{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
 .ms-row{
     @extend .row;
 
@@ -679,6 +685,7 @@ img{
 }
 
 .ms-chapter{
+    @extend .ms-full;
     @extend .ms-header;
     @extend .mt-5;
     @extend .mb-3;

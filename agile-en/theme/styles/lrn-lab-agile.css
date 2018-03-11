@@ -6711,6 +6711,10 @@ object {
   mask-size: cover;
   mask-position: left bottom; }
 
+.ms-full, .ms-chapter {
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
 .ms-row.ms-plugin .ms-col-content {
   display: flex;
   flex-direction: column; }
