@@ -20,8 +20,11 @@ then
   tmux send-keys -t beautiful:1.1 "cd agile-en; python manage.py runserver 8002" C-m
   tmux send-keys -t beautiful:1.2 "sass --watch styles/lrn-lab/agile.scss:agile-de/theme/styles/lrn-lab-agile.css" C-m
   tmux send-keys -t beautiful:1.3 "sass --watch styles/lrn-lab/agile.scss:agile-en/theme/styles/lrn-lab-agile.css" C-m
-  # tmux send-keys -t beautiful:1.1 "paver elastic" C-m
-  # tmux send-keys -t beautiful:1.3 "paver rqworker" C-m
+
+  tmux new-window -t beautiful -n graphite
+  tmux split-window -h -t beautiful:2
+  tmux send-keys -t beautiful:2.0 "cd ../graphite" C-m
+  tmux send-keys -t beautiful:2.1 "cd ../graphite" C-m
 fi
 
 ##

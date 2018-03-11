@@ -25,8 +25,6 @@ file: assets/images/figures/Innogy-Agile_fortune-de.svg
 caption: Unternehmen, die sowohl 1955 als auch 2016 zu den Fortune 500 gehörten. (Perry, 2016)
 :--------------:
 
-
-
 Plattformen sind aktuell das dominante Geschäftsmodell der digitalen Wirtschaft. Plattformen bieten wertschaffende Interaktionen zwischen Kunden und Produzenten. Sie ermöglichen die Interaktion durch den Einsatz digitaler Technologien. Kunden sowie Produzenten haben direkten Zugang zur Plattform, um den gewünschten Service im großen Stil zu vertreiben oder zu nutzen. Der große Vorteil des Plattform-Modells besteht darin, dass Unternehmen keine eigenen Assets mehr benötigen, die Kapital binden. Eine Übersicht der aktuell erfolgreichsten Plattform-Unternehmen spiegelt diesen Trend wider: 
 
 - Das weltgrößte Taxiunternehmen besitzt keine Taxis (Uber)
