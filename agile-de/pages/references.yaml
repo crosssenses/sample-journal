@@ -1,19 +1,25 @@
-aulinger:
-    short: "Aulinger, A. (undated). Whitepaper: Die drei Säulen der agilen Organisation [White Paper: the Three Pillars of the Agile Organisation]. IOM Steinbeis-Hochschule Berlin Institut für Organisation & Management. Accessed at https://www.steinbeis-iom.de/iom-thinktank/iom-whitepaper/ "
-    long: "Aulinger, A. (undated). Whitepaper: Die drei Säulen der agilen Organisation [White Paper: the Three Pillars of the Agile Organisation]. IOM Steinbeis-Hochschule Berlin Institut für Organisation & Management. Accessed at https://www.steinbeis-iom.de/iom-thinktank/iom-whitepaper/ "
-    url: "https://www.steinbeis-iom.de/iom-thinktank/iom-whitepaper/ "
-armutat2016:
-    short: "Armutat, S. et al. (2016). Agile Unternehmen – Agiles Personalmanagement [Agile Companies – Agile HR Management]. DGFP-Praxispapiere [DGFP Practical Papers]. Accessed at https://www.dgfp.de/fileadmin/user_upload/DGFP_e.V/Medien/Publikationen/Praxispapiere/201601_Praxispapier_agileorganisationen.pdf"
-    long: "Armutat, S. et al. (2016). Agile Unternehmen – Agiles Personalmanagement [Agile Companies – Agile HR Management]. DGFP-Praxispapiere [DGFP Practical Papers]. Accessed at https://www.dgfp.de/fileadmin/user_upload/DGFP_e.V/Medien/Publikationen/Praxispapiere/201601_Praxispapier_agileorganisationen.pdf"
-    url: "https://www.dgfp.de/fileadmin/user_upload/DGFP_e.V/Medien/Publikationen/Praxispapiere/201601_Praxispapier_agileorganisationen.pdf"
-berger2016:
-    short: "Berger, R. (2016). Fair Play in der digitalen Welt [Fair play in the digital arena]. Wie Europa für Plattformen den richtigen Rahmen setzt [How Europe is creating the right context for platforms]. Internet Economy Foundation. https://www.ie.foundation/content/4-publications/rb_cop_16_011_ief_plattformstudie_de_online.pdf"
-    long: "Berger, R. (2016). Fair Play in der digitalen Welt [Fair play in the digital arena]. Wie Europa für Plattformen den richtigen Rahmen setzt [How Europe is creating the right context for platforms]. Internet Economy Foundation. https://www.ie.foundation/content/4-publications/rb_cop_16_011_ief_plattformstudie_de_online.pdf"
-    url: "https://www.ie.foundation/content/4-publications/rb_cop_16_011_ief_plattformstudie_de_online.pdf"
+ahlbaeck2017:
+    short: "Ahlbäck, K., Fahrbach, C., Murarka, M. & Sallo, O.  (2017). How to create an agile organization. Retrieved from https://www.mckinsey.com/business-functions/organization/our-insights/how-to-create-an-agile-organization"
+    long: "Ahlbäck, K., Fahrbach, C., Murarka, M. & Sallo, O.  (2017). How to create an agile organization. Retrieved from https://www.mckinsey.com/business-functions/organization/our-insights/how-to-create-an-agile-organization"
+    url: "https://www.mckinsey.com/business-functions/organization/our-insights/how-to-create-an-agile-organization"
+astheimer2014:
+    short: "Astheimer, S. (2014, October 8). Wähl dir deinen Chef. Frankfurter Allgemeine Zeitung. Retrieved from http://www.faz.net/aktuell/beruf-chance/beruf/mitarbeiter-bestimmen-arbeitszeit-und-gehalt-selbst-13186671.html"
+    long: "Astheimer, S. (2014, October 8). Wähl dir deinen Chef. Frankfurter Allgemeine Zeitung. Retrieved from http://www.faz.net/aktuell/beruf-chance/beruf/mitarbeiter-bestimmen-arbeitszeit-und-gehalt-selbst-13186671.html"
+    url: "http://www.faz.net/aktuell/beruf-chance/beruf/mitarbeiter-bestimmen-arbeitszeit-und-gehalt-selbst-13186671.html"
+bayer2017:
+    short: "Bayer et al. (2017). Digital50. Digital Leader Award – Deutschlands beste Digitalisierungsprojekte, vorgestellt von Computerwoche, CIO und Dimension Data. München: IDG Business Media GmbH."
+    long: "Bayer et al. (2017). Digital50. Digital Leader Award – Deutschlands beste Digitalisierungsprojekte, vorgestellt von Computerwoche, CIO und Dimension Data. München: IDG Business Media GmbH."
+back2001:
+    short: "Beck, K. (2001). Manifesto for Agile Software Development. Retrieved from http://agilemanifesto.org"
+    long: "Beck, K. (2001). Manifesto for Agile Software Development. Retrieved from http://agilemanifesto.org"
 boes2018:
-    short: "Boes, S. (2018, 5. Februar). Arbeiten, wann man will oder nur fünf Stunden pro Tag: diese Firmen testen alternative Arbeitsmodelle. Abgerufen von https://ze.tt/arbeiten-wann-man-will-oder-nur-fuenf-stunden-pro-tag-diese-firmen-testen-alternative-arbeitsmodelle/"
-    long: "Boes, S. (2018, 5. Februar). Arbeiten, wann man will oder nur fünf Stunden pro Tag: diese Firmen testen alternative Arbeitsmodelle. Abgerufen von https://ze.tt/arbeiten-wann-man-will-oder-nur-fuenf-stunden-pro-tag-diese-firmen-testen-alternative-arbeitsmodelle/"
+    short: "Boes, S. (2018, February 5). Arbeiten, wann man will oder nur fünf Stunden pro Tag: diese Firmen testen alternative Arbeitsmodelle. ze.tt. Retrieved from https://ze.tt/arbeiten-wann-man-will-oder-nur-fuenf-stunden-pro-tag-diese-firmen-testen-alternative-arbeitsmodelle/"
+    long: "Boes, S. (2018, February 5). Arbeiten, wann man will oder nur fünf Stunden pro Tag: diese Firmen testen alternative Arbeitsmodelle. ze.tt. Retrieved from https://ze.tt/arbeiten-wann-man-will-oder-nur-fuenf-stunden-pro-tag-diese-firmen-testen-alternative-arbeitsmodelle/"
     url: "https://ze.tt/arbeiten-wann-man-will-oder-nur-fuenf-stunden-pro-tag-diese-firmen-testen-alternative-arbeitsmodelle/"
+christensen2015:
+    short: "Christensen C. M., Raynor, E. M. & McDonald, R. (2015, December). What is disruptive innovation? Harvard Business Review. Retrieved from https://hbr.org/2015/12/what-is-disruptive-innovation"
+    long: "Christensen C. M., Raynor, E. M. & McDonald, R. (2015, December). What is disruptive innovation? Harvard Business Review. Retrieved from https://hbr.org/2015/12/what-is-disruptive-innovation"
+    url: "https://hbr.org/2015/12/what-is-disruptive-innovation"
 denner2015:
     short: "Denner, V. (2015, 16 June). Agility at Bosch: mission impossible? Accessed at https://blog.bosch-si.com/digital-transformation/agility-at-bosch-mission-impossible/"
     long: "Denner, V. (2015, 16 June). Agility at Bosch: mission impossible? Accessed at https://blog.bosch-si.com/digital-transformation/agility-at-bosch-mission-impossible/"
@@ -22,10 +28,6 @@ eidenschink:
     short: "Eidenschink, K. (undated). Agilität | Metatheorie der Veränderung [Agility | Metatheory of Change]. Accessed at https://metatheorie-der-veraenderung.info/wpmtags/agilitaet/"
     long: "Eidenschink, K. (undated). Agilität | Metatheorie der Veränderung [Agility | Metatheory of Change]. Accessed at https://metatheorie-der-veraenderung.info/wpmtags/agilitaet/"
     url: "Eidenschink, K. (undated). Agilität | Metatheorie der Veränderung [Agility | Metatheory of Change]. Accessed at https://metatheorie-der-veraenderung.info/wpmtags/agilitaet/"
-mckinsey2017:
-    short: "How to create an agile organization (2017). McKinsey & Company. Accessed at https://www.mckinsey.com/business-functions/organization/our-insights/how-to-create-an-agile-organization"
-    long: "How to create an agile organization (2017). McKinsey & Company. Accessed at https://www.mckinsey.com/business-functions/organization/our-insights/how-to-create-an-agile-organization"
-    url: "https://www.mckinsey.com/business-functions/organization/our-insights/how-to-create-an-agile-organization"
 kasch2013:
     short: "Kasch, W. (2013). Agil ist Anders [Agile is different]. In personalmagazin 11/13. Accessed at http://www.go-agile.de/blog-und-news/Beitrag/publiziert-agil-ist-anders.html"
     long: "Kasch, W. (2013). Agil ist Anders [Agile is different]. In personalmagazin 11/13. Accessed at http://www.go-agile.de/blog-und-news/Beitrag/publiziert-agil-ist-anders.html"
@@ -36,9 +38,12 @@ kees2016:
 laloux2015:
     short: "Laloux, F. (2015). Reinventing organizations: ein Leitfaden zur Gestaltung sinnstiftender Formen der Zusammenarbeit [Reinventing organizations: a guideline for the shaping of meaningful forms of teamwork]. (Translated by M. Kauschke). Verlag Franz Vahlen [Franz Vahlen Publishers], Munich."
     long: "Laloux, F. (2015). Reinventing organizations: ein Leitfaden zur Gestaltung sinnstiftender Formen der Zusammenarbeit [Reinventing organizations: a guideline for the shaping of meaningful forms of teamwork]. (Translated by M. Kauschke). Verlag Franz Vahlen [Franz Vahlen Publishers], Munich."
-malik2009:
-    short: "Malik, F. (2009). Systemisches Management, Evolution, Selbstorganisation: Grundprobleme, Funktionsmechanismen und Lösungsansätze für komplexe Systeme [Systemic management, evolution, self-organisation: fundamental problems, functional mechanisms and approaches to solutions for complex systems]. Paul Haupt Verlag [Paul Haupt Publishers], Bern."
-    long: "Malik, F. (2009). Systemisches Management, Evolution, Selbstorganisation: Grundprobleme, Funktionsmechanismen und Lösungsansätze für komplexe Systeme [Systemic management, evolution, self-organisation: fundamental problems, functional mechanisms and approaches to solutions for complex systems]. Paul Haupt Verlag [Paul Haupt Publishers], Bern."
+oestereich2017:
+    short: "Oestereich, B., & Schröder, C. (2017). Das kollegial geführte Unternehmen: Ideen und Praktiken für die agile Organisation von morgen [The collegially managed company: ideas and practices for the agile organisation of tomorrow]. Vahlen, Munich."
+    long: "Oestereich, B., & Schröder, C. (2017). Das kollegial geführte Unternehmen: Ideen und Praktiken für die agile Organisation von morgen [The collegially managed company: ideas and practices for the agile organisation of tomorrow]. Vahlen, Munich."
+parsons2016:
+    short: "Parsons, C., Leutiger, P., Lang, A., & Born, D. (2016). Fair Play in der digitalen Welt. Wie Europa für Plattformen den richtigen Rahmen setzt. Berlin: Internet Economy Foundation."
+    long: "Parsons, C., Leutiger, P., Lang, A., & Born, D. (2016). Fair Play in der digitalen Welt. Wie Europa für Plattformen den richtigen Rahmen setzt. Berlin: Internet Economy Foundation."
 perry2016:
     short: "Perry, M. J. (2016, 13 December). Fortune 500 firms 1955 v. 2016: Only 12% remain, thanks to the creative destruction that fuels economic prosperity. Accessed at http://www.aei.org/publication/fortune-500-firms-1955-v-2016-only-12-remain-thanks-to-the-creative-destruction-that-fuels-economic-prosperity/"
     long: "Perry, M. J. (2016, 13 December). Fortune 500 firms 1955 v. 2016: Only 12% remain, thanks to the creative destruction that fuels economic prosperity. Accessed at http://www.aei.org/publication/fortune-500-firms-1955-v-2016-only-12-remain-thanks-to-the-creative-destruction-that-fuels-economic-prosperity/"
@@ -46,17 +51,3 @@ perry2016:
 robertson2015:
     short: "Robertson, B. J. (2015). Holacracy: the new management system for a rapidly changing world (first edition). Henry Holt and Company, New York."
     long: "Robertson, B. J. (2015). Holacracy: the new management system for a rapidly changing world (first edition). Henry Holt and Company, New York."
-uebernickel2015:
-    short: "Uebernickel, F., Brenner, W., Pukall, B., Naef, T., & Schindlholzer, B. (2015). Design Thinking: das Handbuch [Design thinking: the manual] (first edition). Frankfurter Allgemeine Buch [Frankfurter Allgemeine Books], Frankfurt am Main."
-    long: "Uebernickel, F., Brenner, W., Pukall, B., Naef, T., & Schindlholzer, B. (2015). Design Thinking: das Handbuch [Design thinking: the manual] (first edition). Frankfurter Allgemeine Buch [Frankfurter Allgemeine Books], Frankfurt am Main."
-oestereich2017:
-    short: "Oestereich, B., & Schröder, C. (2017). Das kollegial geführte Unternehmen: Ideen und Praktiken für die agile Organisation von morgen [The collegially managed company: ideas and practices for the agile organisation of tomorrow]. Vahlen, Munich."
-    long: "Oestereich, B., & Schröder, C. (2017). Das kollegial geführte Unternehmen: Ideen und Praktiken für die agile Organisation von morgen [The collegially managed company: ideas and practices for the agile organisation of tomorrow]. Vahlen, Munich."
-christensen2015:
-    short: "Christensen C.M., Raynor, E. M., McDonald, R. (2015, December). What is disruptive innovation? In Harvard Business Review. Accessed at https://hbr.org/2015/12/what-is-disruptive-innovation"
-    long: "Christensen C.M., Raynor, E. M., McDonald, R. (2015, December). What is disruptive innovation? In Harvard Business Review. Accessed at https://hbr.org/2015/12/what-is-disruptive-innovation"
-    url: "https://hbr.org/2015/12/what-is-disruptive-innovation"
-newyork:
-    short: "New Work und Agilität [New work and agility] (undated). DBVC - Position Paper. Accessed at http://www.dbvc.de/_Resources/Persistent/cd9f959fd1a6d02d953024ca19f0d5e60f9e6507/DBVC_Positionspapier02_Präsidium%20-%202017_10_19_final.pdf"
-    long: "New Work und Agilität [New work and agility] (undated). DBVC - Position Paper. Accessed at http://www.dbvc.de/_Resources/Persistent/cd9f959fd1a6d02d953024ca19f0d5e60f9e6507/DBVC_Positionspapier02_Präsidium%20-%202017_10_19_final.pdf"
-    url: "http://www.dbvc.de/_Resources/Persistent/cd9f959fd1a6d02d953024ca19f0d5e60f9e6507/DBVC_Positionspapier02_Präsidium%20-%202017_10_19_final.pdf"
