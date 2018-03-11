@@ -81,7 +81,17 @@ But all these efforts are a long way from being enough. In his book ‘Silicon G
 
 Then too, the question of the meaningfulness of one’s own work and the meaning of the organisation is increasingly affecting the performance of German companies. With Laloux, we may say that the organisational performance influences the economic performance. Laloux here describes three success factors of the evolutionary organisation:
 
-“1) Power is multiplied when every individual acquires power, not just a few people at the top (self-leadership); 2) power is used with greater wisdom, because people put more of themselves into their work (holism); and 3) somehow everything finds its own proper place, because people connect their power and their wisdom with the life force of the organisation (evolutionary meaning).” According to Laloux, energies are released by meaningfulness, self-leadership, learning and the improved use of talents; there is less loss of energy caused by the assertion of the ego, less loss of energy caused by conformity, less energy lost in discussions.[: REFERENCE | laloux2015 | :]
+:----- QUOTE -----:
+quote: "Power is multiplied when every individual acquires power, not just a few people at the top (self-leadership)<br>
+<span style='display: inline-block; margin-bottom: 0.5rem;
+margin-top: 0.5rem;'>(…) power is used with greater wisdom, because people put more of themselves into their work (holism)</span><br>
+(…) somehow everything finds its own proper place, because people connect their power and their wisdom with the life force of the organisation (evolutionary meaning)"
+author: Frederic Laloux
+authorDescription: "Reinventing Organizations"
+link: http://www.reinventingorganizations.com/
+:-------------------:
+
+According to Laloux, energies are released by meaningfulness, self-leadership, learning and the improved use of talents; there is less loss of energy caused by the assertion of the ego, less loss of energy caused by conformity, less energy lost in discussions.
 
 It’s the small to medium sized enterprises that are experimenting with self-organisation. At the Trumpf company 4500 employees, from production assistants to executive staff, were allowed to decide over a period of two years how many hours they wanted to work.[: REFERENCE | astheimer2014 | :] At the vegan condom manufacture Einhorn, the 8-hour work day was abolished.[: REFERENCE | boes2018 | :] The digital agency Elbdudler has introduced a system whereby its employees can be paid the salary they ask for.[: REFERENCE | astheimer2014 | :] These concrete measures of increased self-determination and self-organisation encourage the development of a different kind of mindset, and have positive effects on the performance of the company. 
 
@@ -108,16 +118,15 @@ A person’s attitude feeds on his/her fundamental convictions, assumptions and 
 
 Just as with the individual, in organisations fundamental convictions and patterns come to be established as well – for example a trust-based attitude to people, or alternatively a coexistence characterised by mistrust. The values of the agile manifesto, which originated with software development, sum up the necessary attitude of the ‘agile mindset’ effectively in the following terms:
 
-:----- INFOBOX -----:
+:----- QUOTE -----:
 title: Beck 2001
----
-Individuals and interactions over processes and tools
-
-Working software over comprehensive documentation
-
-Customer collaboration over contract negotiation
-
-Responding to change over following a plan
+quote: "<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Individuals and interactions</strong> over processes and tools</span><br>
+<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Working software</strong> over comprehensive documentation</span><br>
+<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Customer collaboration</strong> over contract negotiation</span><br>
+<strong>Responding to change</strong> over following a plan"
+generalSource: Agile Manifesto
+sourceDescription: "by The Agile Alliance"
+link: http://agilemanifesto.org
 :-------------------:
 
 But to avoid this being just a scratch on the surface, the new behavioural modes need to be anchored in the structures of a company. Christoph Keese describes the way in which at Netflix neither working hours, working days nor periods of leave are clocked up. The founder and CEO Reed Hastings, moreover, does not have a fixed office of his own and is a leader of the new age: The Netflix CEO lives out an understanding of his role that could become a standard for many managers in the age of digitalisation. Executive staff no longer take up a position in the foreground, but rather keep themselves back. They hardly ever assign concrete tasks any more, but rather put the right questions and give teams the job of finding the answers. They hardly ever formulate rules any more, but rather concentrate on effectively getting across their own culture. They do not hand out instructions from above to below, but distribute impulses in all directions. They do not think in terms of fulfilling plans, but uncover truths, identify weak points and reward honesty. They do not disempower, but encourage freedom. They are not complacent, but are always challenging themselves and their business models. They do not put on a show of strength, but display vulnerability. They are not insecure, but take care to avoid any excessive assurance. They do not give orders but listen. They despise status symbols and ask for acknowledgement to be based on their projects. They do not control any structure of commands, but rather coordinate working groups.[: REFERENCE | keese2016 | :]

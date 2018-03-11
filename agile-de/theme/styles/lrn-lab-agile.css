@@ -9875,7 +9875,7 @@ article figure img {
 .mdi-format-pilcrow:before {
   content: "\F6D7"; }
 
-.mdi-format-quote-close:before {
+.mdi-format-quote-close:before, article .ms-inline-generalSource i:before, .ms-col-marginal .ms-aside-generalSource p:before {
   content: "\F27E"; }
 
 .mdi-format-quote-open:before {

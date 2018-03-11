@@ -2,7 +2,8 @@
     "path": {
         "*.md": {
             "spaceUnits": 2,
-            "wordWrap": true
+            "wordWrap": true,
+            "brackets-git.gitPath": "git"
         },
         "*.html": {
             "spaceUnits": 2,
