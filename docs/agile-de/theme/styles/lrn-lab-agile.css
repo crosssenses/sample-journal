@@ -748,7 +748,9 @@ pre {
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .ms-header .card .card-body, .ms-chapter .card .card-body, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle, .ms-chapter h2, .ms-chapter p, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
-.col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .ms-row .ms-col-marginal, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .ms-row .ms-col-content, .col-lg-8, .ms-row.ms-plugin .ms-col-content, .col-lg-9, article figure .ms-col-content, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-11, .ms-row-full .ms-col-content, .col-lg-12, .col-lg,
+.col-md-auto, .col-lg-1, .col-lg-2, .ms-row-three .ms-col-pre,
+.ms-row.ms-row-three.ms-plugin .ms-col-pre, .col-lg-3, .ms-row .ms-col-marginal, .col-lg-4, .col-lg-5, .col-lg-6, .ms-row-three .ms-col-content,
+.ms-row.ms-row-three.ms-plugin .ms-col-content, .col-lg-7, .ms-row .ms-col-content, .col-lg-8, .ms-row.ms-plugin .ms-col-content, .col-lg-9, article figure .ms-col-content, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-11, .ms-row-full .ms-col-content, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
 .col-xl-auto {
   position: relative;
@@ -1168,7 +1170,8 @@ pre {
     flex: 0 0 8.3333333333%;
     max-width: 8.3333333333%; }
 
-  .col-lg-2 {
+  .col-lg-2, .ms-row-three .ms-col-pre,
+  .ms-row.ms-row-three.ms-plugin .ms-col-pre {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%; }
 
@@ -1184,7 +1187,8 @@ pre {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%; }
 
-  .col-lg-6 {
+  .col-lg-6, .ms-row-three .ms-col-content,
+  .ms-row.ms-row-three.ms-plugin .ms-col-content {
     flex: 0 0 50%;
     max-width: 50%; }
 
@@ -5294,7 +5298,7 @@ article section .ms-plugin {
 article section {
   margin-top: 1.5rem !important; }
 
-.mr-4, .ms-tab, .ms-tabs .nav-tabs li a, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-article-top .ms-button-toc,
+.mr-4, .ms-tab, .ms-tabs .nav-tabs li a, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-article-top .ms-button-toc, .ms-plugin-full_figure .ms-col-marginal,
 .mx-4 {
   margin-right: 1.5rem !important; }
 
@@ -6710,6 +6714,14 @@ object {
   .ms-row.ms-text.ms-row-two {
     flex-direction: column-reverse; } }
 
+/* BACKGROUND */
+body {
+  background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/background.svg);
+  background-position: bottom center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 /* Topline */
 .ms-navigation-top {
   font-weight: 500; }
@@ -7118,15 +7130,12 @@ footer.ms-footer {
   z-index: 1300; }
 
 /* Plugin general */
-.ms-plugin {
-  border-top: 1px solid #dee2e6;
-  border-bottom: 1px solid #dee2e6; }
-  @media (max-width: 767px) {
-    .ms-plugin .ms-col-marginal {
-      padding-top: 1rem; } }
-  .ms-plugin + .ms-plugin {
-    border-top: none;
-    padding-top: 0 !important; }
+@media (max-width: 767px) {
+  .ms-plugin .ms-col-marginal {
+    padding-top: 1rem; } }
+.ms-plugin + .ms-plugin {
+  border-top: none;
+  padding-top: 0 !important; }
 
 /* Full width plugin */
 article section {
@@ -7177,9 +7186,10 @@ figure .ms-col-content a {
   -webkit-appearance: unset; }
 
 .ms-plugin-full_figure {
-  background: #efefef;
   position: relative;
-  box-shadow: inset 0px 0px 10px #ccc; }
+  box-shadow: inset 0px 0px 5px #ccc; }
+  .ms-plugin-full_figure .ms-col-content a {
+    margin: -1.5rem -50px -1.8rem -15px; }
 
 /* Video */
 .embed-responsive img.embed-responsive-item {
@@ -7220,6 +7230,11 @@ table {
     vertical-align: top; }
   table caption {
     margin: 1rem 0; }
+
+/* Authors */
+.ms-plugin-author img {
+  border-radius: 50%;
+  object-fit: cover; }
 
 article figure img {
   width: 100%; }
@@ -9850,7 +9865,7 @@ article figure img {
 .mdi-format-pilcrow:before {
   content: "\F6D7"; }
 
-.mdi-format-quote-close:before {
+.mdi-format-quote-close:before, article .ms-inline-generalSource i:before, .ms-col-marginal .ms-aside-generalSource p:before {
   content: "\F27E"; }
 
 .mdi-format-quote-open:before {
