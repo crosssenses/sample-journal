@@ -188,6 +188,20 @@ object{
     }
 }
 
+
+.ms-row-three,
+.ms-row.ms-row-three.ms-plugin{
+
+    .ms-col-pre{
+        @extend .col-lg-2;
+    }
+
+    .ms-col-content{
+        @extend .col-lg-6;
+    }
+
+}
+
 .ms-row-full{
     .ms-col-content{
         @extend .col-lg-11;
@@ -198,6 +212,17 @@ object{
 //
 // General Layout Definitions
 // --------------------------------------------------
+
+/* BACKGROUND */
+
+body{
+    background-image: url(#{$path-to-img}/background.svg);
+//    background-image: url(../images/background.svg);
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
 
 
 /* Topline */
@@ -983,8 +1008,8 @@ footer.ms-footer{
 .ms-plugin{
     @extend .py-4;
     @extend .my-4;
-    border-top: 1px solid gray(300);
-    border-bottom: 1px solid gray(300);
+//    border-top: 1px solid gray(300);
+//    border-bottom: 1px solid gray(300);
 
     @include media-breakpoint-down(sm){
         .ms-col-marginal{
@@ -1105,14 +1130,18 @@ figure{
 }
 
 .ms-plugin-full_figure {
-    background: #efefef;
+//    background: #fefefe;
     position: relative;
-    box-shadow: inset 0px 0px 10px #ccc;
+    box-shadow: inset 0px 0px 5px #ccc;
 
-//    &:before{
-//        @extend .triangleUp;
-//        background-color: white;
-//    }
+    .ms-col-content a{
+        //make picture full size
+        margin: -1.5rem -50px -1.8rem -15px;
+    }
+
+    .ms-col-marginal{
+        @extend .mr-4;
+    }
 }
 
 /* Video */
@@ -1195,6 +1224,17 @@ table {
         margin: $standard-margin/2 0;
     }
 
+
+}
+
+/* Authors */
+
+.ms-plugin-author{
+
+    img{
+        border-radius: 50%;
+        object-fit: cover;
+    }
 
 }
 
