@@ -159,38 +159,6 @@ Agile companies are permeable, i.e., the organisation itself is receptive at man
 
 We can state in conclusion that agility must be seen as an indispensable competence of organisations in the digital era. There is no black or white, however – companies must decide for themselves how much agility makes sense for which structures and processes. In view of the increasing complexity of our working world, what is needed is above all a change of mindset and attitude on the part of corporate decision-makers. Classic hierarchies and cascaded decision-making processes are giving way to new organisational structures, where employees and teams have more responsibility for themselves and so find more meaning in their work. Agile organisations are those, which have understood that this calls for an organisational culture where the consistent scrutiny of the status quo, the courage to experiment and fail and the decentralised distribution of power are enshrined in the DNA of a company, and not just lived out in the context of a lighthouse project or digital hub. 
 
+&nbsp;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+&nbsp;

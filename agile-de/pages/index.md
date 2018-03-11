@@ -166,3 +166,7 @@ Eine agile Organisation verlangt eine intelligente Kombination aus vertikalen un
 :--------------------:
 
 Schlussfolgernd lässt sich festhalten, dass Agilität als unerlässliche Kompetenz von Organisationen in digitalen Zeiten angesehen werden muss. Es gibt allerdings kein Schwarz oder Weiß – Unternehmen müssen eine Entscheidung treffen, wie viel Agilität für welche Strukturen und Prozesse sinnvoll ist. Durch die gestiegene Komplexität in unserer Arbeitswelt braucht es vor allem eine Veränderung der Haltung und des Verhaltens der Unternehmensentscheider. Klassische Hierarchien und kaskadenförmige Entscheidungsprozesse weichen neuen Organisationsformen, die Mitarbeitern und Teams mehr Eigenverantwortung und dadurch mehr Sinn geben. Agile Organisationen sind solche, die verstanden haben, dass es eine Organisationskultur braucht, in der konsequentes Hinterfragen des Status Quo, Mut zum Ausprobieren und Scheitern sowie die dezentrale Verteilung von Macht verankert sein muss, und nicht nur im Rahmen von Leuchtturmprojekten oder Digital Hubs gelebt werden darf.
+
+&nbsp;
+
+&nbsp;
