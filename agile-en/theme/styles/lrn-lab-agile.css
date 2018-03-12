@@ -6685,15 +6685,9 @@ object {
   left: 0;
   width: 100vw;
   height: 100%;
-  background-color: #a50032;
-  -webkit-mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangle.svg);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: left bottom;
-  mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangle.svg);
-  mask-repeat: no-repeat;
-  mask-size: cover;
-  mask-position: left bottom; }
+  background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangle.svg);
+  background-size: cover;
+  background-position: left bottom; }
 
 .triangleDown, .ms-chapter .ms-row-full:before {
   content: '';
@@ -6701,15 +6695,9 @@ object {
   right: 0;
   width: 100vw;
   height: 100%;
-  background-color: #a50032;
-  -webkit-mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangleDown.svg);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: left bottom;
-  mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangleDown.svg);
-  mask-repeat: no-repeat;
-  mask-size: cover;
-  mask-position: left bottom; }
+  background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangleDown.svg);
+  background-size: cover;
+  background-position: left bottom; }
 
 .ms-full, .ms-chapter {
   margin-top: 2rem !important;
