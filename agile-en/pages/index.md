@@ -2,8 +2,10 @@
 :----- CHAPTER_HEADER -----:
 image: "assets/images/mahdis-mousavi-327389_b.jpg"
 title: Age of Disruption
-subtitle: High market dynamism and disruption are not fundamentally new features
+subtitle: What questions do companies face in times of high market dynamics?
 :--------------------------:
+
+## High market dynamism and disruption are not fundamentally new features
 
 The dynamism of actual markets has striking similarities with that of the manufacturing age. Up to the year 1900, high transport costs meant that most markets had just a short range, and were local and narrow. Competitors could avoid each other. This direct contact forced creativity and generated dynamism.[: REFERENCE | oestereich2017 | :] After 1900, falling transport costs were responsible for the emergence of new mass markets, which were wider in range and comparatively sluggish. Companies could expand their businesses without any problem, and at the same time optimise their internal processes. Taylorism and Fordism were characterised by scientific management, which introduced and enforced strict division of labour and work planning – with resounding success, as industrial production grew to a hundred times of what it had been before within two generations.[: REFERENCE | oestereich2017 | :] Since the 1980s, market dynamism has again risen drastically, as market liberalisation, the invention of the internet and global trade have resulted in networking on a wider scale. In the new network economy, all players operate globally. The planning and controlling methods, which resulted in great value creation under Taylorism, cannot longer cope with the speed and complexity of today’s dynamic markets.
 :--- KEYSTATEMENT ---:
@@ -48,8 +50,10 @@ Data is the gold.
 :----- CHAPTER_HEADER -----:
 image: "assets/images/iStock-472048811_b.jpg"
 title: "Complex world – complex organisations"
-subtitle: "Corporate cultures are changing – people seek meaning in their activities"
+subtitle: "How do flexibility and stability create an agile corporate culture with the power of identification?"
 :--------------------------:
+
+## Corporate cultures are changing – people seek meaning in their activities
 
 It isn’t just the business model of successful companies in the internet economy that differs from the business models of the industrial era. We are also observing a massive transformation of organisational and working culture. In his bestseller *Reinventing Organizations*,[: REFERENCE | laloux2015 | :] the former McKinsey partner and author Frederic Laloux focuses on changes in collaboration and leadership in organisations. In the age of digitalisation, old-style organisational leadership has reached its limits, Laloux concludes, adding that many employees and executive staff see work on the whole as a necessary evil. How can we counter the complexity of digitalisation, and how can people be given a chance to rediscover enthusiasm for and meaning in their work? The forms of collaboration and leadership models need a radical change, so Laloux. The crucial question for organisations is how they cope with the complexity that has come into being recently on the level of structures and processes. From cybernetics expert Ross Ashby we know that a system will be better capable of handling a complex and dynamic environment to the extent that it is able to make use of its own inner complexity. And inner complexity arises through multifarious social networking – in other words, it is based on the available communication possibilities. It is a matter of increasing the social density.[: REFERENCE | oestereich2017 | :]
 
@@ -98,10 +102,10 @@ It’s the small to medium sized enterprises that are experimenting with self-or
 :----- CHAPTER_HEADER -----:
 image: "assets/images/arindam-mahanta-217437.jpg"
 title: "Agility & Leadership"
-subtitle: "Self-organisation as key to success: do we then still need leadership at all?"
+subtitle: "What are the keys to agile corporate structures and what does agile leadership look like?"
 :--------------------------:
 
-## Three principles for agile leadership
+## Self-organisation as key to success: do we then still need leadership at all? Three principles for agile leadership
 
 The answer is yes – leadership is always going to be necessary. However, it is undergoing a process of transformation. Agility is also needed in leadership, of the sort, which is particularly distinguished by the fact that it is distributed among many rather than just a few people. Agile leadership comprises the three levels of attitude, responsive structures and networking. Leadership focuses increasingly on shaping the right framing conditions, on rolemodelling the values and behavioural attitudes that are seen as desirable and on network management. Leadership also has to resolve conflicts, and to decide in case of escalation.
 
