@@ -159,8 +159,8 @@ object{
 // --------------------------------------------------
 
 .ms-full{
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem !important;
+    margin-bottom: 3rem !important;
 }
 
 
@@ -692,8 +692,8 @@ img{
 .ms-chapter{
     @extend .ms-full;
     @extend .ms-header;
-    @extend .mt-5;
-    @extend .mb-3;
+//    @extend .mt-5;
+//    @extend .mb-3;
     background-size: cover;
     background-attachment: fixed;
     background-color: map-get($lrn-lab-colors, fbright);
