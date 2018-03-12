@@ -5278,7 +5278,7 @@ article section .ms-plugin {
 .mx-3 {
   margin-right: 1rem !important; }
 
-.mb-3, .ms-chapter,
+.mb-3,
 .my-3 {
   margin-bottom: 1rem !important; }
 
@@ -5318,7 +5318,7 @@ article section {
 .m-5 {
   margin: 3rem !important; }
 
-.mt-5, .ms-chapter,
+.mt-5,
 .my-5 {
   margin-top: 3rem !important; }
 
@@ -6681,15 +6681,9 @@ object {
   left: 0;
   width: 100vw;
   height: 100%;
-  background-color: #a50032;
-  -webkit-mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangle.svg);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: left bottom;
-  mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangle.svg);
-  mask-repeat: no-repeat;
-  mask-size: cover;
-  mask-position: left bottom; }
+  background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangle.svg);
+  background-size: cover;
+  background-position: left bottom; }
 
 .triangleDown, .ms-chapter .ms-row-full:before {
   content: '';
@@ -6697,15 +6691,13 @@ object {
   right: 0;
   width: 100vw;
   height: 100%;
-  background-color: #a50032;
-  -webkit-mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangleDown.svg);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-size: cover;
-  -webkit-mask-position: left bottom;
-  mask-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangleDown.svg);
-  mask-repeat: no-repeat;
-  mask-size: cover;
-  mask-position: left bottom; }
+  background-image: url(https://www.impactdistillery.com/graphite/lrn-lab-agile-de/theme/images/triangleDown.svg);
+  background-size: cover;
+  background-position: left bottom; }
+
+.ms-full, .ms-chapter {
+  margin-top: 2rem !important;
+  margin-bottom: 3rem !important; }
 
 .ms-row.ms-plugin .ms-col-content {
   display: flex;
@@ -6938,6 +6930,9 @@ body {
   background: #a50032;
   border: 1px solid #ccc;
   color: white; }
+.ms-article-top .ms-col-marginal h3 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0rem !important; }
 
 /* Article */
 h1, h2, h3, h4, h5, h6,
