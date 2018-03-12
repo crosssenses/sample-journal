@@ -2,7 +2,7 @@
 :----- CHAPTER_HEADER -----:
 image: "assets/images/mahdis-mousavi-327389_b.jpg"
 title: "Zeitalter der Disruption"
-subtitle: "Welche Fragen müssen sich Unternehmen in Zeiten von hoher Marktdynamik stellen?"
+subtitle: "Welche Fragen müssen sich Unternehmen in Zeiten von hoher Marktdynamik stellen?"
 :--------------------------:
 
 ## Hohe Marktdynamik und Disruption sind nichts grundlegend Neues
