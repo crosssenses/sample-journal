@@ -148,7 +148,7 @@ object{
 
     background-image: url(#{$path-to-img}/triangleDown.svg);
     background-size: cover;
-    background-position: left bottom;
+    background-position: right bottom;
 
     //background-color: theme-color("secondary");
 
@@ -162,6 +162,11 @@ object{
     //mask-size: cover;
     //mask-position: left bottom;
 
+    @include media-breakpoint-down(md){
+        right: 50%;
+        background-position: center center;
+        margin-right: -50vw;
+    }
 
 }
 
@@ -359,6 +364,7 @@ body{
             .card-subtitle{
                 @extend .col-md-6;
                 @extend .offset-md-5;
+                @extend .p-0;
                 font-size: 1.2em;
                 font-weight: 300;
                 color: white;
@@ -768,7 +774,7 @@ article{
     }
 
 
-    ul{
+    .ms-text ul{
         @extend .serif;
 
         list-style: none;
@@ -1161,7 +1167,7 @@ figure{
 
     .ms-col-content a{
         //make picture full size
-        margin: -1.5rem -50px -1.8rem -15px;
+        margin: -1.5rem -0px -1.8rem -15px;
     }
 
     .ms-col-marginal{
@@ -1197,11 +1203,14 @@ figure{
 .ms-plugin-quote{
 
     padding-bottom: 0 !important;
+    margin-bottom: 3rem !important;
 
     .ms-col-content{
 
         p{
-            @extend .sans-serif;
+            //@extend .sans-serif;
+//            color: theme-color("primary");
+            color: #009BA5;
         }
 
         .nav-tabs{
@@ -1210,6 +1219,7 @@ figure{
 
             li a{
                 @extend .ms-tab;
+                @extend .sans-serif;
             }
         }
     }

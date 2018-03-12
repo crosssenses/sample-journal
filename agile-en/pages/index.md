@@ -88,8 +88,8 @@ Then too, the question of the meaningfulness of one’s own work and the meaning
 :----- QUOTE -----:
 quote: "Power is multiplied when every individual acquires power, not just a few people at the top (self-leadership)<br>
 <span style='display: inline-block; margin-bottom: 0.5rem;
-margin-top: 0.5rem;'>(…) power is used with greater wisdom, because people put more of themselves into their work (holism)</span><br>
-(…) somehow everything finds its own proper place, because people connect their power and their wisdom with the life force of the organisation (evolutionary meaning)"
+margin-top: 0.5rem;'>Power is used with greater wisdom, because people put more of themselves into their work (holism)</span><br>
+Somehow everything finds its own proper place, because people connect their power and their wisdom with the life force of the organisation (evolutionary meaning)"
 author: Frederic Laloux
 authorDescription: "Reinventing Organizations"
 link: http://www.reinventingorganizations.com/

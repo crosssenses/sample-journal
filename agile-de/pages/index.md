@@ -36,8 +36,6 @@ Plattformen sind aktuell das dominante Geschäftsmodell der digitalen Wirtschaft
 - Die weltgrößte Streaming-Plattform besitzt kein Kino (Netflix)
 - Die weltgrößten Software-Anbieter programmieren die Apps nicht selbst. (Apple & Google) 
 
-Quelle: Fairplay in der digitalen Welt, 2016.
-
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_brands-de.svg
 caption: Top 5 der weltweit wertvollsten Marken nach Forbes von 2015 und 2016. (Fairplay in der digitalen Welt, 2016)
@@ -96,7 +94,17 @@ In Deutschland sind Fehler und Misserfolge noch immer verpönt.
 
 Aber auch die Frage nach dem Sinn der eigenen Tätigkeit und dem Sinn der Organisation beeinflusst zunehmend die Performance deutscher Unternehmen. Mit Laloux lässt sich sagen, dass die organisationale Performance die ökonomische Performance beeinflusst. Er beschreibt drei Erfolgsfaktoren der evolutionären Organisation: 
 
-„1) Die Macht wird vervielfacht, wenn jeder Macht bekommt, und nicht nur ein paar Leute an der Spitze (Selbstführung) 2) die Macht wird mit mehr Weisheit angewendet, weil die Menschen mehr von sich selbst in die Arbeit einbringen (Ganzheit); und 3) irgendwie findet alles seinen richtigen Platz, wenn Menschen ihre Macht und Weisheit mit der Lebenskraft der Organisation verbinden (evolutionärer Sinn).“ Laut Laloux werden durch den Sinn, durch Selbstführung, durch Lernen und durch die bessere Nutzung von Talenten Energien befreit. Das führt insgesamt zu weniger Energieverlust, geringerer Betonung des Egos, weniger Konformität und weniger Energieverlust in Besprechungen.[: REFERENCE | laloux2015 | :]
+:----- QUOTE -----:
+quote: "Die Macht wird vervielfacht, wenn jeder Macht bekommt, und nicht nur ein paar Leute an der Spitze (Selbstführung)<br>
+<span style='display: inline-block; margin-bottom: 0.5rem;
+margin-top: 0.5rem;'>Die Macht wird mit mehr Weisheit angewendet, weil die Menschen mehr von sich selbst in die Arbeit einbringen (Ganzheit)</span><br>
+Irgendwie findet alles seinen richtigen Platz, wenn Menschen ihre Macht und Weisheit mit der Lebenskraft der Organisation verbinden (evolutionärer Sinn)"
+author: Frederic Laloux
+authorDescription: "Reinventing Organizations"
+link: http://www.reinventingorganizations.com/
+:-------------------:
+
+Laut Laloux werden durch den Sinn, durch Selbstführung, durch Lernen und durch die bessere Nutzung von Talenten Energien befreit. Das führt insgesamt zu weniger Energieverlust, geringerer Betonung des Egos, weniger Konformität und weniger Energieverlust in Besprechungen.[: REFERENCE | laloux2015 | :]
 
 Es sind kleinere und mittlere Unternehmen, die mit Selbstorganisation experimentieren. Beim Unternehmen Trumpf konnten sich 4500 Mitarbeiter vom Produktionshelfer bis zur Führungskraft zwei Jahre lang aussuchen, wie viele Stunden sie arbeiten. Beim veganen Kondomhersteller Einhorn wurde der 8-Stunden-Tag abgeschafft. Die Digitalagentur Elbdudler ist dazu übergegangen, ihren Mitarbeitern ihr Wunschgehalt zu zahlen. Diese konkreten Maßnahmen erhöhter Selbstbestimmung und Selbstorganisation fördert ein anderes Mindset und haben positive Auswirkungen auf die Performance des Unternehmens. 
 :--- KEYSTATEMENT ---:
@@ -126,10 +134,20 @@ Die Haltung eines Menschen speist sich aus seinen grundlegenden Überzeugungen, 
 
 Ebenso wie beim Menschen etablieren sich in einer Organisation grundlegende Überzeugungen und Muster, wie zum Beispiel ein vertrauensvoller Umgang oder ein durch Misstrauen geprägtes Miteinander. Die Werte des agilen Manifests, die aus der Softwareentwicklung stammen, fassen die notwendige Haltung, des „agilen Mindsets“ gut zusammen: 
 
-- Individuen und Interaktionen stehen über Prozessen und Werkzeugen
-- Funktionierende Software steht über einer umfassenden Dokumentation
-- Zusammenarbeit mit dem Kunden steht über der Vertragsverhandlung
-- Reagieren auf Veränderung steht über dem Befolgen eines Plans
+:----- QUOTE -----:
+title: Beck 2001
+quote: "<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Individuen und Interaktionen </strong> stehen über Prozessen und Werkzeugen</span><br>
+<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Funktionierende Software</strong> steht über einer umfassenden Dokumentation</span><br>
+<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Zusammenarbeit mit dem Kunden</strong> steht über der Vertragsverhandlung</span><br>
+<strong>Reagieren auf Veränderung</strong> steht über dem Befolgen eines Plans"
+quoteOriginal: "<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Individuals and interactions</strong> over processes and tools</span><br>
+<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Working software</strong> over comprehensive documentation</span><br>
+<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Customer collaboration</strong> over contract negotiation</span><br>
+<strong>Responding to change</strong> over following a plan"
+generalSource: Agiles Manifest
+sourceDescription: "aufgestellt von The Agile Alliance"
+link: http://agilemanifesto.org
+:-------------------:
 
 Damit das aber nicht nur ein Kratzen an der Oberfläche bleibt, müssen die neuen Verhaltensweisen in die Strukturen des Unternehmens verankert werden. Keese beschreibt in ‘Silicon Germany’, dass bei Netflix weder Arbeitsstunden, Arbeitstage noch Urlaub zeitlich erfasst werden. Gründer und Chef Reed Hastings hat zudem kein festes Büro und ist eine Führungspersönlichkeit der neuen Ära: „Der Netflix-Chef lebt ein Rollenverständnis vor, das im Zeitalter der Digitalisierung für viele Managerinnen und Manager Standard werden könnte. Führungskräfte treten nicht mehr in den Vordergrund, sondern nehmen sich zurück. Sie erteilen kaum noch inhaltliche Vorgaben, sondern stellen die richtigen Fragen und betrauen Teams mit der Suche nach Antworten. Sie verordnen fast keine Regeln mehr, sondern konzentrieren sich auf das Prägen einer eigenen Kultur. Sie reichen keine Anweisungen von oben nach unten durch, sondern verteilen Impulse in alle Richtungen weiter. Sie denken nicht in Planerfüllung, sondern decken Wahrheiten auf, finden Schwachstellen und belohnen Ehrlichkeit. Sie entmündigen nicht, sondern ermuntern zur Freiheit. Sie sind nicht selbstgefällig, sondern stellen sich und ihre Geschäftsmodelle permanent infrage. Sie schützen keine Stärke vor, sondern zeigen Verletzlichkeit. Sie sind nicht unsicher, sondern hüten sich vor allzu großer Selbstsicherheit. Sie befehlen nicht, sondern hören zu. Sie verachten Statussymbole und beziehen Anerkennung aus ihren Projekten. Sie steuern keine Kommandostruktur, sondern koordinieren Arbeitsgruppen.“[: REFERENCE | keese2016 | :]
 :--- KEYSTATEMENT ---:
