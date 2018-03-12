@@ -116,17 +116,23 @@ object{
     width: 100vw;
     height: 100%;
 
-    background-color: theme-color("secondary");
+    // NEW: IE-bug:
 
-    -webkit-mask-image: url(#{$path-to-img}/triangle.svg);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: cover;
-    -webkit-mask-position: left bottom;
+    background-image: url(#{$path-to-img}/triangle.svg);
+    background-size: cover;
+    background-position: left bottom;
 
-    mask-image: url(#{$path-to-img}/triangle.svg);
-    mask-repeat: no-repeat;
-    mask-size: cover;
-    mask-position: left bottom;
+    //background-color: theme-color("secondary");
+
+    //-webkit-mask-image: url(#{$path-to-img}/triangle.svg);
+    //-webkit-mask-repeat: no-repeat;
+    //-webkit-mask-size: cover;
+    //-webkit-mask-position: left bottom;
+
+    //mask-image: url(#{$path-to-img}/triangle.svg);
+    //mask-repeat: no-repeat;
+    //mask-size: cover;
+    //mask-position: left bottom;
 
 }
 
@@ -138,17 +144,23 @@ object{
     width: 100vw;
     height: 100%;
 
-    background-color: theme-color("secondary");
+    // NEW: IE-bug:
 
-    -webkit-mask-image: url(#{$path-to-img}/triangleDown.svg);
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: cover;
-    -webkit-mask-position: left bottom;
+    background-image: url(#{$path-to-img}/triangleDown.svg);
+    background-size: cover;
+    background-position: left bottom;
 
-    mask-image: url(#{$path-to-img}/triangleDown.svg);
-    mask-repeat: no-repeat;
-    mask-size: cover;
-    mask-position: left bottom;
+    //background-color: theme-color("secondary");
+
+    //-webkit-mask-image: url(#{$path-to-img}/triangleDown.svg);
+    //-webkit-mask-repeat: no-repeat;
+    //-webkit-mask-size: cover;
+    //-webkit-mask-position: left bottom;
+
+    //mask-image: url(#{$path-to-img}/triangleDown.svg);
+    //mask-repeat: no-repeat;
+    //mask-size: cover;
+    //mask-position: left bottom;
 
 
 }
