@@ -19,6 +19,9 @@ Disruptive Innovationen können sich ihren Weg schleichend nach oben bahnen, so 
 ## Unternehmen müssen sich selbst in Frage stellen, um der Disruption nicht zum Opfer zu fallen 
 
 Welche Organisationsform und -kultur braucht es, um sich den technologischen Fortschritt zunutze zu machen und auf der Erfolgswelle der Digitalisierung mit zu schwimmen? Ein wesentliches Credo der Digitalisierung lautet: “Disrupt yourself” – bevor es jemand anderes tut. Dies hatte Jeff Bezos, CEO von Amazon, bereits früh erkannt. Er beauftragte bereits im Jahr 2006 ein Team damit, das eigene Buchgeschäft zu zerstören – damals Amazons zweiterfolgreichstes Geschäft, direkt nach dem Musikgeschäft. Diesen Auftrag erteilte er, nachdem er das Angebot vom damaligen Apple-Chef Steve Jobs abgelehnt hatte, gemeinsam einen Streamingdienst für Musik zu entwickeln. Apple launchte iTunes und griff damit massiv Amazons Kerngeschäft an. Bezos begriff danach: Selbstangriff ist die beste Verteidigung. 
+:--- LINK ---:
+Der chinesische Haushaltsgerätehersteller "Haier" ist ein aktuelles und faszinierendes Beispiel für ein Unternehmen, dass sich selbst und sein Geschäftsmodell disrupiert. Haier will zur Internetplattform werden. https://corporate-rebels.com/haier/
+:--------------------:
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_fortune-de.svg
@@ -70,6 +73,7 @@ caption: Organisationsweite agile Transformationen im Verhältnis zu gefühlter 
 
 Die Agilität eines Unternehmens entsteht durch eine besonders produktive Kombination aus Stabilität und Flexibilität der Strukturen, Prozesse und Rollen. „Agiles Potential meint – paradox formuliert –, dass man sich entscheiden kann nicht agil, sondern beständig zu handeln. Agilität braucht also genauso die Entscheidung, was im Hinblick auf Prozesse, Strukturen und Personal stabil gehalten wird, wie darüber, was dynamisiert werden soll.“[: REFERENCE | eidenschink | :] Agile Organisationen müssen sich bewusst entscheiden, welche Teams, Prozesse und Strukturen geeignet sind, um agiler zu werden. „Agile Unternehmen zeichnen sich durch eine radikale (im Sinne von „von der Wurzel her“) dezentrale Struktur als das bestimmende Organisationsprinzip aus.“[: REFERENCE | oestereich2017 | :] Organisationen, die agiler werden wollen, müssen daher auf den drei Ebenen der individuellen und organisationalen Haltung (Werte und Einstellungen), organisationalen Strukturen (Hierarchien, Selbstorganisation, Prozesse) und der Vernetzung (Vernetzung horizontaler und vertikaler Strukturen, Wissensaustausch und -management) den entsprechenden Status Quo in Frage stellen und sich neu sortieren.
 :--- LINK ---:
+Weiterführende Literatur:
 [Positionspapier zu Agilität und New Work – Deutscher Bundesverband Coaching e.V.](http://www.dbvc.de/_Resources/Persistent/cd9f959fd1a6d02d953024ca19f0d5e60f9e6507/DBVC_Positionspapier02_Pra%CC%88sidium%20-%202017_10_19_final.pdf)
 :------------:
 
@@ -163,6 +167,7 @@ Nicht nur Führungskräfte müssen Verantwortung übernehmen, auch Mitarbeiter m
 
 Reaktionsfähigkeit meint die Fähigkeit der Organisation sich adäquat zu den Marktbedingungen zu verändern und anzupassen. Dies gelingt meist nur, wenn komplexe Probleme auf interdisziplinäre Weise bewältigt werden. Agile Strukturen vermeiden Arbeitsteilung oder Differenzierung im Wertschöpfungsprozess. „[Agilität] legt mehr Wert auf die Frage, welche wertschöpfenden Tätigkeiten notwendig sind, um die Marktbedürfnisse zu befriedigen, und wie ein autonomes Team die dazugehörigen Aufgaben erledigen kann.“[: REFERENCE | kasch2013 | :] Das bedeutet konkret, dass das Denken in Spezialisierungen und Fachgebieten einer neuen Logik weichen muss. Insbesondere in der deutschen Industrie sei das Denken und Organisieren in Fachbereichen und Spezialisierungen ein großer Erfolgsfaktor gewesen, da man so die hochqualitativen industriellen Produkte herstellen konnte, so Keese. In der Digitalisierung wird dies jedoch zum Problem. Ein Umdenken passiert nur schwerfällig, denn es „bedeutet einen Verlust an Sicherheit. Horizontal auszugreifen meint nämlich auch, ins Ungewisse aufzubrechen. Man kennt niemanden in dem fremden Feld, weiß nicht, wie die Regeln lauten, und ist sich seiner Stärken nicht bewusst. Wer sich nur in seiner eigenen Fachgruppe wohl fühlt, wird sich nicht als Brückenbauer betätigen wollen.“ Keese schlussfolgert, dass man dem nur durch eine Führungskultur entkommt, die Wagnisse fordert und Experimente ermöglicht. Die deutsche Null-Fehler-Kultur mache das jedoch quasi unmöglich.[: REFERENCE | keese2016 | :]
 :--- LINK ---:
+Weiterführende Literatur:
 IOM-Whitepaper: [Die drei Säulen agiler Organisation](https://www.steinbeis-iom.de/iom-thinktank/iom-whitepaper/)
 :------------:
 
