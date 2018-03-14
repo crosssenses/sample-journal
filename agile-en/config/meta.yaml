@@ -7,7 +7,7 @@ title:                  "Agility"
 subtitle:               "A new buzzword, or an ability required by organisations for their survival in the digital era?"
 authors:                Andrea Kahlenberg, Jumana Klotsch, and Jenny Fadranski
 year:                   2018
-cite_as:                "Kahlenberg, A., Klotsch, J., Fadranski, J. (2018). Agility - A new buzzword, or an ability required by organisations for their survival in the digital era?"
+cite_as:                "Kahlenberg, A., Klotsch, J., Fadranski, J. (2018). Agility – A new buzzword, or an ability required by organisations for their survival in the digital era?"
 date_publication:       Februar 2018
 date_submission:
 date_last_updated:
@@ -26,12 +26,12 @@ licence:
 abstract:               "This is one of the most common terms you will hear today in many organisations. Organisations want to be agile, teams are supposed to work in an agile way and everything, suddenly, needs to happen so much faster. Is this movement just a farce, or are we really faced with a serious phenomenon? The fact is that successful organisations in the digital age are noticeably quick to adapt to changes in their environment. Globalisation increases the intensity of flows of good, information, and migration, by destabilising the political and economic order. The political scientist Ian Bremmer refers to this as Zero Gravity World. What he means here is the growing political instability in view of shifts in economic power. But the term can also be understood as a status description of a world in which economic conditions are volatile, technological advances exponential and cultural evolution of human beings challenges old values and organisational modes."
 :---------------------------------------------------:
 tabs:
-  - title: "Full study"
+  - title: "Whitepaper"
     ref: "/"
     slug: index
     include_abstract: true
     md_container: article
-  - title: "Editors"
+  - title: "Authors"
     ref: "/editors/"
     slug: editors
     md_container: section
@@ -42,4 +42,8 @@ tabs:
   - title: "Sources"
     ref: "/directories/"
     slug: directories
+    md_container: section
+  - title: "Imprint"
+    ref: "/imprint/"
+    slug: imprint
     md_container: section
