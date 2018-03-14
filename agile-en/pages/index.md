@@ -19,9 +19,9 @@ The technological progress in particular functions as a disruption driver.
 
 ## Companies must challenge themselves, if they do not want to be the next victim of disruption 
 
-What are organisational forms and culture called for, if companies are to make the best use of technological advances and keep up with the flow of successful digitalisation? An essential credo of digitalisation says *“disrupt yourself”*, before somebody does it to you. This principle was recognised by Amazon CEO Jeff Bezos at an early stage, who commissioned a team to destroy Amazon’s own book business back in 2006 – at the time its second most successful area, second only to its trade in music. He gave them this project just after turning down the offer from Apple’s then CEO, Steve Jobs, to work together with Amazon to develop a music streaming service. Apple launched iTunes and made massive inroads into Amazon’s core business. Bezos realised that self-attack is the best mode of defence.
+What are organisational forms and culture called for, if companies are to make the best use of technological advances and keep up with the flow of successful digitalisation? An essential credo of digitalisation says *disrupt yourself*, before somebody does it to you. This principle was recognised by Amazon CEO Jeff Bezos at an early stage, who commissioned a team to destroy Amazon’s own book business back in 2006 – at the time its second most successful area, second only to its trade in music. He gave them this project just after turning down the offer from Apple’s then CEO, Steve Jobs, to work together with Amazon to develop a music streaming service. Apple launched iTunes and made massive inroads into Amazon’s core business. Bezos realised that self-attack is the best mode of defence.
 :--- LINK ---:
-Chinese white goods manufacturer "Haier" is a recent and fascinating example for how a company disrupts itself. Haier wants to become an internet platform. https://corporate-rebels.com/haier/
+Chinese white goods manufacturer *Haier* is a recent and fascinating example for how a company disrupts itself. [Haier wants to become an internet platform.](https://corporate-rebels.com/haier/)
 :--------------------:
 
 :--- FULL_FIGURE ---:

@@ -18,9 +18,9 @@ Disruptive Innovationen können sich ihren Weg schleichend nach oben bahnen, so 
 
 ## Unternehmen müssen sich selbst in Frage stellen, um der Disruption nicht zum Opfer zu fallen 
 
-Welche Organisationsform und -kultur braucht es, um sich den technologischen Fortschritt zunutze zu machen und auf der Erfolgswelle der Digitalisierung mit zu schwimmen? Ein wesentliches Credo der Digitalisierung lautet: “Disrupt yourself” – bevor es jemand anderes tut. Dies hatte Jeff Bezos, CEO von Amazon, bereits früh erkannt. Er beauftragte bereits im Jahr 2006 ein Team damit, das eigene Buchgeschäft zu zerstören – damals Amazons zweiterfolgreichstes Geschäft, direkt nach dem Musikgeschäft. Diesen Auftrag erteilte er, nachdem er das Angebot vom damaligen Apple-Chef Steve Jobs abgelehnt hatte, gemeinsam einen Streamingdienst für Musik zu entwickeln. Apple launchte iTunes und griff damit massiv Amazons Kerngeschäft an. Bezos begriff danach: Selbstangriff ist die beste Verteidigung. 
+Welche Organisationsform und -kultur braucht es, um sich den technologischen Fortschritt zunutze zu machen und auf der Erfolgswelle der Digitalisierung mit zu schwimmen? Ein wesentliches Credo der Digitalisierung lautet: *Disrupt yourself* – bevor es jemand anderes tut. Dies hatte Jeff Bezos, CEO von Amazon, bereits früh erkannt. Er beauftragte bereits im Jahr 2006 ein Team damit, das eigene Buchgeschäft zu zerstören – damals Amazons zweiterfolgreichstes Geschäft, direkt nach dem Musikgeschäft. Diesen Auftrag erteilte er, nachdem er das Angebot vom damaligen Apple-Chef Steve Jobs abgelehnt hatte, gemeinsam einen Streamingdienst für Musik zu entwickeln. Apple launchte iTunes und griff damit massiv Amazons Kerngeschäft an. Bezos begriff danach: Selbstangriff ist die beste Verteidigung. 
 :--- LINK ---:
-Der chinesische Haushaltsgerätehersteller "Haier" ist ein aktuelles und faszinierendes Beispiel für ein Unternehmen, dass sich selbst und sein Geschäftsmodell disrupiert. Haier will zur Internetplattform werden. https://corporate-rebels.com/haier/
+Der chinesische Haushaltsgerätehersteller *Haier* ist ein aktuelles und faszinierendes Beispiel für ein Unternehmen, dass sich selbst und sein Geschäftsmodell disrupiert. [Haier will zur Internetplattform werden.](https://corporate-rebels.com/haier/)
 :--------------------:
 
 :--- FULL_FIGURE ---:
