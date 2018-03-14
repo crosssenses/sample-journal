@@ -3,8 +3,8 @@ styles:                 theme/styles/lrn-lab-agile.css
 scripts:                theme/scripts/lrnlab.js
 brand:                  graphite by impact·distillery
 background_url:         theme/images/background.jpg
-short_url:              https://idist.io/g/lrn-lab-agile-de
-social_image_url:       https://idist.io/g/lrn-lab-agile-de/assets/images/social.png
+short_url:              https://idist.io/g/lrnlab-agile-de
+social_image_url:       https://idist.io/g/lrnlab-agile-de/assets/images/social.png
 title:                  "Agilität"
 subtitle:               "Neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter?"
 authors:                Andrea Kahlenberg, Jumana Klotsch und Jenny Fadranski
