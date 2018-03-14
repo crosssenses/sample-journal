@@ -31,7 +31,7 @@ tabs:
     slug: index
     include_abstract: true
     md_container: article
-  - title: "Authors"
+  - title: "LRN LAB"
     ref: "/editors/"
     slug: editors
     md_container: section
