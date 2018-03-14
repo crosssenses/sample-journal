@@ -42,7 +42,7 @@ Platforms are currently the predominant business model in the digital industry a
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_brands-en.svg
-caption: Top 5 of the world‘s most valuable brands. (Fairplay in der digitalen Welt, 2016)
+caption: Top 5 of the world‘s most valuable brands. (Parsons et al. 2016)
 :--------------:
 
 The biggest value-creating companies of the 21st century come from the internet economy, where you would struggle to find an assembly line. Instead, internet services create valuable data amounts supporting the generation of large sums of money. For example, they support the development of smart machines, facilitate more deliberate product placement and feed algorithms which are constantly making business processes more automated. The economic growth of the 20th century on the other hand was mainly based on mechanical production for commercial purposes and Tayloristic organisational principles like planning and controlling. In agile organisations, which can handle the complexity of the internet economy, these principles have been replaced by self-organisation and new kinds of latitude.
@@ -70,7 +70,7 @@ Agility refers to a higher degree of self-organisation to cope differently with 
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_businesses-en.svg
-caption: Organisation-wide agile transformations in relation to perceived instabilty of businnes environment (How to create an agile organization, 2017)
+caption: Organisation-wide agile transformations in relation to perceived instabilty of businnes environment (Ahlbäck et al., 2017)
 :--------------:
 
 ## Complexity needs both stability and flexibility: what can agile organisations do better than others?

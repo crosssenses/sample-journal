@@ -41,7 +41,7 @@ Plattformen sind aktuell das dominante Geschäftsmodell der digitalen Wirtschaft
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_brands-de.svg
-caption: Top 5 der weltweit wertvollsten Marken nach Forbes von 2015 und 2016. (Fairplay in der digitalen Welt, 2016)
+caption: Top 5 der weltweit wertvollsten Marken nach Forbes von 2015 und 2016. (Parsons et al. 2016)
 :--------------:
 
 Die großen wertschöpfenden Unternehmen des 21. Jahrhunderts entstammen der Internetökonomie, in der man nach Fließbändern vergeblich sucht. Stattdessen generieren Internetservices wertvolle Datenschätze, mit denen sich viel Geld verdienen lässt. Sie dienen u.a. der Entwicklung intelligenter Maschinen, erlauben gezielte Produktplatzierung und füttern Algorithmen, die stetig mehr Geschäftsprozesse automatisieren. Das Wirtschaftswachstum des 20. Jahrhunderts hingegen beruhte insbesondere auf maschinell produzierendem Gewerbe und tayloristischen Organisationsprinzipien: Planung und Kontrolle. Diese Prinzipien werden in agilen Organisationen, die die Komplexität des Internetökonomie bewältigen, durch Selbstorganisation und neue Freiräume abgelöst. 
@@ -66,7 +66,7 @@ Agilität bedeutet ein höheres Maß an Selbstorganisation und erlaubt einen alt
 
 :--- FULL_FIGURE ---:
 file: assets/images/figures/Innogy-Agile_businesses-de.svg
-caption: Organisationsweite agile Transformationen im Verhältnis zu gefühlter Instabilität der Branche (How to create an agile organization, 2017)
+caption: Organisationsweite agile Transformationen im Verhältnis zu gefühlter Instabilität der Branche (Ahlbäck et al., 2017)
 :--------------:
 
 ## Komplexität braucht Stabilität und Flexibilität: Was können agile Organisationen besser als andere?
