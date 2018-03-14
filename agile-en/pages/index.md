@@ -63,7 +63,7 @@ It isn’t just the business model of successful companies in the internet econo
 The management of complexity is one of the big challenges in the digital era.
 :--------------------:
 
-The concept of agility combines numerous theories, organisational models and methods, capable of encouraging self-organisation and internal complexity. In the VUCA world (the acronym stands for Volatility, Uncertainty, Complexity, Ambiguity), organisations with great internal complexity are economically more successful. They are more like living organisms than like rigid hierarchies, and self-organisation enables them to mobilise new resources. A study by McKinsey[: REFERENCE | mckinsey2017 | :] shows that companies whose industries are particularly subject to uncertainties are likely to introduce change processes with the goal to become more agile. 
+The concept of agility combines numerous theories, organisational models and methods, capable of encouraging self-organisation and internal complexity. In the VUCA world (the acronym stands for Volatility, Uncertainty, Complexity, Ambiguity), organisations with great internal complexity are economically more successful. They are more like living organisms than like rigid hierarchies, and self-organisation enables them to mobilise new resources. A study by McKinsey[: REFERENCE | ahlbaeck2017 | :] shows that companies whose industries are particularly subject to uncertainties are likely to introduce change processes with the goal to become more agile. 
 :--- KEYSTATEMENT ---:
 Agility refers to a higher degree of self-organisation to cope differently with complexity.
 :--------------------:

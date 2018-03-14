@@ -59,7 +59,7 @@ Nicht nur das Geschäftsmodell erfolgreicher Unternehmen in der Internetökonomi
 Komplexitätsmanagement ist eine der großen Herausforderungen für Unternehmen im digitalen Zeitalter.
 :--------------------:
 
-Das Konzept Agilität vereint zahlreiche Theorien, Organisationsmodelle und Methoden, die Selbstorganisation und interne Komplexität fördern können. Organisationen mit großer interner Komplexität sind in der VUCA-Welt – in der Volatilität, Unsicherheit, Komplexität und Ambiguität zunehmen – ökonomisch erfolgreicher. Sie gleichen lebenden Organismen statt starren Hierarchien und mobilisieren durch Selbstorganisation neue Ressourcen. Eine Studie[: REFERENCE | albaeck2017 | :] von McKinsey zeigt: Unternehmen, deren Branchen besonders mit Unsicherheiten umgehen müssen, leiten eher Veränderungsprozesse hinsichtlich agiler Organisation ein. 
+Das Konzept Agilität vereint zahlreiche Theorien, Organisationsmodelle und Methoden, die Selbstorganisation und interne Komplexität fördern können. Organisationen mit großer interner Komplexität sind in der VUCA-Welt – in der Volatilität, Unsicherheit, Komplexität und Ambiguität zunehmen – ökonomisch erfolgreicher. Sie gleichen lebenden Organismen statt starren Hierarchien und mobilisieren durch Selbstorganisation neue Ressourcen. Eine Studie[: REFERENCE | ahlbaeck2017 | :] von McKinsey zeigt: Unternehmen, deren Branchen besonders mit Unsicherheiten umgehen müssen, leiten eher Veränderungsprozesse hinsichtlich agiler Organisation ein. 
 :--- KEYSTATEMENT ---:
 Agilität bedeutet ein höheres Maß an Selbstorganisation und erlaubt einen alternativen Umgang mit Komplexität.
 :--------------------:
