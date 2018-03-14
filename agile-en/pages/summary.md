@@ -7,9 +7,3 @@ In the 21st century, the data-driven companies of internet economy achieve the b
 Agile companies seem particularly well-suited to deal with increased complexity, because they perceive uncertainty as a resource.
 :--------------------:
 
----
-
-“Uncertainty is an uncomfortable position. 
-
-But certainty is an absurd one.” Voltaire 
-
