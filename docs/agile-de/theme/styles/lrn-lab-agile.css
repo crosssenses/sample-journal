@@ -6707,6 +6707,10 @@ object {
   mask-size: cover;
   mask-position: left bottom; }
 
+.ms-full, .ms-chapter {
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
+
 .ms-row.ms-plugin .ms-col-content {
   display: flex;
   flex-direction: column; }
@@ -6938,6 +6942,9 @@ body {
   background: #a50032;
   border: 1px solid #ccc;
   color: white; }
+.ms-article-top .ms-col-marginal h3 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0rem !important; }
 
 /* Article */
 h1, h2, h3, h4, h5, h6,
@@ -7001,7 +7008,8 @@ article h3 {
   margin-top: 2rem;
   font-size: 1.5rem; }
 article .ms-inline {
-  color: #005F69; }
+  color: #005F69;
+  white-space: nowrap; }
   article .ms-inline i {
     vertical-align: super;
     font-size: 0.6em;
@@ -7187,7 +7195,8 @@ figure .ms-col-content a {
 
 .ms-plugin-full_figure {
   position: relative;
-  box-shadow: inset 0px 0px 5px #ccc; }
+  box-shadow: inset 0px 0px 5px #ccc;
+  background: white; }
   .ms-plugin-full_figure .ms-col-content a {
     margin: -1.5rem -50px -1.8rem -15px; }
 

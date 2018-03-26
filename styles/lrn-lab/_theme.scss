@@ -782,6 +782,7 @@ article{
 
     .ms-inline{
         color: theme-color(primary);
+        white-space: nowrap;
 
 //        &:hover{
 //            text-decoration: underline;
@@ -1146,6 +1147,7 @@ figure{
 //    background: #fefefe;
     position: relative;
     box-shadow: inset 0px 0px 5px #ccc;
+    background: white;
 
     .ms-col-content a{
         //make picture full size
