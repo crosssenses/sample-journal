@@ -1,14 +1,7 @@
-<h1>Directories</h1>
 
-<h2>Quellenverzeichnis</h2>
+<h1>Quellen</h1>
 
 :--- LISTOFREFERENCES --:
 title: Liste der Referencen
-:--------------------:
-
-<h2>Abbildungsverzeichnis</h2>
-
-:--- LISTOFFIGURES --:
-title: Liste der Abbildungen
 :--------------------:
 

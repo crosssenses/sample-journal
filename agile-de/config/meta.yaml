@@ -1,8 +1,10 @@
+lang:                   de
 styles:                 theme/styles/lrn-lab-agile.css
+scripts:                theme/scripts/lrnlab.js
 brand:                  graphite by impact·distillery
 background_url:         theme/images/background.jpg
-short_url:              https://idist.io/g/lrn-lab-agile-de
-social_image_url:       https://idist.io/g/lrn-lab-agile-de/assets/images/social.png
+short_url:              https://idist.io/g/lrnlab-agile-de
+social_image_url:       https://idist.io/g/lrnlab-agile-de/assets/images/social.png
 title:                  "Agilität"
 subtitle:               "Neues Buzzword, oder lebensnotwendige Fähigkeit für Organisationen im digitalen Zeitalter?"
 authors:                Andrea Kahlenberg, Jumana Klotsch und Jenny Fadranski
@@ -12,9 +14,9 @@ date_publication:       Februar 2018
 date_submission:
 date_last_updated:
 logo_url:               assets/images/logo-lrn-lab.png
-pdf_url:                
+pdf_url:                https://lrn-lab.com/site/assets/files/1/study_d.pdf
 doi:                    
-contact_email:          
+contact_email:          jenny.fadranski@innogy.com
 data_usage:
 disclaimer:
 author_info:            Agilität – Ein Whitepaper des LRN LAB by innogy Consulting
@@ -26,12 +28,12 @@ licence:
 abstract:               "Kaum ein Begriff geistert aktuell so häufig durch Organisationen wie dieser. Organisationen wollen agil sein, Teams sollen agil arbeiten und überhaupt muss alles plötzlich schneller gehen. Ist diese Bewegung eine Farce, oder haben wir es wirklich mit einem ernst zu nehmenden Phänomen zu tun? Fakt ist, dass die erfolgreichen Organisationen des digitalen Zeitalters besonders anpassungsfähig sind gegenüber Veränderungen in ihrer Umwelt. Die Globalisierung erhöht die Intensität der Waren-, Informations-, und Migrationsströme und destabilisiert politische und wirtschaftliche Ordnungen. Politikwissenschaftler Ian Bremmer nennt es die Zero Gravity World. Damit gemeint ist die wachsende politische Instabilität aufgrund der sich verschiebenden Wirtschaftsmacht. Der Begriff kann aber auch verstanden werden als Zustandsbeschreibung einer Welt, in der die ökonomischen Bedingungen volatil sind, technologischer Fortschritt exponentiell und in der die kulturelle Evolution des Menschen alte Werte und Organisationsweisen in Frage stellt."
 :---------------------------------------------------:
 tabs:
-  - title: "Studie"
+  - title: "Whitepaper"
     ref: "/"
     slug: index
     include_abstract: true
     md_container: article
-  - title: "Herausgeber"
+  - title: "LRN LAB"
     ref: "/editors/"
     slug: editors
     md_container: section
@@ -39,7 +41,11 @@ tabs:
     ref: "/summary/"
     slug: summary
     md_container: section
-  - title: "Quellenverzeichnis"
+  - title: "Quellen"
     ref: "/directories/"
     slug: directories
+    md_container: section
+  - title: "Impressum"
+    ref: "/imprint/"
+    slug: imprint
     md_container: section

@@ -25,3 +25,7 @@ LOCAL_JINJA_PATH = os.path.join(
 
 TEMPLATES[0]["DIRS"] = [LOCAL_JINJA_PATH, ] + TEMPLATES[0]["DIRS"]
 
+# Domains
+
+SHARE_DOMAIN = "http://idist.io/g/lrnlab-agile/"
+SHARE_DOMAIN_FULL = "https://www.impactdistillery.com/graphite/lrnlab-agile-en/"
