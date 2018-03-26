@@ -7007,6 +7007,8 @@ article .ms-inline {
     vertical-align: super;
     font-size: 0.6em;
     padding-left: 0.1em; }
+    article .ms-inline i:before {
+      display: inline !important; }
 
 /* Marginal notes */
 .ms-col-marginal {

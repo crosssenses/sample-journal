@@ -812,6 +812,10 @@ article{
             vertical-align: super;
             font-size: 0.6em;
             padding-left: 0.1em;
+
+            &:before {
+                display: inline !important;
+            }
         }
     }
 
