@@ -714,7 +714,7 @@ img{
 //    @extend .mb-3;
     background-size: cover;
     background-attachment: fixed;
-    background-color: map-get($lrn-lab-colors, fbright);
+    background-color: map-get($theme-colors, secondary);
 
     .container-fluid{
         background-image: url(#{$path-to-img}/lrn-lab-theme-20.svg);
