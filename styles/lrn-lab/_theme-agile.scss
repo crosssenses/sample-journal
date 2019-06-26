@@ -3,29 +3,253 @@
 // --------------------------------------------------
 
 
-article figure{
+//article figure{
+//
+//    .ms-col-content{
+//        @extend .col-lg-9;
+//    }
+//
+//    img{
+//        width: 100%;
+//    }
+//}
+//
+//.list-of-participants {
+//    width: 100%;
+//    margin-top: 0;
+//
+//    td {
+//        width: 50%;
+//    }
+//
+//    li, ul {
+//        list-style-type: none;
+//        padding: 0;
+//        margin: 0;
+//    }
+//}
 
-    .ms-col-content{
-        @extend .col-lg-9;
+.triangleUp{
+    content: '';
+    position: absolute;
+    left: 0;
+    @extend .offset-lg-1;
+
+    width: 100vw;
+    height: 100%;
+
+    // NEW: IE-bug:
+
+    background-image: url(#{$path-to-img}/triangle.svg);
+    background-size: cover;
+    background-position: left bottom;
+
+    //background-color: theme-color("secondary");
+
+    //-webkit-mask-image: url(#{$path-to-img}/triangle.svg);
+    //-webkit-mask-repeat: no-repeat;
+    //-webkit-mask-size: cover;
+    //-webkit-mask-position: left bottom;
+
+    //mask-image: url(#{$path-to-img}/triangle.svg);
+    //mask-repeat: no-repeat;
+    //mask-size: cover;
+    //mask-position: left bottom;
+
+}
+
+.triangleDown{
+    content: '';
+    position: absolute;
+    right: 0;
+
+    width: 100vw;
+    height: 100%;
+
+    // NEW: IE-bug:
+
+    background-image: url(#{$path-to-img}/triangleDown.svg);
+    background-size: cover;
+    background-position: right bottom;
+
+    //background-color: theme-color("secondary");
+
+    //-webkit-mask-image: url(#{$path-to-img}/triangleDown.svg);
+    //-webkit-mask-repeat: no-repeat;
+    //-webkit-mask-size: cover;
+    //-webkit-mask-position: left bottom;
+
+    //mask-image: url(#{$path-to-img}/triangleDown.svg);
+    //mask-repeat: no-repeat;
+    //mask-size: cover;
+    //mask-position: left bottom;
+
+    @include media-breakpoint-down(md){
+        right: 50%;
+        background-position: center center;
+        margin-right: -50vw;
     }
 
-    img{
-        width: 100%;
+}
+
+/* BACKGROUND */
+
+body{
+    background-image: url(#{$path-to-img}/background_4.svg);
+//    background-image: url(../images/background.svg);
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.ms-header{
+    @extend .jumbotron;
+    @extend .jumbotron-fluid;
+    @extend .mb-0;
+    background-color: theme-color("primary");
+//    background: $header-image-url;
+//    background-position: $header-image-position;
+    background-image: url(#{$path-to-img}/lrn-lab-theme-20.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* Hiding the TOC under the header */
+    position: relative;
+    z-index: map-get($z-index, header);
+
+    padding: 0px;
+    overflow: hidden;
+
+    .card {
+        background: none;
+        border-radius: 0;
+        border: 0;
+        min-height: 400px;
+        flex-direction: inherit;
+        text-align: right;
+        position: relative;
+
+        &:before{
+           @extend .triangleUp;
+        }
+
+        .card-body{
+            @extend .col-sm-11;
+            @extend .offset-lg-1;
+            @extend .py-4;
+            @extend .px-0;
+            @extend .my-auto;
+
+            background-color: transparent;
+            background-image: url(#{$path-to-img}/lrn-lab-theme-21.svg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: contain;
+            text-align: right;
+
+            .author{
+                display: none;
+            }
+
+            .card-title{
+                //@extend .col-md-6;
+                flex: 0 0 50%;
+                max-width: 50%;
+                //extend not working, apply col-md-6 directly instead
+                @extend .offset-md-5;
+                @extend .p-0;
+                @extend .my-4;
+                font-weight: 500;
+                color: white;
+            }
+
+            .card-subtitle{
+                @extend .col-md-6;
+                @extend .offset-md-5;
+                @extend .p-0;
+                font-size: 1.2em;
+                font-weight: 300;
+                color: white;
+                font-family: $headings-font-family;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+
+            .card-body{
+                padding: 2rem !important;
+
+                .author{
+                    font-size: 1.2em;
+                }
+
+                .card-title{
+                    font-size: 1.5em;
+                }
+
+                .card-subtitle{
+                    font-size: 1em;
+                }
+            }
+        }
     }
 }
 
-.list-of-participants {
-    width: 100%;
-    margin-top: 0;
+.ms-chapter{
+    @extend .ms-full;
+    @extend .ms-header;
+//    @extend .mt-5;
+//    @extend .mb-3;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: map-get($theme-colors, secondary);
 
-    td {
-        width: 50%;
+    .container-fluid{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+        .container .ms-row-full{
+            min-height: 80vh;
+        }
     }
 
-    li, ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
+    .ms-row-full{
+        background: none;
+        min-height: 300px;
+        flex-direction: inherit;
+        position: relative;
+
+        &:before{
+            @extend .triangleDown;
+        }
+
+        .ms-col-content{
+            @extend .py-4;
+            @extend .px-0;
+            @extend .mt-auto;
+            @extend .mb-4;
+        }
+    }
+
+    h2{
+        @extend .col-md-6;
+        color: white;
+        margin-bottom: 0 !important;
+        @include media-breakpoint-down(sm) {
+            font-size: 1.5rem;
+        }
+    }
+
+    p{
+        @extend .col-md-6;
+        font-size: 1.2em;
+        font-weight: 300;
+        color: white;
+        font-family: $headings-font-family;
     }
 }
- 
+
+

@@ -626,7 +626,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .ms-header .card .card-body .author, .ms-chapter .card .card-body .author, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "innogy", "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.1;
   color: inherit;
@@ -880,8 +880,8 @@ pre code {
 .col-lg-auto, .col-lg-12, .col-lg-11, .ms-row-full .ms-col-content, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-9, article figure .ms-col-content, .col-lg-8, .ms-row.ms-plugin .ms-col-content, .col-lg-7, .ms-row .ms-col-content, .col-lg-6, .ms-row-three .ms-col-content,
 .ms-row.ms-row-three.ms-plugin .ms-col-content, .col-lg-5, .col-lg-4, .col-lg-3, .ms-row .ms-col-marginal, .col-lg-2, .ms-row-three .ms-col-pre,
 .ms-row.ms-row-three.ms-plugin .ms-col-pre, .col-lg-1, .col-md,
-.col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .col-md-8, .col-md-7, .col-md-6, .ms-chapter p, .ms-chapter h2, .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
-.col-sm-auto, .col-sm-12, .col-sm-11, .ms-header .card .card-body, .ms-chapter .card .card-body, .col-sm-10, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col,
+.col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .col-md-8, .col-md-7, .col-md-6, .ms-chapter p, .ms-chapter h2, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
+.col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .ms-header .card .card-body, .ms-chapter .card .card-body, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col,
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
@@ -1116,12 +1116,12 @@ pre code {
     max-width: 75%;
   }
 
-  .col-sm-10 {
+  .col-sm-10, .ms-header .card .card-body, .ms-chapter .card .card-body {
     flex: 0 0 83.3333333333%;
     max-width: 83.3333333333%;
   }
 
-  .col-sm-11, .ms-header .card .card-body, .ms-chapter .card .card-body {
+  .col-sm-11 {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%;
   }
@@ -1269,7 +1269,7 @@ pre code {
     max-width: 41.6666666667%;
   }
 
-  .col-md-6, .ms-chapter p, .ms-chapter h2, .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
+  .col-md-6, .ms-chapter p, .ms-chapter h2 {
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -1284,7 +1284,7 @@ pre code {
     max-width: 66.6666666667%;
   }
 
-  .col-md-9 {
+  .col-md-9, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
     flex: 0 0 75%;
     max-width: 75%;
   }
@@ -1376,7 +1376,7 @@ pre code {
     margin-left: 33.3333333333%;
   }
 
-  .offset-md-5, .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
+  .offset-md-5 {
     margin-left: 41.6666666667%;
   }
 
@@ -1535,7 +1535,7 @@ pre code {
     margin-left: 0;
   }
 
-  .offset-lg-1, .ms-header .card .card-body, .ms-chapter .card .card-body, .ms-row .ms-col-content, .triangleUp, .ms-header .card:before, .ms-chapter .card:before {
+  .offset-lg-1, .ms-row .ms-col-content, .triangleUp {
     margin-left: 8.3333333333%;
   }
 
@@ -6692,7 +6692,7 @@ article section,
   margin-left: 3rem !important;
 }
 
-.p-0, .ms-tabs .nav-tabs, .ms-tabs, .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
+.p-0, .ms-tabs .nav-tabs, .ms-tabs, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
   padding: 0 !important;
 }
 
@@ -6868,14 +6868,12 @@ article section,
   padding-left: 3rem !important;
 }
 
-.m-auto {
+.m-auto, .ms-header .card .card-body, .ms-chapter .card .card-body {
   margin: auto !important;
 }
 
 .mt-auto, .ms-plugin-quote .ms-col-content .nav-tabs, .ms-plugin .ms-col-marginal .btn-toolbar, .ms-chapter .ms-row-full .ms-col-content,
-.my-auto,
-.ms-header .card .card-body,
-.ms-chapter .card .card-body {
+.my-auto {
   margin-top: auto !important;
 }
 
@@ -6886,9 +6884,7 @@ article section,
 }
 
 .mb-auto,
-.my-auto,
-.ms-header .card .card-body,
-.ms-chapter .card .card-body {
+.my-auto {
   margin-bottom: auto !important;
 }
 
@@ -8393,7 +8389,7 @@ object {
   pointer-events: none;
 }
 
-.triangleUp, .ms-header .card:before, .ms-chapter .card:before {
+.triangleUp {
   content: "";
   position: absolute;
   left: 0;
@@ -8404,7 +8400,7 @@ object {
   background-position: left bottom;
 }
 
-.triangleDown, .ms-chapter .ms-row-full:before {
+.triangleDown {
   content: "";
   position: absolute;
   right: 0;
@@ -8415,7 +8411,7 @@ object {
   background-position: right bottom;
 }
 @media (max-width: 991px) {
-  .triangleDown, .ms-chapter .ms-row-full:before {
+  .triangleDown {
     right: 50%;
     background-position: center center;
     margin-right: -50vw;
@@ -8435,15 +8431,6 @@ object {
   .ms-row.ms-text.ms-row-two {
     flex-direction: column-reverse;
   }
-}
-
-/* BACKGROUND */
-body {
-  background-image: url(https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images/background_4.svg);
-  background-position: bottom center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 /* Topline */
@@ -8478,45 +8465,31 @@ body {
 
 /* Jumbotron */
 .ms-header, .ms-chapter {
-  background-color: #007ba3;
-  background-image: url(https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images/lrn-lab-theme-20.svg);
+  background: url("/static/img/jumbo-background.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   /* Hiding the TOC under the header */
   position: relative;
   z-index: 900;
-  padding: 0px;
-  overflow: hidden;
 }
 .ms-header .card, .ms-chapter .card {
-  background: none;
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 0;
   border: 0;
-  min-height: 400px;
+  min-height: 300px;
   flex-direction: inherit;
-  text-align: right;
-  position: relative;
-}
-.ms-header .card .card-body, .ms-chapter .card .card-body {
-  background-color: transparent;
-  background-image: url(https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images/lrn-lab-theme-21.svg);
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
-  text-align: right;
 }
 .ms-header .card .card-body .author, .ms-chapter .card .card-body .author {
   font-size: 1.4em;
 }
 .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title {
-  font-weight: 500;
-  color: white;
+  font-weight: 600;
 }
 .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle {
   font-size: 1.2em;
-  font-weight: 300;
-  color: white;
-  font-family: "innogy", "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #868e96;
 }
 @media (max-width: 767px) {
   .ms-header .card .card-body, .ms-chapter .card .card-body {
@@ -8753,22 +8726,18 @@ h3 + h4 {
   background-color: #306f86;
 }
 .ms-chapter .container-fluid {
-  background-image: url(https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images/lrn-lab-theme-20.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
-.ms-chapter .container-fluid .container .ms-row-full {
-  min-height: 80vh;
-}
 .ms-chapter .ms-row-full {
-  background: none;
   min-height: 300px;
   flex-direction: inherit;
   position: relative;
+  background: rgba(255, 255, 255, 0.7);
 }
 .ms-chapter h2 {
-  color: white;
+  color: black;
   margin-bottom: 0 !important;
 }
 @media (max-width: 767px) {
@@ -8779,8 +8748,8 @@ h3 + h4 {
 .ms-chapter p {
   font-size: 1.2em;
   font-weight: 300;
-  color: white;
-  font-family: "innogy", "Open Sans", Helvetica, Arial, sans-serif;
+  color: black;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 article .ms-text ul {
