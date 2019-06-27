@@ -1,14 +1,17 @@
 /*!
- * LRN LAB agile theme based on horst
+ * HORST – The layout behind graphite
+ *
+ * Copyright 2017 impact·distillery
+ * Licensed under MIT
  */
 
 // Import Functions first (needed in variables)
-@import "../horst/functions";
+@import "functions";
 @import "../bootstrap/functions";
 
 //Import Theme HORST
-@import "fonts-agile";
-@import "variables-agile";
+@import "fonts";
+@import "variables";
 
 // Import Core Bootstrap 4
 @import "../bootstrap/variables";
@@ -49,8 +52,8 @@
 @import "../bootstrap/utilities";
 
 //Overwrite Bootstrap with Theme Details
-@import "../horst/theme";
-@import "theme-agile";
+@import "theme";
+@import "theme-sj";
 
 //Import Iconset
 @import "../materialdesignicons/materialdesignicons.scss";

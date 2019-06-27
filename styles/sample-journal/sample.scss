@@ -1,18 +1,14 @@
 /*!
- * Bootstrap v4.0.0-beta (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Sample Journal theme based on horst
  */
 
 // Import Functions first (needed in variables)
-@import "functions";
+@import "../horst/functions";
 @import "../bootstrap/functions";
 
 //Import Theme HORST
-// @import "fonts";
-@import "fonts";
-@import "variables";
+@import "../horst/fonts";
+@import "../horst/variables";
 
 // Import Core Bootstrap 4
 @import "../bootstrap/variables";
@@ -53,8 +49,8 @@
 @import "../bootstrap/utilities";
 
 //Overwrite Bootstrap with Theme Details
-@import "theme";
-@import "theme-sum";
+@import "../horst/theme";
+@import "theme-sample-journal";
 
 //Import Iconset
 @import "../materialdesignicons/materialdesignicons.scss";

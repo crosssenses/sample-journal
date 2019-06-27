@@ -1,5 +1,5 @@
 lang:                   de
-styles:                 theme/styles/lrn-lab-agile.css
+styles:                 theme/styles/sample-journal.css
 scripts:                theme/scripts/lrnlab.js
 brand:                  graphite by impact·distillery
 background_url:         theme/images/background.jpg

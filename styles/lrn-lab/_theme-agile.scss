@@ -1,33 +1,41 @@
+// ==================================================
+// Adaptaions for LRNLAB
+// ==================================================
+
+// CONTENTS
+// ==================================================
 //
-// Fixes/Adaptaions for SUM
+// Variables
+// General classes
+// Bootstrap Colums
+// General Layout Definitions
+// – BACKGROUND
+// – Topline
+// – Jumbotron
+// – Tabs
+// – Table of contents
+// – Article Top
+// – Article *//* Marginal notes
+// – Footer
+// Plugin Definitions
+// - Plugin general
+// - Full width plugin
+// - Infobox
+// - Slider
+// - Figure
+// - Video
+// - Quote
+// - Table
+// - Authors
+
+
+//
+// Variables
 // --------------------------------------------------
 
-
-//article figure{
 //
-//    .ms-col-content{
-//        @extend .col-lg-9;
-//    }
-//
-//    img{
-//        width: 100%;
-//    }
-//}
-//
-//.list-of-participants {
-//    width: 100%;
-//    margin-top: 0;
-//
-//    td {
-//        width: 50%;
-//    }
-//
-//    li, ul {
-//        list-style-type: none;
-//        padding: 0;
-//        margin: 0;
-//    }
-//}
+// General classes
+// --------------------------------------------------
 
 .triangleUp{
     content: '';
@@ -92,6 +100,15 @@
 
 }
 
+//
+// Bootstrap Colums
+// --------------------------------------------------
+
+//
+// General Layout Definitions
+// --------------------------------------------------
+
+
 /* BACKGROUND */
 
 body{
@@ -102,6 +119,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed
 }
+
+/* Topline */
+
+/* Jumbotron */
 
 .ms-header{
     @extend .jumbotron;
@@ -197,6 +218,14 @@ body{
     }
 }
 
+/* Tabs */
+
+/* Table of contents */
+
+/* Article Top */
+
+/* Article */
+
 .ms-chapter{
     @extend .ms-full;
     @extend .ms-header;
@@ -252,4 +281,28 @@ body{
     }
 }
 
+/* Marginal notes */
 
+/* Footer */
+
+//
+// Plugin Definitions
+// --------------------------------------------------
+
+/* Plugin general */
+
+/* Full width plugin */
+
+/* Infobox */
+
+/* Slider */
+
+/* Figure */
+
+/* Video */
+
+/* Quote */
+
+/* Table */
+
+/* Authors */
