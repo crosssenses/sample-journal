@@ -569,6 +569,12 @@ object{
 
     @extend .mb-4;
 
+    .ms-col-content{
+        p{
+            @extend: .sans-serif;
+        }
+    }
+
     .ms-article-logo{
         max-height: 100px;
     }

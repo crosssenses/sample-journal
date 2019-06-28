@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /*!
- * Bootstrap v4.0.0-beta (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Sample Journal theme based on horst
  */
 /* open-sans-300 - latin_latin-ext */
 @font-face {
@@ -877,7 +874,7 @@ pre code {
 
 .col-xl,
 .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg,
-.col-lg-auto, .col-lg-12, .col-lg-11, .ms-row-full .ms-col-content, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-9, article figure .ms-col-content, .col-lg-8, .ms-row.ms-plugin .ms-col-content, .col-lg-7, .ms-row .ms-col-content, .col-lg-6, .ms-row-three .ms-col-content,
+.col-lg-auto, .col-lg-12, .col-lg-11, .ms-row-full .ms-col-content, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-9, .col-lg-8, .ms-row.ms-plugin .ms-col-content, .col-lg-7, .ms-row .ms-col-content, .col-lg-6, .ms-row-three .ms-col-content,
 .ms-row.ms-row-three.ms-plugin .ms-col-content, .col-lg-5, .col-lg-4, .col-lg-3, .ms-row .ms-col-marginal, .col-lg-2, .ms-row-three .ms-col-pre,
 .ms-row.ms-row-three.ms-plugin .ms-col-pre, .col-lg-1, .col-md,
 .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .col-md-8, .col-md-7, .col-md-6, .ms-chapter p, .ms-chapter h2, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
@@ -1459,7 +1456,7 @@ pre code {
     max-width: 66.6666666667%;
   }
 
-  .col-lg-9, article figure .ms-col-content {
+  .col-lg-9 {
     flex: 0 0 75%;
     max-width: 75%;
   }
@@ -1535,7 +1532,7 @@ pre code {
     margin-left: 0;
   }
 
-  .offset-lg-1, .ms-row .ms-col-content, .triangleUp {
+  .offset-lg-1, .ms-row .ms-col-content {
     margin-left: 8.3333333333%;
   }
 
@@ -8389,35 +8386,6 @@ object {
   pointer-events: none;
 }
 
-.triangleUp {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  background-image: url(https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images/triangle.svg);
-  background-size: cover;
-  background-position: left bottom;
-}
-
-.triangleDown {
-  content: "";
-  position: absolute;
-  right: 0;
-  width: 100vw;
-  height: 100%;
-  background-image: url(https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images/triangleDown.svg);
-  background-size: cover;
-  background-position: right bottom;
-}
-@media (max-width: 991px) {
-  .triangleDown {
-    right: 50%;
-    background-position: center center;
-    margin-right: -50vw;
-  }
-}
-
 .ms-full, .ms-chapter {
   margin-top: 2rem !important;
   margin-bottom: 3rem !important;
@@ -8433,6 +8401,7 @@ object {
   }
 }
 
+/* BACKGROUND */
 /* Topline */
 .ms-navigation-top {
   font-weight: 500;
@@ -9066,29 +9035,30 @@ table caption {
   margin: 1rem 0;
 }
 
-/* Authors */
+/* Authors .ms-plugin-author */
 .ms-plugin-author img {
   border-radius: 50%;
   object-fit: cover;
 }
 
-article figure img {
-  width: 100%;
-}
-
-.list-of-participants {
-  width: 100%;
-  margin-top: 0;
-}
-.list-of-participants td {
-  width: 50%;
-}
-.list-of-participants li, .list-of-participants ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
+/* BACKGROUND */
+/* Topline */
+/* Jumbotron */
+/* Tabs */
+/* Table of contents */
+/* Article Top */
+/* Article */
+/* Marginal notes */
+/* Footer */
+/* Plugin general */
+/* Full width plugin */
+/* Infobox */
+/* Slider */
+/* Figure */
+/* Video */
+/* Quote */
+/* Table */
+/* Authors */
 /* MaterialDesignIcons.com */
 @font-face {
   font-family: "Material Design Icons";

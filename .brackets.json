@@ -15,7 +15,25 @@
             "brackets-git.gitPath": "git"
         },
         "*.css": {
-            "spaceUnits": 4
+            "spaceUnits": 4,
+            "fileFilters": [
+                {
+                    "name": "public+cache+map",
+                    "patterns": [
+                        "public/*",
+                        ".cache/*",
+                        "node-modules/*",
+                        "*.map"
+                    ]
+                },
+                {
+                    "name": "",
+                    "patterns": [
+                        "*.css",
+                        "*.map.*"
+                    ]
+                }
+            ]
         },
         "*.py": {
             "spaceUnits": 4
