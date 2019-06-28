@@ -2,3 +2,11 @@
 @function mstats-color($key) {
   @return map-get($mstats-colors, $key);
 }
+
+@mixin ms-col($col-bre, $col-wid, $col-off: 0){
+    @include make-col-ready();
+    @include media-breakpoint-up($col-bre) {
+        @include make-col($col-wid);
+        @include make-col-offset($col-off);
+    }
+}

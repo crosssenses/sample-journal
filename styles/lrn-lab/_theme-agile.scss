@@ -157,8 +157,7 @@ body{
         }
 
         .card-body{
-            @extend .col-sm-11;
-            @extend .offset-lg-1;
+            @include ms-col(sm,11,1);
             @extend .py-4;
             @extend .px-0;
             @extend .my-auto;
@@ -175,10 +174,7 @@ body{
             }
 
             .card-title{
-                //@extend .col-md-6;
-                flex: 0 0 50%;
-                max-width: 50%;
-                //extend not working, apply col-md-6 directly instead
+                @include ms-col(md,6);
                 @extend .offset-md-5;
                 @extend .p-0;
                 @extend .my-4;
@@ -187,7 +183,7 @@ body{
             }
 
             .card-subtitle{
-                @extend .col-md-6;
+                @include ms-col(md,6);
                 @extend .offset-md-5;
                 @extend .p-0;
                 font-size: 1.2em;
@@ -264,7 +260,7 @@ body{
     }
 
     h2{
-        @extend .col-md-6;
+        @include ms-col(md,6);
         color: white;
         margin-bottom: 0 !important;
         @include media-breakpoint-down(sm) {
@@ -273,7 +269,7 @@ body{
     }
 
     p{
-        @extend .col-md-6;
+        @include ms-col(md,6);
         font-size: 1.2em;
         font-weight: 300;
         color: white;

@@ -152,15 +152,20 @@ object{
 
 
 .ms-row{
-    @extend .row;
+    @include make-row();
+
+//    *[class*="ms-col-"]{
+//        @include make-col-ready();
+//    }
 
     .ms-col-content{
-        @extend .col-lg-7;
-        @extend .offset-lg-1;
+        // .col-lg-7 .offset-lg-1
+        @include ms-col(lg,7,1);
     }
 
     &.ms-plugin .ms-col-content{
-        @extend .col-lg-8;
+        // .col-lg-8
+        @include ms-col(lg,9);
         @extend .ml-0;
 
         display: flex;
@@ -168,7 +173,8 @@ object{
     }
 
     .ms-col-marginal{
-        @extend .col-lg-3;
+        // .col-lg-3
+        @include ms-col(lg,3);
         @extend .ml-auto;
     }
 
@@ -187,18 +193,23 @@ object{
 .ms-row.ms-row-three.ms-plugin{
 
     .ms-col-pre{
-        @extend .col-lg-2;
+        // .col-lg-2
+        @include ms-col(lg,2);
     }
 
     .ms-col-content{
-        @extend .col-lg-6;
+        // .col-lg-6
+        @include ms-col(lg,6);
     }
 
 }
 
 .ms-row-full{
     .ms-col-content{
-        @extend .col-lg-11;
+        // .col-lg-11
+        @include media-breakpoint-up(lg) {
+            @include make-col(11);
+        }
         @extend .ml-auto;
     }
 }
@@ -270,7 +281,7 @@ object{
 //                     rgba(0,0,0, .7)
 //                ),
 //                $header-image-url;
-    background: $header-image-url;
+//    background: $header-image-url;
     background-position: $header-image-position;
     background-repeat: no-repeat;
     background-size: cover;
@@ -568,12 +579,6 @@ object{
 .ms-article-top{
 
     @extend .mb-4;
-
-    .ms-col-content{
-        p{
-            @extend: .sans-serif;
-        }
-    }
 
     .ms-article-logo{
         max-height: 100px;

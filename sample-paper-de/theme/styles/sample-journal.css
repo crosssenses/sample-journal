@@ -855,7 +855,7 @@ pre code {
   margin-left: auto;
 }
 
-.row, .ms-row {
+.row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
@@ -874,9 +874,7 @@ pre code {
 
 .col-xl,
 .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg,
-.col-lg-auto, .col-lg-12, .col-lg-11, .ms-row-full .ms-col-content, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-9, .col-lg-8, .ms-row.ms-plugin .ms-col-content, .col-lg-7, .ms-row .ms-col-content, .col-lg-6, .ms-row-three .ms-col-content,
-.ms-row.ms-row-three.ms-plugin .ms-col-content, .col-lg-5, .col-lg-4, .col-lg-3, .ms-row .ms-col-marginal, .col-lg-2, .ms-row-three .ms-col-pre,
-.ms-row.ms-row-three.ms-plugin .ms-col-pre, .col-lg-1, .col-md,
+.col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md,
 .col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .col-md-8, .col-md-7, .col-md-6, .ms-chapter p, .ms-chapter h2, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
 .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .ms-header .card .card-body, .ms-chapter .card .card-body, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col,
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
@@ -1419,13 +1417,12 @@ pre code {
     max-width: 8.3333333333%;
   }
 
-  .col-lg-2, .ms-row-three .ms-col-pre,
-.ms-row.ms-row-three.ms-plugin .ms-col-pre {
+  .col-lg-2 {
     flex: 0 0 16.6666666667%;
     max-width: 16.6666666667%;
   }
 
-  .col-lg-3, .ms-row .ms-col-marginal {
+  .col-lg-3 {
     flex: 0 0 25%;
     max-width: 25%;
   }
@@ -1440,18 +1437,17 @@ pre code {
     max-width: 41.6666666667%;
   }
 
-  .col-lg-6, .ms-row-three .ms-col-content,
-.ms-row.ms-row-three.ms-plugin .ms-col-content {
+  .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 
-  .col-lg-7, .ms-row .ms-col-content {
+  .col-lg-7 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
   }
 
-  .col-lg-8, .ms-row.ms-plugin .ms-col-content {
+  .col-lg-8 {
     flex: 0 0 66.6666666667%;
     max-width: 66.6666666667%;
   }
@@ -1466,7 +1462,7 @@ pre code {
     max-width: 83.3333333333%;
   }
 
-  .col-lg-11, .ms-row-full .ms-col-content {
+  .col-lg-11 {
     flex: 0 0 91.6666666667%;
     max-width: 91.6666666667%;
   }
@@ -1532,7 +1528,7 @@ pre code {
     margin-left: 0;
   }
 
-  .offset-lg-1, .ms-row .ms-col-content {
+  .offset-lg-1 {
     margin-left: 8.3333333333%;
   }
 
@@ -8391,13 +8387,99 @@ object {
   margin-bottom: 3rem !important;
 }
 
+.ms-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.ms-row .ms-col-content {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .ms-row .ms-col-content {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+    margin-left: 8.3333333333%;
+  }
+}
 .ms-row.ms-plugin .ms-col-content {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
   display: flex;
   flex-direction: column;
+}
+@media (min-width: 992px) {
+  .ms-row.ms-plugin .ms-col-content {
+    flex: 0 0 75%;
+    max-width: 75%;
+    margin-left: 0;
+  }
+}
+.ms-row .ms-col-marginal {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .ms-row .ms-col-marginal {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-left: 0;
+  }
 }
 @media (max-width: 991px) {
   .ms-row.ms-text.ms-row-two {
     flex-direction: column-reverse;
+  }
+}
+
+.ms-row-three .ms-col-pre,
+.ms-row.ms-row-three.ms-plugin .ms-col-pre {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .ms-row-three .ms-col-pre,
+.ms-row.ms-row-three.ms-plugin .ms-col-pre {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+    margin-left: 0;
+  }
+}
+.ms-row-three .ms-col-content,
+.ms-row.ms-row-three.ms-plugin .ms-col-content {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .ms-row-three .ms-col-content,
+.ms-row.ms-row-three.ms-plugin .ms-col-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .ms-row-full .ms-col-content {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
   }
 }
 
@@ -8434,7 +8516,6 @@ object {
 
 /* Jumbotron */
 .ms-header, .ms-chapter {
-  background: url("/static/img/jumbo-background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
