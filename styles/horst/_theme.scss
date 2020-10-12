@@ -983,8 +983,8 @@ footer.ms-footer{
 .ms-plugin{
     @extend .py-4;
     @extend .my-4;
-//    border-top: 1px solid gray(300);
-//    border-bottom: 1px solid gray(300);
+    border-top: 1px solid gray(300);
+    border-bottom: 1px solid gray(300);
 
     @include media-breakpoint-down(sm){
         .ms-col-marginal{

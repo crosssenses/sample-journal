@@ -3,7 +3,10 @@
         "*.md": {
             "spaceUnits": 2,
             "wordWrap": true,
-            "brackets-git.gitPath": "git"
+            "brackets-git.gitPath": "git",
+            "bracketsEditorBookmarks.bookmarks": {
+                "/Users/larissa/Development/sample-journal/sample-paper-de/pages/editors.md": []
+            }
         },
         "*.html": {
             "spaceUnits": 2,
@@ -12,7 +15,18 @@
         },
         "*.scss": {
             "spaceUnits": 4,
-            "brackets-git.gitPath": "git"
+            "brackets-git.gitPath": "/usr/bin/git",
+            "bracketsEditorBookmarks.bookmarks": {
+                "/Users/larissa/Development/sample-journal/styles/horst/horst.scss": [],
+                "/Users/larissa/Documents/Arbeiten/mStats/beautiful-reports.wiki/Writing/Paper-xCoAx.md": [],
+                "/Users/larissa/Development/sample-journal/styles/sample-journal/_theme-sample-journal.scss": [],
+                "/Users/larissa/Development/sample-journal/styles/horst/_theme-adaptation.scss": [],
+                "/Users/larissa/Development/sample-journal/styles/lrn-lab/agile.scss": [],
+                "/Users/larissa/Development/sample-journal/styles/horst/_variables.scss": [],
+                "/Users/larissa/Development/sample-journal/sample-paper-en/theme/styles/sample-journal.css": [],
+                "/Users/larissa/Development/sample-journal/styles/horst/_functions.scss": [],
+                "/Users/larissa/Development/sample-journal/styles/sample-journal/sample.scss": []
+            }
         },
         "*.css": {
             "spaceUnits": 4,
@@ -33,7 +47,14 @@
                         "*.map.*"
                     ]
                 }
-            ]
+            ],
+            "bracketsEditorBookmarks.bookmarks": {
+                "/Users/larissa/Development/sample-journal/sample-paper-de/pages/index.md": [],
+                "/Users/larissa/Development/sample-journal/sample-paper-en/.gitignore": [],
+                "/Users/larissa/Development/sample-journal/sample-paper-en/theme/scripts/lrnlab.js": [],
+                "/Users/larissa/Development/sample-journal/sample-paper-en/theme/styles/lrn-lab-agile.css.map": [],
+                "/Users/larissa/Development/sample-journal/sample-paper-en/theme/styles/sample-journal.css": []
+            }
         },
         "*.py": {
             "spaceUnits": 4

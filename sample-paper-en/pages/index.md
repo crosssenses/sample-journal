@@ -1,193 +1,160 @@
 
 :----- CHAPTER_HEADER -----:
 image: "assets/images/mahdis-mousavi-327389_b.jpg"
-title: Age of Disruption
+title: Introduction
 subtitle: What questions do companies face in times of high market dynamics?
 :--------------------------:
 
-## High market dynamism and disruption are not fundamentally new features
+Scientific periodicals emerged in the seventeenth century ([: REFERENCE | McDougallWaters2015 | McDougall-Waters 2015 :]), and to the present day, the design and structure of scientific articles is defined by these early paper-based publications (see Davis 2014). We use bibliographic citations that are related to the ways libraries manage journals and books. And for more precise references, we use page numbers.
 
-The dynamism of actual markets has striking similarities with that of the manufacturing age. Up to the year 1900, high transport costs meant that most markets had just a short range, and were local and narrow. Competitors could avoid each other. This direct contact forced creativity and generated dynamism.[: REFERENCE | oestereich2017 | :] After 1900, falling transport costs were responsible for the emergence of new mass markets, which were wider in range and comparatively sluggish. Companies could expand their businesses without any problem, and at the same time optimise their internal processes. Taylorism and Fordism were characterised by scientific management, which introduced and enforced strict division of labour and work planning – with resounding success, as industrial production grew to a hundred times of what it had been before within two generations.[: REFERENCE | oestereich2017 | :] Since the 1980s, market dynamism has again risen drastically, as market liberalisation, the invention of the internet and global trade have resulted in networking on a wider scale. In the new network economy, all players operate globally. The planning and controlling methods, which resulted in great value creation under Taylorism, cannot longer cope with the speed and complexity of today’s dynamic markets.
+The scientific world, however, is changing and the first place where researchers look for publications is no longer a physical library but the internet. While the scientific workflow is increasingly moving online, the way research is presented still follows an analogue logic. So the traditional design for paper-based publications, including page numbers, was transferred to the new environment in form of Postscript or PDF documents. They preserve the established layout but also contain a digital representation of the text. This implies, for example, that search engines can index PDF files, challenging traditional and complex systems for literature management like thesauri. 
 :--- KEYSTATEMENT ---:
-Taylorism and Fordism resulted in great economic success: industrial production grew to a hundred times of what it had been before within two generations.
+The first place where researchers look for publications is no longer a physical library but the internet.
 :--------------------:
 
-According to a statistical study by the American Enterprise Institute[: REFERENCE | perry2016 | :] most companies in the Fortune 500 have failed to master these challenges in the last sixty years. Only 60 of the Fortune 500 companies from the year 1955 still belonged to this group in 2016. An explanation for this big fluctuation of companies can be supplied by disruption theory. At the beginning of the 1990s, the economist Clayton M. Christensen of the Harvard Business School defined the phenomenon of disruptive innovation. Disruptive innovations are described as innovations making products and services more accessible and affordable, and resulting in the acquisition of many more customers.[: REFERENCE | christensen2015 | :]
-:--- KEYSTATEMENT ---:
-The technological progress in particular functions as a disruption driver.
-:--------------------:
+Along with the way literature is retrieved and accessed, online tools transformed the way researchers communicate, collaborate, and organise their careers. This includes research-specific services like ResearchGate, Mendeley, or LabFolder as well as more generic tools for online editing, collaboration, or communication (see ([: REFERENCE | vanNoorden2014 | van Noorden 2014 :]) and ([: REFERENCE | Perkel2014 | Perkel 2014 :])). A variety of applications strive to facilitate citing and publishing research results online, yet the design for publications and citations remains the same. In this conceptual study we seek to rethink the narrative and design of scientific publications to meet the needs of changing modes of collaboration and reflect the potential of online publishing. 
+The share of research based on quantitative data is constantly increasing while the scientific community is still struggling to reference data sources appropriately. With citations being the most important currency for a scientific career ([: REFERENCE | Fecher2015 | Fecher et al. 2015 :]), we have to revise the way we include and cite data in publications. Comprehensive and interactive visualisations further enable researchers to make sense of and present complex data sets, multi-layered dependencies and real-time information. The integration of videos, animation, and dynamic content is no longer restricted to popular sciences and explicit fields of research but has found its way into articles of all kinds of academic disciplines.
 
-## Companies must challenge themselves, if they do not want to be the next victim of disruption 
+At the same time the evolving complexity of societal phenomenons, economic systems, and political decisions challenge established practices in journalism. Data journalism and interactive content “is becoming the industry standard” ([: REFERENCE | Rogers2011 | Rogers 2011 :]). Although infographics are highly popular and find a rapid distribution via social media channels, well-researched and reliable content becomes even more indispensable to advocate transparency in a world of filter-bubbles and populist uprising. The growing complexity and challenge of evaluating the credibility and quality of journalistic content online urges the academia to accelerate their publication processes and provide openly accessible content.
 
-What are organisational forms and culture called for, if companies are to make the best use of technological advances and keep up with the flow of successful digitalisation? An essential credo of digitalisation says *disrupt yourself*, before somebody does it to you. This principle was recognised by Amazon CEO Jeff Bezos at an early stage, who commissioned a team to destroy Amazon’s own book business back in 2006 – at the time its second most successful area, second only to its trade in music. He gave them this project just after turning down the offer from Apple’s then CEO, Steve Jobs, to work together with Amazon to develop a music streaming service. Apple launched iTunes and made massive inroads into Amazon’s core business. Bezos realised that self-attack is the best mode of defence.
-:--- LINK ---:
-Chinese white goods manufacturer *Haier* is a recent and fascinating example for how a company disrupts itself. [Haier wants to become an internet platform.](https://corporate-rebels.com/haier/)
-:--------------------:
+Along current efforts to reform academic publishing, we challenge the traditional layout of a scientific publication. In this article, we propose a redesign based on both web-based and page-based technologies to advance the way we publish and yet provide compatibility to the existing publishing standards. Within that, we tackle the current way of scientific publishing in three aspects: on a technical level we aim to increase the use of open source formats. Further, we suggest that the publication in question is to meet the state-of-the art level of usability and interaction design to foster visually enhanced academic publishing. Finally, an overarching aim is to initiate an open and frank discourse on how to support the collaborative elements of scientific work and research processes. 
 
-:--- FULL_FIGURE ---:
-file: assets/images/figures/Innogy-Agile_fortune-en.svg
-caption: Companies that were both 1955 and 2016 amongst the Fortune 500. (Perry, 2016)
-:--------------:
-
-Platforms are currently the predominant business model in the digital industry as they offer value-creating interactions between customers and producers. They facilitate this interaction by using digital technologies. Costumers and producers enjoy direct platform access to market to use or distribute services. The big advantage of the platform model lies in the fact that companies no longer need any assets of their own, which tie up capital. An overview of the most successful platform companies today reflects this trend:
-
-- The world’s biggest taxi company owns no taxis (Uber)
-- The world’s biggest hotel chain owns no property (Airbnb) 
-- The world’s biggest phone companies have no telecommunication infrastructure (Skype & WeChat)
-- The world’s biggest retail dealer has no inventory (Alibaba)
-- The most popular media owner creates no content (Facebook)
-- The most rapidly growing banks have no money of their own (SocietyOne)
-- The world’s biggest streaming platform does not own a cinema (Netflix)
-- The world’s biggest software suppliers do not programme the apps themselves (Apple & Google) 
-
-:--- FULL_FIGURE ---:
-file: assets/images/figures/Innogy-Agile_brands-en.svg
-caption: Top 5 of the world‘s most valuable brands. (Parsons et al. 2016)
-:--------------:
-
-The biggest value-creating companies of the 21st century come from the internet economy, where you would struggle to find an assembly line. Instead, internet services create valuable data amounts supporting the generation of large sums of money. For example, they support the development of smart machines, facilitate more deliberate product placement and feed algorithms which are constantly making business processes more automated. The economic growth of the 20th century on the other hand was mainly based on mechanical production for commercial purposes and Tayloristic organisational principles like planning and controlling. In agile organisations, which can handle the complexity of the internet economy, these principles have been replaced by self-organisation and new kinds of latitude.
-:--- KEYSTATEMENT ---:
-Data is the new gold.
-:--------------------:
+In the following, we first describe the theoretical concept for an interactive publication design. After that, we suggest a basic technical implementation. And finally, we discuss the consequences of this new design for scientific communication and collaboration.
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/iStock-472048811_b.jpg"
-title: "Complex world – complex organisations"
-subtitle: "How do flexibility and stability create an agile corporate culture with the power of identification?"
+image: "assets/images/mahdis-mousavi-327389_b.jpg"
+title: Concept
+subtitle: What questions do companies face in times of high market dynamics?
 :--------------------------:
 
-## Corporate cultures are changing – people seek meaning in their activities
+Traditional publications follow a linear narrative. Most scientific papers start with introducing one or more research questions, then outline the methods applied, present the results, and conclude with a discussion often evoking new research questions. This narrative is completed with an abstract and a list of literature, which the article refers to and an appendix suitable for additional material like small tables rather than for instance larger datasets.
 
-It isn’t just the business model of successful companies in the internet economy that differs from the business models of the industrial era. We are also observing a massive transformation of organisational and working culture. In his bestseller *Reinventing Organizations*,[: REFERENCE | laloux2015 | :] the former McKinsey partner and author Frederic Laloux focuses on changes in collaboration and leadership in organisations. In the age of digitalisation, old-style organisational leadership has reached its limits, Laloux concludes, adding that many employees and executive staff see work on the whole as a necessary evil. How can we counter the complexity of digitalisation, and how can people be given a chance to rediscover enthusiasm for and meaning in their work? The forms of collaboration and leadership models need a radical change, so Laloux. The crucial question for organisations is how they cope with the complexity that has come into being recently on the level of structures and processes. From cybernetics expert Ross Ashby we know that a system will be better capable of handling a complex and dynamic environment to the extent that it is able to make use of its own inner complexity. And inner complexity arises through multifarious social networking – in other words, it is based on the available communication possibilities. It is a matter of increasing the social density.[: REFERENCE | oestereich2017 | :]
-:--- KEYSTATEMENT ---:
-The management of complexity is one of the big challenges in the digital era.
-:--------------------:
+Within this linear design, various objects can be included (see figure 1). However, visualisations and diagrams are non-interactive and limited in complexity. Citations are static and refer to an entry in the bibliography at the end of the document. Tables are static, too, and most of all limited by the size of the page. Videos, sounds and other multimedia content can only be included by reference to an external service. The appendix can be used to include additional objects or smaller tables which are separated from the text body and allow the reader to focus on the main part of the document. However, similar technical limitations as described before apply to the appendix.
 
-The concept of agility combines numerous theories, organisational models and methods, capable of encouraging self-organisation and internal complexity. In the VUCA world (the acronym stands for Volatility, Uncertainty, Complexity, Ambiguity), organisations with great internal complexity are economically more successful. They are more like living organisms than like rigid hierarchies, and self-organisation enables them to mobilise new resources. A study by McKinsey[: REFERENCE | ahlbaeck2017 | :] shows that companies whose industries are particularly subject to uncertainties are likely to introduce change processes with the goal to become more agile. 
-:--- KEYSTATEMENT ---:
-Agility refers to a higher degree of self-organisation to cope differently with complexity.
-:--------------------:
-
-:--- FULL_FIGURE ---:
-file: assets/images/figures/Innogy-Agile_businesses-en.svg
-caption: Organisation-wide agile transformations in relation to perceived instabilty of businnes environment (Ahlbäck et al., 2017)
+:--- FIGURE ---:
+file: assets/images/figures/xcoax-2017-rethinking-academic-publications-figure-01.png
+caption: "Figure 1: Traditional approach to digital objects in scientific publications"
 :--------------:
 
-## Complexity needs both stability and flexibility: what can agile organisations do better than others?
+In contrast to this limited design, we would like to propose a multi-level approach (see figure 2). We distinguish three core layers in the document. First, the information layer, which basically represents the traditional design of an article. Second, the interactive layer allows the inclusion of multimedia objects, for example, videos or interactive visualisations and diagrams. Third, the data layer enables researchers to reference sources directly. These may be entire datasets, source code, interactive citations, and more. Further layers or sublayers are possible.
 
-The agility of a company is created through a particularly productive combination of stability and flexibility in structures, processes and roles. Putting it into a paradoxical way, agile potential means that you can decide to act not in an agile but in a rock-solid manner. Agility thus needs precisely the decision about which elements, in terms of processes, structure and roles, need to be kept stable and what elements need to be dynamised[: REFERENCE | eidenschink | :]. Agile organisations must consciously decide which teams, processes and structures function in an agile way and which ones are less suitable. Agile companies are distinguished by a radically (in the sense of ‘from the root up’) decentralised structure as the definitive organisation principle.[: REFERENCE | oestereich2017 | :] Organisations that want to become more agile must therefore challenge the current status quo on the three levels of individual and organisational **attitude** (values and mindsets), individual and organisational **responsiveness** (self-organisation of structures and processes), and **networking** (horizontal and vertical structures, exchange of knowledge and knowledge management) to rearrange themselves and learn from experience.
-:---- LINK -----:
-Recommended reading:
-[Discussion Paper on Agility and New Work by Deutscher Bundesverband Coaching e.V.](http://www.dbvc.de/_Resources/Persistent/cd9f959fd1a6d02d953024ca19f0d5e60f9e6507/DBVC_Positionspapier02_Pra%CC%88sidium%20-%202017_10_19_final.pdf)
+This approach empowers authors to address different audiences on multiple narration levels, e.g., address a broader audience in the main article yet still include further technical details for members of the respective scientific community. Or complement sections of the article that use exclusive technical language with explanatory paragraphs or further readings to make the article more accessible for audiences from other disciplines, politics, economy or the general public.  
 
-:-------------------:
+Looking at the data layer, a diagram can be supported by the aggregated data that are visible in diagram, the underlying raw data, and the source code that were used to generate the aggregated values. The integration of code and raw data is of particular relevance for the reproducibility of results. Psychological science came under fire most recently, when an increasing number of popular experiments failed to replicate (e.g., [: REFERENCE | Jarret2016 | Jarret 2016 :], [: REFERENCE | OSC2015 | Open Science Collaboration 2015 :]). This highlights the need for scientific publications to include all material necessary to reproduce or replicate their results. This not only includes the underlying research data but also the source code that was used to process and analyse the data. Furthermore, scientific results are not the only element that are generated by algorithms and code. Visualisations or interactive elements can also be based on code which can be valuable either to comprehend or to reuse as open source code in new publications. Moreover, providing the source code also enables the audience to produce unexpected, new interpretations or meanings based on the data.
 
-In companies we can observe different approaches. On the one hand new units are founded as start-up hubs to develop innovative ideas, test out different modes of working, and integrate these into the parent group later on. Another approach is to implement agile lighthouse projects, in which the new working mode is expected to demonstrate its success. Some examples of German companies, by way of illustration, are given below.
+:--- FIGURE ---:
+file: assets/images/figures/xcoax-2017-rethinking-academic-publications-figure-02.png
+caption: "Figure 2: Our proposal for the inclusion of in-depth material as digital objects"
+:--------------:
 
-A start-up platform founded by **Bosch** serves as incubator for new business ideas, which are then tested within various innovation clusters, such as *connected industry* or *mobility*. A successful agile partnership was realised between Bosch and the electric vehicle manufacturer Tesla. Bosch functioned as a supplier of chassis and safety systems. Many of the hardware and software components can be precisely adapted for the various requirements of the individual vehicle models. The development and implementation could be carried out in half the standard development time. In another project, Bosch was able to develop a new, networked sensor solution for asparagus cultivation in just three weeks of development. The temperature in the earth where the vegetable is grown can be communicated to a smartphone. This makes it easier to create the best possible growing conditions. The short development time resulted from the use of agile procedures and methods of interdisciplinary teamwork. Agile solutions are suitable in situations where the technologies, or the approaches to development of a solution, are to some extent still unclear to begin with, and where the requirements for a new product are going to be subject to change in the course of time, says Bosch CEO Dr Volkmar Denner.[: REFERENCE | denner2015 | :]
-:--- KEYSTATEMENT ---:
-Agile Methods helped Bosch to develop a product in half the standard development time.
+Taking a look at practical examples of how research data is transferred in terms of usability, technical interoperability and visualisations within scientific publications, our sobering realisation is once again confirmed: in the classical field of academic publishing, most publications seem to be limited in terms of interactivity and supportive visualisations, also due to scientific rigor. Another reason is, that “in contrast to experts in visual communication, such as graphic designers – science communicators are not generally trained in visual literacy” ([: REFERENCE | Rodriguez2015 | Rodríguez Estrada and Davis 2015, 142:]). User habits and the “visual speak” are oftentimes excluded in the academic publication process (ibid.). However, advantages through visually enhanced information as well as interactive elements are numerous. For example interactive elements can offer a “serendipitous value” ([: REFERENCE | Melo2016 | Melo and Carvalhais 2016 :], 40) for the reader encountering unexpected information – who is no longer just a primarily passive reader but an active user in a digitally enhanced user environment.  
+
+In contrast, data journalism, popular science as well as commercially motivated research activity present numerous projects that illustrate the growing requirements and complexity of data visualisations. And it comes as no surprise, that science leaps behind other (mainly industry related) fields regarding the popularity of infographics. Industries like health, entertainment, business and social media show the relevance of smart data visualisation like infographics.
+:--- LINK ---:
+What Makes an Infographic Popular? [The science behind the most popular infographics](http://www.siegemedia.com/most-popular-info-graphics)
 :--------------------:
 
-**Daimler** created the hackathon series *Digital Life Campus*, held in Stuttgart, Bangalore, Beijing and Silicon Valley. The objective was to build an autonomous, driverless RoboCab from Lego components. As a result of the events, the automotive group acquired new employees, doctoral candidates, work experience trainees, and working students. The students developed 54 ideas; four prototypes are currently being evaluated by the various specialist departments, and another 16 ideas are being scrutinised.[: REFERENCE | bayer2017 | :]
-:--- KEYSTATEMENT ---:
-Daimler profits by using the intelligence of many talents.
+Especially in the field of public and political institutions as well as popular science exemplary cases successfully transfer complex data sets in (interactive) infographics of high quality . Examples can be found on various levels: from Transparency International providing an interactive map on lobbying in Europe , the New York Times publishing a map showing government benefits throughout the US over three decades based on an interactive design  as well as university projects visualising data about the effects of Airbnb in Berlin . Each of them offers an intuitive handling including interactive maps, supplemented for example by control parameters for specific information and data. Political bodies publish valuable information in increasingly interactive content: for example the Scottish Parliament shows in a well-prepared tool different aspects on the proposed budget for 2017 and 2018. The tool lets the user explore the allocation of budget on various detailed levels . Moreover, the German Government recently released an interactive report on life quality in Germany with a highly interactive design. 
+:--- LINK ---:
+Interactive) infographics of high quality: [informationisbeautiful.net]( http://www.informationisbeautiful.net)
+:--------------------:
+:--- LINK ---:
+Transparency International: [transparency.org](http://eurlobby.transparency.org/)
+:--------------------:
+:--- LINK ---:
+NYT government benefits: [nytimes.com](http://www.nytimes.com/interactive/2012/02/12/us/entitlement-map.html?src=tp&_r=0)
+:--------------------:
+:--- LINK ---:
+Airbnb in Berlin: [airbnbvsberlin.com](http://www.airbnbvsberlin.com)
+:--------------------:
+:--- LINK ---:
+Scottish Parliament budget: [parliament.scot](http://www.parliament.scot/Budget/ExploretheBudget-2017-18/node-link.html)
+:--------------------:
+:--- LINK ---:
+Life quality in Germany: [gut-leben-in-deutschland.de](https://www.gut-leben-in-deutschland.de)
 :--------------------:
 
-In 2014 **Lufthansa** set up the Lufthansa Innovation Hub in Berlin to encourage the digital transformation of the company. With an eye to structural changes and macro and micro trends on the travel market, the aim was to develop concrete products in response. This went hand in hand with the introduction of the Lufthansa Open API, bringing together 80 different data pools that can be accessed by developers and partners at [developer.lufthansa.com](https://developer.lufthansa.com/).[: REFERENCE | bayer2017 | :]
 
-But all these efforts are a long way from being enough. In his book *Silicon Germany* Christoph Keese draws the conclusion: Too little money, too many worriers, too little courage, not enough innovative spirit – these factors are dangerous impediments to the impetus of start-ups in Germany.[: REFERENCE | keese2016 | :] One reason for this, Keese thinks, is the German zero error culture. He argues that successful companies are rethinking the concept of error. Innovation steps become bigger when you are willing to take a certain measure of failures on board. And then there is the unresolved question of reintegrating the innovation hubs, digital labs, and innovation teams. How can the experiences of these teams be brought back into the everyday life of the company, and integrated with existing working processes?[: REFERENCE | keese2016 | :]
-:--- KEYSTATEMENT ---:
-In Germany, making mistakes still is not a virtue.
-:--------------------:
 
-Then too, the question of the meaningfulness of one’s own work and the meaning of the organisation is increasingly affecting the performance of German companies. With Laloux, we may say that the organisational performance influences the economic performance. Laloux here describes three success factors of the evolutionary organisation:
-
-:----- QUOTE -----:
-quote: "Power is multiplied when every individual acquires power, not just a few people at the top (self-leadership)<br>
-<span style='display: inline-block; margin-bottom: 0.5rem;
-margin-top: 0.5rem;'>Power is used with greater wisdom, because people put more of themselves into their work (holism)</span><br>
-Somehow everything finds its own proper place, because people connect their power and their wisdom with the life force of the organisation (evolutionary meaning)"
-author: Frederic Laloux
-authorDescription: "Reinventing Organizations"
-link: http://www.reinventingorganizations.com/
-:-------------------:
-
-According to Laloux, energies are released by meaningfulness, self-leadership, learning and the improved use of talents; there is less loss of energy caused by the assertion of the ego, less loss of energy caused by conformity, less energy lost in discussions.
-
-It’s the small to medium sized enterprises that are experimenting with self-organisation. At the Trumpf company 4500 employees, from production assistants to executive staff, were allowed to decide over a period of two years how many hours they wanted to work.[: REFERENCE | astheimer2014 | :] At the vegan condom manufacture Einhorn, the 8-hour work day was abolished.[: REFERENCE | boes2018 | :] The digital agency Elbdudler has introduced a system whereby its employees can be paid the salary they ask for.[: REFERENCE | astheimer2014 | :] These concrete measures of increased self-determination and self-organisation encourage the development of a different kind of mindset, and have positive effects on the performance of the company. 
+The examples above illustrate the possibilities to transfer complex information into low-threshold offerings in a mainly non-scientific context. Interactive elements allow readers a user-friendly and playful content perception. The reports show that interactive and user friendly reports with multiple layers of information as well as access to data sources are feasible. The current implementation of those reports, however, involves a significant amount of manual work, which makes it unrealistic for large-scale use. We therefore like to continue with our concept for a technical framework that lowers the barriers for researchers and journalists to produce both functionally and aesthetically enhanced publications.
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/arindam-mahanta-217437.jpg"
-title: "Agility & Leadership"
-subtitle: "What are the keys to agile corporate structures and what does agile leadership look like?"
+image: "assets/images/mahdis-mousavi-327389_b.jpg"
+title: Implementation
+subtitle: What questions do companies face in times of high market dynamics?
 :--------------------------:
 
-## Self-organisation as key to success: do we then still need leadership at all? Three principles for agile leadership
+The basic idea for the technical implementation is to work with plain text formats which can be transformed into the desired output formats automatically. The documentation generator Sphinx, originally implemented to generate the documentation for the Python programming language, provides a stable example for generating both PDF and HTML out of a simplified markup language called ReStructuredText. The community of the Ruby programming language and services like Github, however, prefer Markdown for a simple markup. In a direct comparison, Markdown can be considered to be a rather small subset of ReStructured Text, which makes it also significantly more user-friendly for beginners.
+:--- LINK ---:
+Documentation generator Sphinx: [sphinx-doc.org](http://www.sphinx-doc.org/)
+:--------------------:
 
-The answer is yes – leadership is always going to be necessary. However, it is undergoing a process of transformation. Agility is also needed in leadership, of the sort, which is particularly distinguished by the fact that it is distributed among many rather than just a few people. Agile leadership comprises the three levels of attitude, responsive structures and networking. Leadership focuses increasingly on shaping the right framing conditions, on rolemodelling the values and behavioural attitudes that are seen as desirable and on network management. Leadership also has to resolve conflicts, and to decide in case of escalation.
+These formats are focused on simple text documents (Markdown) or on specific use cases like providing a documentation tool for a particular programming language (Sphinx). There have been first attempts to adopt these languages in the context of scientific publications (e.g. Scholarly Markdown ), but they all fall short on the proposed design for scientific publications as suggested in the previous section. This is mainly because they are developed with a linear storyline in mind without additional layers for data or interactive material.
+:--- LINK ---:
+Scholarly Markdown: [scholarlymarkdown.com](http://scholarlymarkdown.com/)
+:--------------------:
 
-Leaders need to ask the following questions in particular: How does this company basically work? What decisions are taken, why and by whom? What processes need how much rapidity, flexibility and stability? What patterns and dysfunctionalities can be identified? In most cases faulty developments are less attributable to employees than they are down to the ingrained and daily repeated behavioural attitudes in the company. These are caused by structures, and, as a result, give rise to dysfunctional patterns.
+Similar to Sphinx, we propose implementing a compiler for our plain text input format that generates the desired HTML and PDF outputs (see figure 3). Similar compilers already exist, for example the popular Pandoc  tool or a variety of static page generators (e.g.,  ), but most of them lack even basic support for scientific publications. For the PDF output, we use LaTeX as an intermediate format to render the PDF files. LaTeX has proven to be easy to include in highly automated environments and comes with important features, like float environments for figures and tables, or comprehensive support for citations and bibliography. For the HTML output, we use a static site generator, which renders publication-ready HTML pages and the complementing material (CSS, JavaScript, images, etc.). The resulting output can be published on the internet directly or bundled as a ZIP file – all the user requires is a standard web browser. Interactive elements are realised in JavaScript and can also be rendered in the browser. On the publisher's side, the requirements might become more complex because the modularized design of the compiler allows the inclusion of more tools (e.g., R, Python or other libraries).
+:--- LINK ---:
+Pandoc: [pandoc.org](http://pandoc.org)
+:--------------------:
+:--- LINK ---:
+Jekyll: [jekyllrb.com](https://jekyllrb.com)
+:--------------------:
 
-:--- FULL_FIGURE ---:
-file: assets/images/figures/Innogy-Agile_questions-en.svg
-caption: What companies that want to become more agile need to question
+:--- FIGURE ---:
+file: assets/images/figures/xcoax-2017-rethinking-academic-publications-figure-03.png
+caption: "Figure 2: The basic design for the technical infrastructure"
 :--------------:
 
-### Agile leadership principle no. 1: attitude
-
-A person’s attitude feeds on his/her fundamental convictions, assumptions and experiences. With an eye to developing an agile organisation it is crucial that individuals should become conscious of the complexity and fragmentary nature of the world. We have the choice whether we fall victim to the error of supposing that the world is comprehensible and easy to explain and that the powerful determine the state of the world and the company. We can likewise acknowledge the complex interconnections of the many systems (human being, family, company, state, economy, law, leisure) and scrutinise polarised thinking in terms of opposites like good and evil, right and wrong, success and failure. This is a complex exercise itself, as we human beings have learned to think in a linear way and it is difficult for us to think in exponential and systemic terms.
-
-Just as with the individual, in organisations fundamental convictions and patterns come to be established as well – for example a trust-based attitude to people, or alternatively a coexistence characterised by mistrust. The values of the agile manifesto, which originated with software development, sum up the necessary attitude of the ‘agile mindset’ effectively in the following terms:
-
-:----- QUOTE -----:
-title: Beck 2001
-quote: "<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Individuals and interactions</strong> over processes and tools</span><br>
-<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Working software</strong> over comprehensive documentation</span><br>
-<span style='display: inline-block; margin-bottom: 0.5rem;'><strong>Customer collaboration</strong> over contract negotiation</span><br>
-<strong>Responding to change</strong> over following a plan"
-generalSource: Agile Manifesto
-sourceDescription: "by The Agile Alliance"
-link: http://agilemanifesto.org
-:-------------------:
-
-But to avoid this being just a scratch on the surface, the new behavioural modes need to be anchored in the structures of a company. Christoph Keese describes the way in which at Netflix neither working hours, working days nor periods of leave are clocked up. The founder and CEO Reed Hastings, moreover, does not have a fixed office of his own and is a leader of the new age: The Netflix CEO lives out an understanding of his role that could become a standard for many managers in the age of digitalisation. Executive staff no longer take up a position in the foreground, but rather keep themselves back. They hardly ever assign concrete tasks any more, but rather put the right questions and give teams the job of finding the answers. They hardly ever formulate rules any more, but rather concentrate on effectively getting across their own culture. They do not hand out instructions from above to below, but distribute impulses in all directions. They do not think in terms of fulfilling plans, but uncover truths, identify weak points and reward honesty. They do not disempower, but encourage freedom. They are not complacent, but are always challenging themselves and their business models. They do not put on a show of strength, but display vulnerability. They are not insecure, but take care to avoid any excessive assurance. They do not give orders but listen. They despise status symbols and ask for acknowledgement to be based on their projects. They do not control any structure of commands, but rather coordinate working groups.[: REFERENCE | keese2016 | :]
-:--- KEYSTATEMENT ---:
-At Netflix working hours and leave won't be tracked and the CEO has no fixed office.
-:--------------------:
-
-In most companies, moreover, it is not clear what role is assigned to employees who are the object of leadership, so to speak. Employees too have a responsibility to adopt a self-determining attitude in relation to those in leadership positions: in being conscious that no one has power over them, unless they give it to them; that they will be disappointed and also disappoint others. Employees can ask themselves: am I aware of my changing environment, do I learn from others and let others learn from me, do I talk to others rather than passing judgment on them, and do I share important information with the other person?   
-:--- KEYSTATEMENT ---:
-Not only leaders have responsibility, employees do, too.
-:--------------------:
-
-### Agile leadership principle no. 2: responsive structures
-
-Responsiveness means the ability of the organisation to respond adequately and adapt to market conditions. This generally succeeds only when complex problems are tackled on an interdisciplinary basis. Agile structures avoid the distribution of work and any kind of differentiation in the value creation process. Agility lays more emphasis on the question of which value-creating activities are necessary in order to satisfy the requirements of the market, and how an autonomous team can handle the associated tasks.[: REFERENCE | kasch2013 | :] In concrete terms, this means that thinking in terms of specialisation and special areas of expertise must give way to a new kind of logic. In German industry, in particular, Keese states, thinking and organising in terms of specialist departments and specialisations was a big factor for success in the past, as it resulted in top-quality industrial products. With digitalisation, however, it has become a problem. Rethinking the situation is a difficult business, because it entails a loss of certainty – because expanding horizontally means branching out into the unknown. Nobody knows anybody in this alien field, nobody knows what the rules are and people are no longer conscious of their own strengths. When a person feels good as a member of his own specialist group, he isn’t going to want to get active as a builder of bridges.[: REFERENCE | keese2016 | :] According to Keese we can only escape from this pattern with the help of a leadership culture that calls for audacity and encourages experiments. But the zero-error culture in Germany makes this practically impossible.
+To realise the multi-layer design in our generic input format, we need an embracing standard that is able to bundle various media formats and layers. To stay in line with the discussion on the text format, we propose to use JSON as a container. This means that the heart of the technical implementation will be the definition for a container-object in JSON. This object would both hold the configuration for the entire document and bundle the content parts, which will be stored in separate files, by reference. A similar approach was already implemented by FidusWriter, an open-source tool for collaborative editing. FidusWriter, however, neither differentiates between multiple layers nor supports interactive elements.
 :--- LINK ---:
-Recommended reading:
-[IOM-Whitepaper: The three pillars of Agile Organizations](https://www.steinbeis-iom.de/iom-thinktank/iom-whitepaper/)
+FidusWriter: [fiduswriter.org](https://www.fiduswriter.org)
 :--------------------:
 
-Laloux formulates the necessary restructuring in a much more radical way, under the heading of ‘structures and processes of self-leadership’. In evolutionary organisations the traditional pyramid model is replaced by an interlocking system of structures, processes and practices. Holacracy refers to a concrete concept of an alternative form of hierarchy, designed to bring about greater flexibility and release the creative potential of self-organisation. Brian Robertson, the founder of Holacracy, defines the concept as a social technology for the control of organisations, understanding these as organisms, which feel, adapt, learn and integrate new things.[: REFERENCE | robertson2015 | :] The central component here is the transfer of power from person-related leadership to power, which is constitutionally based. Immediately, when a company introduces Holacracy, the CEO must sign a constitution, whereby he or she surrenders power to the agreed processes and rules it embodies. Within a Holacracy, recruitment is not on the basis of job descriptions. Instead roles are defined, which meet a specific function in the company. In this context a person can embody several roles. Teams organise themselves. This makes control of the organisation increasingly decentralised, because it takes place on many different levels. The biggest company organised as a Holacracy is Zappos, an online trader with 1500 employees. In addition, there exist numerous methods, where it is not a matter of restructuring of fundamental company hierarchies. These methods help different processes and behavioural attitudes to be established that are capable of giving rise to greater agility. The commonest contemporary methods, to mention just a few, are Design Thinking, Scrum and Lean Startup. 
+
+With the container object in place, we no longer have to anticipate all possible content classes but create a flexible framework that is easy to extend with new modules. The requirement for new models would be to define a basic plain text interface and to be able to render into all necessary output formats, namely LaTeX/PDF (including static images) and HTML (including interactive JavaScript visualisations). Using the example of statistical graphs, we might start with a simple interface for rendering basic bar charts of scatter plots. However, the framework would enable programmers to easily integrate more complex tools as additional modules into the framework, for instance, the popular ggplot2 R-library as sophisticated tool for statistical visualisations.
+
+For the long term, we expect HTML5 and related technologies (in particular, JavaScript, CSS, and SVG) to become the dominant standard for scientific publications, superseding the current use of Word and PDF files. As mentioned before, we intend to provide both static PDF and interactive HTML from one source, but it will not be possible to implement the full functionality we can provide with the HTML version into the static PDF format. In the PDF file, some functionality will only be available through links to the HTML version. For the following discussion, we will focus on HTML5 to illustrate the full potential.
+
+In the previous section (Concept) we already identified a basic set of components, which can be implemented as a fundamental set of modules for our framework. Using HTML5 and JavaScript, we can build on a comprehensive set of libraries. For the table module, we suggest storing the data in CSV files and using libraries like jQuery-plugin DataTables . There are various JavaScript libraries for rendering graphs, visualisations and other interactive content (for example, D3  or paper.js ). For the initial calculation of the graph, the statistical software R provides a comprehensive set of tools, including the previously mentioned ggplot2 package. Furthermore, tools like Plotly already bridge the gap between R and JavaScript. Regarding images (photos), video, and audio, HTML5 (in comparison to previous versions of HTML) comes with sufficient functionality. A remaining challenge is to implement a flexible system for citation and references which satisfies academic requirements.
 :--- LINK ---:
-[Holacracy at Zappos](https://hbr.org/ideacast/2016/07/the-zappos-holacracy-experiment.html)
+DataTables: [datatables.net](https://datatables.net)
+:--------------------:
+:--- LINK ---:
+D3: [d3js.org](https://d3js.org)
+:--------------------:
+:--- LINK ---:
+paper.js: [paperjs.org](http://paperjs.org)
+:--------------------:
+:--- LINK ---:
+Plotly: [plot.ly](https://plot.ly)
 :--------------------:
 
-### Agile leadership principle no. 3: networking
+A specific challenge with the multi-layer approach, is the navigation through the layers. The core of the article is the information layer which contains links to the various levels of the data layer. We suggest that marginal notes provide an efficient solution to reference additional material (both internal and external) as part of the information layer, sparing us the necessity to implement a more complex navigation system. But most of all, the references are found next to the part of the article where they belong to, and not somewhere in a navigation bar. Furthermore, this implies that within the text part of the information layer, the paragraph would be the smallest entity to reference. On the technical level, each paragraph in the HTML document gets an ID (for example an UUID).
 
-The more global networking increases, the more companies also become a part of complex networks. The communicative networking leads to fundamental reorganisation of work and of the organisation itself. In theoretical and practical terms, a company can float in the Cloud completely with all its data and can be accessed from any part of the world. But its internal structures as well generally tend to resemble networks rather than the classic form of an organisational diagram. In particular, information technology supports a higher degree of internal and external referentiality. What would the structure of a company be like, if the company sees itself as being a network? Rigid structures and hierarchies, such as reproduced in the classic organisational diagram, would lose their legitimacy. The focus would tend to shift from positions and committees in the direction of processes and the presentation of different hierarchies, like those of competence, experience and formal power of decision. 
-:--- KEYSTATEMENT ---:
-Companies are rather like networks than like rigid organisational diagrams.
+:----- CHAPTER_HEADER -----:
+image: "assets/images/mahdis-mousavi-327389_b.jpg"
+title: Discussion
+subtitle: What questions do companies face in times of high market dynamics?
+:--------------------------:
+
+The multi-layer design requires us to reconsider the way we reference and cite scientific material. This challenge is basically three-fold: First, how do we reference and therefore find an article as a whole? Second, how do we make more precise references within an article? And third, how do we acknowledge scientific contributions of individual researchers? In the old world, papers would be found in journals, provided to you by libraries. You could make more precise references using page numbers. And for the contribution, a significant amount of journals has a so-called impact factor, which is based on the number of citations their articles receive on average. As a researcher, you would basically sum up the impact factor for all the articles you have published, based on the impact factor of the respective journal that your article was published in, resulting in your aggregated impact factor. All three solutions fall short for interactive, multi-layer publications.
+
+Identifier systems usually have two core characteristics. First, they should provide a consistent identifier that does not change over time. Second, this identifier should actually resolve to the content or material that it is expected to reference. In the scientific world, Digital Object Identifiers  (DOI) have become increasingly popular to identify both entire articles and smaller entities (like figures or tables). The identifier system used on the internet, however, are Uniform Resource Identifiers (URI) which become increasingly important in times of the Internet of Things (IoT) and the rise of Semantic Web technologies. In general, we think that URIs are more suitable in the long run as they do not depend on a single, commercial provider and are directly tied to the internet as our primary distribution channel. Furthermore, URIs are better suited to reference nested material, as we find it in our multi-layer approach. In particular, we can use IDs and therefore anchors to identify individual paragraphs or objects.
+:--- LINK ---:
+Digital Object Identifiers  (DOI): [doi.org](https://www.doi.org)
 :--------------------:
 
-More diversity and the distribution of intelligence and knowledge make it possible for companies to generate more ideas and wider latitude of action. Agile companies are permeable, i.e., the organisation itself is receptive at many points to the outside world, and can feed the information received into the internal processes of product improvement and innovation. In concrete terms this means that the employees and the company are connected with customers, suppliers and other players. It must be possible for the information to be internally processed as a matter of routine and in appropriate ways, so that the conclusions for business are drawn. Keese concludes that it depends on an intelligent combination of horizontal and vertical networks. Individual business units can be organised vertically as a pyramid. Amongst themselves, however, they should have a strong horizontal aspect. Pyramids on a small scale often make just as much sense as networks on a large scale. In this model, the task of the CEO no longer consists in passing on concrete instructions from above to below, but rather in managing the network skilfully and distributing resources, like funds and personnel, over the network on an efficient basis. The most important responsibility of corporate managers in the digital future could be summed up as practising network management, creating connections, organising the exchange of information and staying out of the limelight.[: REFERENCE | keese2016 | :]
-:--- KEYSTATEMENT ---:
-An agile company consists of an intelligent combination of horizontal and vertical networks.
+Regarding the acknowledgment of scientific contributions, the traditional model is to list the authors of a publication in a particular order. Depending on the conventions of a scientific discipline, this order might be alphabetical or in respect of the contribution that individual authors made. The example of hyper-authorship, as for example in a publication from CERN ([: REFERENCE | AadGeorges2015 | Aad et al. 2015 :]) with 5154 authors, questions the traditional idea of authorship. In a multi-layer publication, we could start to disclose the particular contributions made by the authors and supporters of a publication (see [: REFERENCE | Frische2012 | Frische 2012 :]).
+
+
+Promoting the internet as the primary distribution channel can also open up the publication process. First, we can publish early work, during the development of the article. The W3C  is already developing web standards like this and the Manning Early Access Program  enables readers to access books even before publication. Second, the review process can become more transparent ([: REFERENCE | Ford2015 | Ford 2015 :]). Third, the inclusion of (raw) data in a publication enables the reader to comprehend, reproduce, or even continue the analytical work. HTML pages, published on the internet, are easy to update enabling new workflows for the publication process. And fourth, scientific contributions can be represented more appropriately. In the multi-level design we can associate specific elements with individual authors and even specify the role of the contributor. We might distinguish contributors that collected data, analysed them, wrote the actual report or prepared visualizations.
+:--- LINK ---:
+W3C: [w3.org](https://www.w3.org/TR)
+:--------------------:
+:--- LINK ---:
+Manning Early Access Program: [manning.com/meap-program](https://www.manning.com/meap-program)
 :--------------------:
 
-We can state in conclusion that agility must be seen as an indispensable competence of organisations in the digital era. There is no black or white, however – companies must decide for themselves how much agility makes sense for which structures and processes. In view of the increasing complexity of our working world, what is needed is above all a change of mindset and attitude on the part of corporate decision-makers. Classic hierarchies and cascaded decision-making processes are giving way to new organisational structures, where employees and teams have more responsibility for themselves and so find more meaning in their work. Agile organisations are those, which have understood that this calls for an organisational culture where the consistent scrutiny of the status quo, the courage to experiment and fail and the decentralised distribution of power are enshrined in the DNA of a company, and not just lived out in the context of a lighthouse project or digital hub. 
-
-&nbsp;
-
-&nbsp;
+Scientific articles are usually written with a specific audience in mind: the scientific community of a particular field. Popular science and scientific journalism, on the other hand, bring scientific results to a broader audience. The popularisation of scientific work allows a “recontextualisation” of academic content and discourse also with a less specialized community ([: REFERENCE | Luzon2013 | Luzón 2013, 428 :]). With our approach we hope to overcome this distinction: one article can now contain multiple layers of complexity, where one layer is focused on the members of one specific community, while another layer is more general and addresses people outside of this community.

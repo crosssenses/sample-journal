@@ -1,39 +1,40 @@
 lang:                   en
-styles:                 theme/styles/lrn-lab-agile.css
+styles:                 theme/styles/sample-journal.css
 scripts:                theme/scripts/lrnlab.js
 brand:                  graphite by impact·distillery
-background_url:         static/images/background.jpg
+background_url:         theme/images/background.jpg
 short_url:              https://idist.io/g/lrnlab-agile-en
 social_image_url:       https://idist.io/g/lrnlab-agile-en/assets/images/social.png
-title:                  "Agility"
-subtitle:               "A new buzzword, or an ability required by organisations for their survival in the digital era?"
-authors:                Andrea Kahlenberg, Jumana Klotsch, and Jenny Fadranski
-year:                   2018
-cite_as:                "Kahlenberg, A., Klotsch, J., Fadranski, J. (2018). Agility – A new buzzword, or an ability required by organisations for their survival in the digital era?"
-date_publication:       Februar 2018
+title:                  "Rethinking academic publications"
+subtitle:               "Developing an open-source-framework for a multi-layer narrative in online publishing"
+authors:                Marcel Hebing, Larissa Wunderlich, Julia Ebert
+year:                   2017
+cite_as:                "Hebing, M., Wunderlich, L., & Ebert, J. (2017). Rethinking Academic Publications: Developing an open-source- framework for a multi-layer narrative in online publishing. xCoAx Proceedings of the conference on Computation, Communication, Aesthetics & X, 2017, 29–36."
+date_publication:       Oct 2017
 date_submission:
 date_last_updated:
-logo_url:               assets/images/logo-lrn-lab.png
-pdf_url:                https://lrn-lab.com/site/assets/files/1/study_e.pdf
+logo_url:
+pdf_url:                http://2017.xcoax.org/xCoAx2017.pdf
+isbn:                   978-989-746-128-6
 doi:
-contact_email:          jenny.fadranski@innogy.com
+contact_email:          mhebing@diw.de
 data_usage:
 disclaimer:
-author_info:            Agility – a whitepaper by LRN LAB by innogy Consulting
+author_info:            Graphite – enhanced publications for a digital environment
 author_info_sticky:     true
-keywords:               Agility, Digital Transformation, Disruption, Leadership, Organisation theory, Stability and flexibility, Uncertainty, Complexity, Culture change
+keywords:               scientific publications, multi-layered publishing, cross-media publications, data visualisation, open science, science communication, knowledge access, knowledge design, usability, technical interoperability
 terms_of_use:
 imprint:
 licence:
-abstract:               "This is one of the most common terms you will hear today in many organisations. Organisations want to be agile, teams are supposed to work in an agile way and everything, suddenly, needs to happen so much faster. Is this movement just a farce, or are we really faced with a serious phenomenon? The fact is that successful organisations in the digital age are noticeably quick to adapt to changes in their environment. Globalisation increases the intensity of flows of good, information, and migration, by destabilising the political and economic order. The political scientist Ian Bremmer refers to this as Zero Gravity World. What he means here is the growing political instability in view of shifts in economic power. But the term can also be understood as a status description of a world in which economic conditions are volatile, technological advances exponential and cultural evolution of human beings challenges old values and organisational modes."
+abstract:               "The internet has fundamentally changed the way researchers work and collaborate, but has had less impact on the way they publish their results. In this pa- per, we ask how scientific reports should be designed with the internet as the primary distribution chan- nel in mind. We propose a concept for a multi-layer design, which is capable of including both interac- tive elements and a comprehensive data-layer. For the implementation, we suggest working with an output-independent format and a modular compiler to generate various output formats, most of all, HTML and PDF. The HTML-version utilizes modern web standards like HTML5, CSS3 and JavaScript. This enables us, for example, to include interactive vi- sualizations, raw datasets, or syntax files directly in- to a publication. The redesign also raises more gen- eral questions of how articles are used to facilitate scientific communication, concerning, for example, the way we cite previous work or the concept of sci- entific authorship in general."
 :---------------------------------------------------:
 tabs:
-  - title: "Whitepaper"
+  - title: "Article"
     ref: "/"
     slug: index
     include_abstract: true
     md_container: article
-  - title: "LRN LAB"
+  - title: "Authors"
     ref: "/editors/"
     slug: editors
     md_container: section
