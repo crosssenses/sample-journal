@@ -13,6 +13,7 @@ pyyaml = "*"
 numpy = "*"
 pandas = "*"
 graphite = {editable = true, path = "./../graphite"}
+sphinx = "*"
 
 [requires]
 python_version = "3.8"
