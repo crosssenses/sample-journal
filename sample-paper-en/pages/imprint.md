@@ -1,19 +1,5 @@
 # Imprint
 
-A whitepaper from LRN LAB by innogy Consulting
+This article has been published unter the title *Rethinking Academic Publications: Developing an open-source- framework for a multi-layer narrative in online publishing* in the [xCoAx Proceedings of the conference on Computation, Communication, Aesthetics & X, 2017, pp. 29–36](http://2017.xcoax.org/xCoAx2017.pdf).
 
-<p style="font-weight: 300">
-innogy Consulting GmbH<br/>
-Lysegang 11<br/>
-45139 Essen<br/>
-T +49(0)201/8133-0<br/><br/>
-Managing Director:<br/>
-Dr. Klaus Grellmann<br/>
-Company Headquarters: Essen<br/>
-Registered at the Essen District Court<br/>
-Commercial Registry No.HR B 81 78<br/><br/>
-Credits:<br/>iStock.com/SeanPavonePhoto · ID:472048811<br/><br/>
-Design and Implementation:<br/>
-Larissa Wunderlich, Marcel Hebing<br/>
-<a href="http://www.impactdistillery.com">Impact Distillery</a>
-</p>
+The publishing framwork graphite was developed by [Marcel Hebing](https://www.impactdistillery.com) and [Larissa Wunderlich](https://www.larissawunderlich.de)

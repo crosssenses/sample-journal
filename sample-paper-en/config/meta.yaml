@@ -1,8 +1,7 @@
 lang:                   en
 styles:                 theme/styles/sample-journal.css
-scripts:                theme/scripts/lrnlab.js
 brand:                  graphite by impact·distillery
-background_url:         theme/images/background.jpg
+background_url:         theme/images/glenn-carstens-peters-6rkJD0Uxois-unsplash.jpg
 short_url:              https://idist.io/g/lrnlab-agile-en
 social_image_url:       https://idist.io/g/lrnlab-agile-en/assets/images/social.png
 title:                  "Rethinking academic publications"

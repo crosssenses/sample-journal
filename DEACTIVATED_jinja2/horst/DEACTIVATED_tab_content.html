@@ -1,9 +1,0 @@
-
-<{{ tab.get("md_container", "div") }}>
-  {% if tab.include_abstract %}
-    {% include "horst/article_top.html" %}
-  {% endif %}
-  <div class="container">
-     {{ tab.get("content") | safe }}
-  </div>
-</{{ tab.get("md_container", "div") }}>

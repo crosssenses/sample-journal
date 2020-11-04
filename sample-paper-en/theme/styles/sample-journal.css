@@ -8797,9 +8797,12 @@ h3 + h4 {
 }
 .ms-chapter p {
   font-size: 1.2em;
-  font-weight: 300;
+  font-weight: 500;
   color: black;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin-top: 2em;
+  border-top: 4px solid #000;
+  padding-top: 2em;
 }
 
 article .ms-text ul {
