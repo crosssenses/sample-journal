@@ -61,7 +61,8 @@ $ms-icons: (
     slidedeck  :  chart-pie,
     reference  :  tooltip-text,
     translate  :  translate,
-    generalSource : format-quote-close
+    generalSource : format-quote-close,
+    institution: domain
 );
 
 /* z-index List */
@@ -113,9 +114,9 @@ $z-index: (
     font-weight: 300;
 }
 
-//.grey{
-//    color: gray(800);
-//}
+.grey{
+    color: gray(800);
+}
 
 .light{
     font-weight: 300 !important;
@@ -1219,6 +1220,8 @@ table {
         border-radius: 50%;
         object-fit: cover;
     }
+
+
 
 }
 
