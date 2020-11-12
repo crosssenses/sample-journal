@@ -8364,6 +8364,10 @@ a.text-dark:focus, a.text-dark:hover {
   font-weight: 300;
 }
 
+.grey {
+  color: #343a40;
+}
+
 .light {
   font-weight: 300 !important;
 }
@@ -8524,7 +8528,7 @@ object {
   z-index: 900;
 }
 .ms-header .card, .ms-chapter .card {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 0;
   border: 0;
   min-height: 300px;
@@ -8800,6 +8804,9 @@ h3 + h4 {
   font-weight: 300;
   color: black;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin-top: 2em;
+  border-top: 4px solid #000;
+  padding-top: 2em;
 }
 
 article .ms-text ul {
@@ -11733,7 +11740,7 @@ table caption {
   content: "\F6B2";
 }
 
-.mdi-domain:before {
+.mdi-domain:before, article .ms-inline-institution i:before, .ms-col-marginal .ms-aside-institution p:before {
   content: "\F1D7";
 }
 

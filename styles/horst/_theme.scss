@@ -61,7 +61,8 @@ $ms-icons: (
     slidedeck  :  chart-pie,
     reference  :  tooltip-text,
     translate  :  translate,
-    generalSource : format-quote-close
+    generalSource : format-quote-close,
+    institution: domain
 );
 
 /* z-index List */
@@ -113,9 +114,9 @@ $z-index: (
     font-weight: 300;
 }
 
-//.grey{
-//    color: gray(800);
-//}
+.grey{
+    color: gray(800);
+}
 
 .light{
     font-weight: 300 !important;
@@ -291,7 +292,7 @@ object{
     z-index: map-get($z-index, header);
 
     .card {
-        background: rgba(255,255,255,0.7);
+        background: rgba(255,255,255,0.8);
         border-radius: 0;
         border: 0;
         min-height: 300px;
@@ -699,6 +700,10 @@ img{
         font-weight: 300;
         color: black;
         font-family: $headings-font-family;
+
+        margin-top: 2em;
+        border-top: 4px solid #000;
+        padding-top: 2em;
     }
 }
 
@@ -1215,6 +1220,8 @@ table {
         border-radius: 50%;
         object-fit: cover;
     }
+
+
 
 }
 

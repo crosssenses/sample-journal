@@ -1,8 +1,8 @@
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/mahdis-mousavi-327389_b.jpg"
+image: "assets/images/find-experts-at-kilta-com-k9pmyStHKXE-unsplash.jpg"
 title: Introduction
-subtitle: What questions do companies face in times of high market dynamics?
+subtitle: Design publications with a digital dissemination in mind
 :--------------------------:
 
 Scientific periodicals emerged in the seventeenth century ([: REFERENCE | McDougallWaters2015 | McDougall-Waters 2015 :]), and to the present day, the design and structure of scientific articles is defined by these early paper-based publications (see Davis 2014). We use bibliographic citations that are related to the ways libraries manage journals and books. And for more precise references, we use page numbers.
@@ -22,9 +22,9 @@ Along current efforts to reform academic publishing, we challenge the traditiona
 In the following, we first describe the theoretical concept for an interactive publication design. After that, we suggest a basic technical implementation. And finally, we discuss the consequences of this new design for scientific communication and collaboration.
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/mahdis-mousavi-327389_b.jpg"
+image: "assets/images/annie-spratt-5cFwQ-WMcJU-unsplash.jpg"
 title: Concept
-subtitle: What questions do companies face in times of high market dynamics?
+subtitle: A multi-layer narrative
 :--------------------------:
 
 Traditional publications follow a linear narrative. Most scientific papers start with introducing one or more research questions, then outline the methods applied, present the results, and conclude with a discussion often evoking new research questions. This narrative is completed with an abstract and a list of literature, which the article refers to and an appendix suitable for additional material like small tables rather than for instance larger datasets.
@@ -79,9 +79,9 @@ Life quality in Germany: [gut-leben-in-deutschland.de](https://www.gut-leben-in-
 The examples above illustrate the possibilities to transfer complex information into low-threshold offerings in a mainly non-scientific context. Interactive elements allow readers a user-friendly and playful content perception. The reports show that interactive and user friendly reports with multiple layers of information as well as access to data sources are feasible. The current implementation of those reports, however, involves a significant amount of manual work, which makes it unrealistic for large-scale use. We therefore like to continue with our concept for a technical framework that lowers the barriers for researchers and journalists to produce both functionally and aesthetically enhanced publications.
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/mahdis-mousavi-327389_b.jpg"
+image: "assets/images/james-pond-26vBUtlufFo-unsplash.jpg"
 title: Implementation
-subtitle: What questions do companies face in times of high market dynamics?
+subtitle: Extending existing solutions
 :--------------------------:
 
 The basic idea for the technical implementation is to work with plain text formats which can be transformed into the desired output formats automatically. The documentation generator Sphinx, originally implemented to generate the documentation for the Python programming language, provides a stable example for generating both PDF and HTML out of a simplified markup language called ReStructuredText. The community of the Ruby programming language and services like Github, however, prefer Markdown for a simple markup. In a direct comparison, Markdown can be considered to be a rather small subset of ReStructured Text, which makes it also significantly more user-friendly for beginners.
@@ -134,9 +134,9 @@ Plotly: [plot.ly](https://plot.ly)
 A specific challenge with the multi-layer approach, is the navigation through the layers. The core of the article is the information layer which contains links to the various levels of the data layer. We suggest that marginal notes provide an efficient solution to reference additional material (both internal and external) as part of the information layer, sparing us the necessity to implement a more complex navigation system. But most of all, the references are found next to the part of the article where they belong to, and not somewhere in a navigation bar. Furthermore, this implies that within the text part of the information layer, the paragraph would be the smallest entity to reference. On the technical level, each paragraph in the HTML document gets an ID (for example an UUID).
 
 :----- CHAPTER_HEADER -----:
-image: "assets/images/mahdis-mousavi-327389_b.jpg"
+image: "assets/images/markus-winkler-afW1hht0NSs-unsplash.jpg"
 title: Discussion
-subtitle: What questions do companies face in times of high market dynamics?
+subtitle: Transparent author information and early access to results
 :--------------------------:
 
 The multi-layer design requires us to reconsider the way we reference and cite scientific material. This challenge is basically three-fold: First, how do we reference and therefore find an article as a whole? Second, how do we make more precise references within an article? And third, how do we acknowledge scientific contributions of individual researchers? In the old world, papers would be found in journals, provided to you by libraries. You could make more precise references using page numbers. And for the contribution, a significant amount of journals has a so-called impact factor, which is based on the number of citations their articles receive on average. As a researcher, you would basically sum up the impact factor for all the articles you have published, based on the impact factor of the respective journal that your article was published in, resulting in your aggregated impact factor. All three solutions fall short for interactive, multi-layer publications.
@@ -149,7 +149,7 @@ Digital Object Identifiers  (DOI): [doi.org](https://www.doi.org)
 Regarding the acknowledgment of scientific contributions, the traditional model is to list the authors of a publication in a particular order. Depending on the conventions of a scientific discipline, this order might be alphabetical or in respect of the contribution that individual authors made. The example of hyper-authorship, as for example in a publication from CERN ([: REFERENCE | AadGeorges2015 | Aad et al. 2015 :]) with 5154 authors, questions the traditional idea of authorship. In a multi-layer publication, we could start to disclose the particular contributions made by the authors and supporters of a publication (see [: REFERENCE | Frische2012 | Frische 2012 :]).
 
 
-Promoting the internet as the primary distribution channel can also open up the publication process. First, we can publish early work, during the development of the article. The W3C  is already developing web standards like this and the Manning Early Access Program  enables readers to access books even before publication. Second, the review process can become more transparent ([: REFERENCE | Ford2015 | Ford 2015 :]). Third, the inclusion of (raw) data in a publication enables the reader to comprehend, reproduce, or even continue the analytical work. HTML pages, published on the internet, are easy to update enabling new workflows for the publication process. And fourth, scientific contributions can be represented more appropriately. In the multi-level design we can associate specific elements with individual authors and even specify the role of the contributor. We might distinguish contributors that collected data, analysed them, wrote the actual report or prepared visualizations.
+Promoting the internet as the primary distribution channel can also open up the publication process. First, we can publish early work, during the development of the article. The W3C is already developing web standards like this and the Manning Early Access Program enables readers to access books even before publication. Second, the review process can become more transparent ([: REFERENCE | Ford2015 | Ford 2015 :]). Third, the inclusion of (raw) data in a publication enables the reader to comprehend, reproduce, or even continue the analytical work. HTML pages, published on the internet, are easy to update enabling new workflows for the publication process. And fourth, scientific contributions can be represented more appropriately. In the multi-level design we can associate specific elements with individual authors and even specify the role of the contributor. We might distinguish contributors that collected data, analysed them, wrote the actual report or prepared visualizations.
 :--- LINK ---:
 W3C: [w3.org](https://www.w3.org/TR)
 :--------------------:
