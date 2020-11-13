@@ -15,6 +15,7 @@ pandas = "*"
 graphite = {editable = true, path = "./../graphite"}
 sphinx = "*"
 sphinx-rtd-theme = "*"
+sphinx-panels = "*"
 
 [requires]
 python_version = "3.8"
