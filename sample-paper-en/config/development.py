@@ -1,5 +1,5 @@
 import os, sys
-from graphite.local_django.settings.base import *
+from graphite_paper.local_django.settings.base import *
 
 # Development Settings
 

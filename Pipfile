@@ -6,15 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
-markdown = "*"
-jinja2 = "*"
-pyyaml = "*"
-numpy = "*"
-pandas = "*"
-graphite = {editable = true, path = "./../graphite"}
-sphinx = "*"
-sphinx-rtd-theme = "*"
+graphite-paper = "*"
 
 [requires]
 python_version = "3.8"
