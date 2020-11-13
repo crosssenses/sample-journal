@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Sample Journal theme based on horst
+ * Sample Journal theme based on graphite
  */
 /* open-sans-300 - latin_latin-ext */
 @font-face {
@@ -8365,7 +8365,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .grey {
-  color: #343a40;
+  color: #adb5bd;
 }
 
 .light {
@@ -8516,6 +8516,32 @@ object {
 .ms-navigation-top .navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
   background-size: 80%;
+}
+
+#navContent {
+  padding: 50px 0;
+  font-size: 0.9em;
+}
+#navContent h3, #navContent .ms-nav-section {
+  font-size: 0.9em;
+  color: #868e96;
+}
+#navContent h3:first-child, #navContent .ms-nav-section:first-child {
+  padding-top: 0.4em;
+}
+#navContent .ms-nav-info {
+  padding-right: 5em;
+}
+#navContent .ms-nav-subnav, #navContent ul {
+  list-style: none;
+  padding: 0;
+}
+#navContent .ms-nav-subnav li, #navContent ul li {
+  margin-bottom: 1em;
+}
+#navContent .ms-nav-subnav li a, #navContent ul li a {
+  color: black;
+  font-weight: 400;
 }
 
 /* Jumbotron */
@@ -8694,7 +8720,7 @@ object {
   display: inline-block;
   width: inherit;
   padding: 0;
-  margin-bottom: -2px;
+  margin-bottom: -9px;
 }
 .ms-toc .ms-toc-entries,
 .ms-toc .ms-toc-abstract-entries {
@@ -8788,7 +8814,7 @@ h3 + h4 {
   min-height: 300px;
   flex-direction: inherit;
   position: relative;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.85);
 }
 .ms-chapter h2 {
   color: black;
@@ -8801,7 +8827,7 @@ h3 + h4 {
 }
 .ms-chapter p {
   font-size: 1.2em;
-  font-weight: 300;
+  font-weight: 4 0;
   color: black;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   margin-top: 2em;
@@ -9131,6 +9157,9 @@ table caption {
 .ms-plugin-author img {
   border-radius: 50%;
   object-fit: cover;
+}
+.ms-plugin-author .grey {
+  color: #868e96;
 }
 
 /* BACKGROUND */

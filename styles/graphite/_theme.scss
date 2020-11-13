@@ -115,7 +115,7 @@ $z-index: (
 }
 
 .grey{
-    color: gray(800);
+    color: gray(500);
 }
 
 .light{
@@ -268,6 +268,38 @@ object{
         }
     }
 
+}
+
+#navContent{
+    padding: 50px 0;
+    font-size: 0.9em;
+
+    h3, .ms-nav-section{
+        font-size: 0.9em;
+        color: gray(600);
+
+        &:first-child{
+            padding-top: 0.4em;
+        }
+    }
+
+    .ms-nav-info{
+        padding-right: 5em;
+    }
+
+    .ms-nav-subnav, ul{
+        list-style: none;
+        padding: 0;
+
+        li{
+            margin-bottom: 1em;
+
+            a{
+                color: black;
+                font-weight: 400;
+            }
+        }
+    }
 }
 
 /* Jumbotron */
@@ -526,7 +558,7 @@ object{
             display: inline-block;
             width: inherit;
             padding: 0;
-            margin-bottom: -2px;
+            margin-bottom: -9px;
         }
     }
 
@@ -675,7 +707,7 @@ img{
         min-height: 300px;
         flex-direction: inherit;
         position: relative;
-        background: rgba(255,255,255,0.7);
+        background: rgba(255,255,255,0.85);
 
         .ms-col-content{
             @extend .py-4;
@@ -697,7 +729,7 @@ img{
     p{
         @extend .col-md-6;
         font-size: 1.2em;
-        font-weight: 300;
+        font-weight: 4    00;
         color: black;
         font-family: $headings-font-family;
 
@@ -1221,7 +1253,9 @@ table {
         object-fit: cover;
     }
 
-
+    .grey{
+        color: gray(600);
+    }
 
 }
 
