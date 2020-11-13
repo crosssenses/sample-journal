@@ -1,3 +1,2 @@
-# LRN-LAB
+# Graphite paper sample journal
 
-Website: https://lrn-lab.com
