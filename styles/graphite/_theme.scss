@@ -62,7 +62,9 @@ $ms-icons: (
     reference  :  tooltip-text,
     translate  :  translate,
     generalSource : format-quote-close,
-    institution: domain
+    institution: domain,
+    facebook   :  facebook,
+    youtube    :  youtube-play,
 );
 
 /* z-index List */
@@ -989,6 +991,16 @@ footer.ms-footer{
     }
 }
 
+/* Reference list */
+
+.ms-directory .ms-entry {
+    margin-bottom: $standard-margin/2;
+
+        p {
+        display: inline;
+    }
+}
+
 
 /* Confetti overlay */
 #confetti {
@@ -1222,15 +1234,33 @@ table {
 
     margin: $standard-margin 0;
 
+    .ms-plugin-table & {
+        margin-top: 0;
+
+        tr{
+
+        }
+    }
+
     tr {
         border-bottom: 1px solid #eee;
+
+        .ms-plugin-table &:last-child{
+            border-bottom: none;
+        }
 
         &:hover{
             background: #fafafa none repeat scroll 0 0;
         }
     }
 
+    thead th{
+        font-weight: 600;
 
+        .ms-plugin-table &{
+            border-top: none;
+        }
+    }
 
     td, th {
         padding: 10px 25px 10px 0;
@@ -1239,6 +1269,10 @@ table {
 
     caption{
         margin: $standard-margin/2 0;
+    }
+
+    .tcol-head tr td:first-child {
+        font-weight: 500;
     }
 
 

@@ -8996,6 +8996,14 @@ footer.ms-footer {
   font-size: 1rem;
 }
 
+/* Reference list */
+.ms-directory .ms-entry {
+  margin-bottom: 1rem;
+}
+.ms-directory .ms-entry p {
+  display: inline;
+}
+
 /* Confetti overlay */
 #confetti {
   position: fixed;
@@ -9139,11 +9147,23 @@ figure .ms-col-content a {
 table {
   margin: 2rem 0;
 }
+.ms-plugin-table table {
+  margin-top: 0;
+}
 table tr {
   border-bottom: 1px solid #eee;
 }
+.ms-plugin-table table tr:last-child {
+  border-bottom: none;
+}
 table tr:hover {
   background: #fafafa none repeat scroll 0 0;
+}
+table thead th {
+  font-weight: 600;
+}
+.ms-plugin-table table thead th {
+  border-top: none;
 }
 table td, table th {
   padding: 10px 25px 10px 0;
@@ -9151,6 +9171,9 @@ table td, table th {
 }
 table caption {
   margin: 1rem 0;
+}
+table .tcol-head tr td:first-child {
+  font-weight: 500;
 }
 
 /* Authors .ms-plugin-author */
@@ -12069,7 +12092,7 @@ table caption {
   content: "\F644";
 }
 
-.mdi-facebook:before {
+.mdi-facebook:before, article .ms-inline-facebook i:before, .ms-col-marginal .ms-aside-facebook p:before {
   content: "\F20C";
 }
 
@@ -17379,7 +17402,7 @@ table caption {
   content: "\F67F";
 }
 
-.mdi-youtube-play:before, .embed-responsive i:before {
+.mdi-youtube-play:before, article .ms-inline-youtube i:before, .ms-col-marginal .ms-aside-youtube p:before, .embed-responsive i:before {
   content: "\F5C3";
 }
 
