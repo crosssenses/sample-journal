@@ -6,16 +6,17 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-django = "*"
-markdown = "*"
-jinja2 = "*"
-pyyaml = "*"
-numpy = "*"
-pandas = "*"
-graphite = {editable = true, path = "./../graphite"}
-sphinx = "*"
-sphinx-rtd-theme = "*"
-sphinx-panels = "*"
+graphite-paper = "*"
+#django = "*"
+#markdown = "*"
+#jinja2 = "*"
+#pyyaml = "*"
+#numpy = "*"
+#pandas = "*"
+#graphite = {editable = true, path = "./../graphite"}
+#sphinx = "*"
+#sphinx-rtd-theme = "*"
+#sphinx-panels = "*"
 
 [requires]
 python_version = "3.7"
