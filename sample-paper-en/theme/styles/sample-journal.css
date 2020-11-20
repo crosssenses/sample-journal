@@ -8351,7 +8351,7 @@ a.text-dark:focus, a.text-dark:hover {
   letter-spacing: 0.04em;
 }
 
-.serif, article .ms-text ul, article p {
+.serif, article .ms-text ol, article .ms-text ul, article p {
   font-family: "Linux Libertine", Georgia, Times, serif;
   font-size: 1.3rem;
   font-weight: 400;
@@ -8844,6 +8844,22 @@ article .ms-text ul li:before {
   left: 1.5rem;
   font-weight: bold !important;
   color: #007ba3;
+}
+article .ms-text ol {
+  counter-reset: ol;
+  list-style: none;
+  padding-left: 3rem;
+}
+article .ms-text ol li {
+  margin-bottom: 1rem;
+}
+article .ms-text ol li::before {
+  counter-increment: ol;
+  content: counter(ol) ".";
+  font-weight: bold !important;
+  color: #007ba3;
+  position: absolute;
+  left: 2rem;
 }
 article h3 {
   margin-bottom: 1rem !important;
