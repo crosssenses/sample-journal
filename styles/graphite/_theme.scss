@@ -715,29 +715,30 @@ img{
             @extend .py-4;
             @extend .px-0;
             @extend .mt-auto;
-            @extend .mb-4;
+            @extend .mb-auto;
         }
     }
 
     h2{
-        @extend .col-md-6;
+        @extend .col-md-7;
         color: black;
-        margin-bottom: 0 !important;
+        margin-bottom: 0.5em !important;
         @include media-breakpoint-down(sm) {
             font-size: 1.5rem;
         }
     }
 
     p{
-        @extend .col-md-6;
+        @extend .col-md-7;
         font-size: 1.2em;
         font-weight: 4    00;
         color: black;
         font-family: $headings-font-family;
 
-        margin-top: 2em;
+        margin-top: 1em;
+        margin-bottom: 0;
         border-top: 4px solid #000;
-        padding-top: 2em;
+        padding-top: 1em;
     }
 }
 
@@ -797,32 +798,34 @@ article{
         margin-top: 2rem;
         font-size: 1.5rem;
     }
+}
 
-    .ms-inline{
-        color: theme-color(primary);
-        white-space: nowrap;
+/* Inline notes */
+.ms-inline{
+    color: theme-color(primary);
+    white-space: nowrap;
 
 //        &:hover{
 //            text-decoration: underline;
 //        }
 
-        i{
-            @extend .mdi;
+    i{
+        @extend .mdi;
 
-            vertical-align: super;
-            font-size: 0.6em;
-            padding-left: 0.1em;
+        vertical-align: super;
+        font-size: 0.6em;
+        padding-left: 0.1em;
 
-            &:before {
-                display: inline !important;
-            }
+        &:before {
+            display: inline !important;
         }
     }
-
-    @each $ms-type, $ms-icon in $ms-icons {
-        .ms-inline-#{$ms-type} i { @extend .mdi-#{$ms-icon}; }
-    }
 }
+
+@each $ms-type, $ms-icon in $ms-icons {
+    .ms-inline-#{$ms-type} i { @extend .mdi-#{$ms-icon}; }
+}
+
 
 /* Marginal notes */
 
