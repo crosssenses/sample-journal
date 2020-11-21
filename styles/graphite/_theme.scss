@@ -1262,9 +1262,9 @@ figure{
     .ms-col-content{
 
         p{
-            //@extend .sans-serif;
-//            color: theme-color("primary");
-            color: #009BA5;
+            @extend .sans-serif;
+            color: theme-color("primary");
+//            color: #009BA5;
         }
 
         .nav-tabs{
