@@ -8358,7 +8358,8 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .sans-serif, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-plugin-infobox .ms-col-content p, .ms-col-marginal aside p,
-.ms-col-marginal [class*=ms-aside] p, section .ms-col-content p {
+.ms-col-marginal [class*=ms-aside] p, section .ms-col-content p,
+section .ms-col-content li {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
@@ -8834,6 +8835,11 @@ h3 + h4 {
   margin-bottom: 0;
   border-top: 4px solid #000;
   padding-top: 1em;
+}
+
+section .ms-col-content p::marker,
+section .ms-col-content li::marker {
+  content: "—    ";
 }
 
 article .ms-text ul {

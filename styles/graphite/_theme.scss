@@ -742,8 +742,13 @@ img{
     }
 }
 
-section .ms-col-content p{
+section .ms-col-content p,
+section .ms-col-content li{
     @extend .sans-serif;
+
+    &::marker {
+        content: '—\00A0\00A0\00A0\00A0';
+    }
 }
 
 article{
