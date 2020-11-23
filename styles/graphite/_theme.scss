@@ -353,7 +353,7 @@ object{
             .card-subtitle{
                 font-size: 1.2em;
                 font-weight: 500;
-                color: gray(600);
+                color: gray(700);
             }
         }
 
@@ -803,6 +803,11 @@ article{
         margin-top: 2rem;
         font-size: 1.5rem;
     }
+
+    .emphasis-primary {
+        font-weight: bold;
+        color: #007ba3;
+    }
 }
 
 /* Inline notes */
@@ -813,6 +818,9 @@ article{
 //        &:hover{
 //            text-decoration: underline;
 //        }
+    &.ms-inline-thanks{
+        color: inherit
+    }
 
     i{
         @extend .mdi;
@@ -1263,7 +1271,7 @@ figure{
 
         p{
             @extend .sans-serif;
-            color: theme-color("primary");
+            color: theme-color("copy");
 //            color: #009BA5;
         }
 
@@ -1293,13 +1301,10 @@ figure{
 table {
 
     margin: $standard-margin 0;
+    table-layout: auto;
 
     .ms-plugin-table & {
         margin-top: 0;
-
-        tr{
-
-        }
     }
 
     tr {
@@ -1322,9 +1327,17 @@ table {
         }
     }
 
-    td, th {
+    td, th, td p, th p {
+
         padding: 10px 25px 10px 0;
         vertical-align: top;
+        hyphens: auto;
+
+        & p{
+            @extend .sans-serif;
+            padding: 0;
+            margin: 0;
+        }
     }
 
     caption{

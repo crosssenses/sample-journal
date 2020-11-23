@@ -8357,7 +8357,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-weight: 400;
 }
 
-.sans-serif, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-plugin-infobox .ms-col-content p, .ms-col-marginal aside p,
+.sans-serif, table td p, table th p, table td p p, table th p p, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-plugin-quote .ms-col-content p, .ms-plugin-infobox .ms-col-content p, .ms-col-marginal aside p,
 .ms-col-marginal [class*=ms-aside] p, section .ms-col-content p,
 section .ms-col-content li {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
@@ -8570,7 +8570,7 @@ object {
 .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle {
   font-size: 1.2em;
   font-weight: 500;
-  color: #868e96;
+  color: #495057;
 }
 @media (max-width: 767px) {
   .ms-header .card .card-body, .ms-chapter .card .card-body {
@@ -8873,11 +8873,18 @@ article h3 {
   margin-top: 2rem;
   font-size: 1.5rem;
 }
+article .emphasis-primary {
+  font-weight: bold;
+  color: #007ba3;
+}
 
 /* Inline notes */
 .ms-inline {
   color: #007ba3;
   white-space: nowrap;
+}
+.ms-inline.ms-inline-thanks {
+  color: inherit;
 }
 .ms-inline i {
   vertical-align: super;
@@ -9155,9 +9162,6 @@ figure .ms-col-content a {
   padding-bottom: 0 !important;
   margin-bottom: 3rem !important;
 }
-.ms-plugin-quote .ms-col-content p {
-  color: #009BA5;
-}
 .ms-plugin-quote .ms-col-content .nav-tabs {
   border: none;
 }
@@ -9172,6 +9176,7 @@ figure .ms-col-content a {
 /* Table */
 table {
   margin: 2rem 0;
+  table-layout: auto;
 }
 .ms-plugin-table table {
   margin-top: 0;
@@ -9191,9 +9196,14 @@ table thead th {
 .ms-plugin-table table thead th {
   border-top: none;
 }
-table td, table th {
+table td, table th, table td p, table th p {
   padding: 10px 25px 10px 0;
   vertical-align: top;
+  hyphens: auto;
+}
+table td p, table th p, table td p p, table th p p {
+  padding: 0;
+  margin: 0;
 }
 table caption {
   margin: 1rem 0;
