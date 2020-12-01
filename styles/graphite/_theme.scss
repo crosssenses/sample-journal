@@ -1064,10 +1064,15 @@ footer.ms-footer{
 
     .popover-body{
         font-size: 1rem;
-    }
 
-    p {
+        p:last-of-type {
         display: inline;
+        }
+
+        a{
+            display: inline-block;
+            padding: 0 0.3em;
+        }
     }
 }
 
