@@ -25,7 +25,12 @@
                 "/Users/larissa/Development/sample-journal/styles/horst/_variables.scss": [],
                 "/Users/larissa/Development/sample-journal/sample-paper-en/theme/styles/sample-journal.css": [],
                 "/Users/larissa/Development/sample-journal/styles/horst/_functions.scss": [],
-                "/Users/larissa/Development/sample-journal/styles/sample-journal/sample.scss": []
+                "/Users/larissa/Development/sample-journal/styles/sample-journal/sample.scss": [],
+                "/Users/larissa/Development/sample-journal/Pipfile": [],
+                "/Users/larissa/Development/sample-journal/styles/sample.scss": [],
+                "/Users/larissa/Development/sample-journal/styles/graphite/_theme.scss": [],
+                "/Users/larissa/Development/graphite/graphite/local_django/management/commands/__init__.py": [],
+                "/Users/larissa/Development/ethics-of-digitalisation/static/js/horst.js": []
             }
         },
         "*.css": {

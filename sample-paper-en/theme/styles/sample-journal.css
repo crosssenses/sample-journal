@@ -8365,6 +8365,33 @@ section .ms-col-content li {
   font-weight: 300;
 }
 
+.hyphenate, .ms-col-marginal aside p:lang(de), .ms-col-marginal aside p:lang(de_DE),
+.ms-col-marginal [class*=ms-aside] p:lang(de),
+.ms-col-marginal [class*=ms-aside] p:lang(de_DE), article p:lang(de), article p:lang(de_DE) {
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-before: 3;
+  -webkit-hyphenate-limit-after: 3;
+  -webkit-hyphenate-limit-chars: 6 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-last: always;
+  -webkit-hyphenate-limit-zone: 8%;
+  -moz-hyphens: auto;
+  -moz-hyphenate-limit-chars: 6 3 3;
+  -moz-hyphenate-limit-lines: 2;
+  -moz-hyphenate-limit-last: always;
+  -moz-hyphenate-limit-zone: 8%;
+  -ms-hyphens: auto;
+  -ms-hyphenate-limit-chars: 6 3 3;
+  -ms-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-last: always;
+  -ms-hyphenate-limit-zone: 8%;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
+}
+
 .grey {
   color: #adb5bd;
 }
@@ -8940,6 +8967,7 @@ article .emphasis-primary {
 .ms-text .ms-col-marginal .ms-aside-keystatement p,
 .ms-col-marginal .ms-aside-keystatement p {
   font-weight: 600;
+  hyphens: none;
 }
 .ms-col-marginal h3 {
   font-size: 14px;
@@ -9086,6 +9114,42 @@ article section .ms-plugin {
   font-size: 1.1em;
   padding: 0 0 0.5em;
 }
+.ms-plugin-infobox.collapse.infobox-overflowing {
+  max-height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.ms-plugin-infobox.collapse.infobox-overflowing.show-collapsed {
+  max-height: unset;
+  height: auto;
+  transition: all 3s ease-in-out;
+}
+.ms-plugin-infobox.collapse.infobox-overflowing:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: linear-gradient(to bottom, rgba(248, 249, 250, 0) 0%, rgba(248, 249, 250, 0.97) 90%);
+  bottom: 0;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  height: 6em;
+  padding-top: 3.5em;
+  padding-right: 30px;
+}
+.ms-plugin-infobox.collapse.infobox-overflowing.show-collapsed:after {
+  display: none;
+}
+.ms-plugin-infobox.show {
+  height: auto;
+  max-height: unset;
+}
+
+.toggleInfobox {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
 /* Slider */
 .carousel {
   margin-bottom: 1rem;
