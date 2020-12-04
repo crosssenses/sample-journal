@@ -1380,6 +1380,10 @@ table {
     margin: $standard-margin 0;
     table-layout: auto;
 
+    /* Bugfix chrome */
+    overflow: scroll;
+    display: block !important;
+
     .ms-plugin-table & {
         margin-top: 0;
     }
