@@ -62,7 +62,7 @@ $ms-icons: (
     reference  :  tooltip-text,
     translate  :  translate,
     generalSource : format-quote-close,
-    institution: domain,
+    institution:  domain,
     facebook   :  facebook,
     youtube    :  youtube-play,
 );
@@ -283,6 +283,7 @@ object{
             vertical-align: -6px;
             margin-left: 1em;
             margin-right: 1em;
+            width: 9em;
         }
 
     }
@@ -644,6 +645,10 @@ object{
 
     @extend .mb-4;
 
+    .ms-col-content p{
+        @extend .hyphenate;
+    }
+
     .ms-article-logo{
         max-height: 100px;
     }
@@ -715,6 +720,12 @@ h4{
     h3 + &{
         padding-top: 0;
     }
+}
+
+h5{
+    font-size: 1.1em;
+    color: gray(600);
+    padding: 1em 0 0.5em;
 }
 
 img{
@@ -1395,9 +1406,10 @@ table {
 
     td, th, td p, th p {
 
+        @extend .hyphenate;
+
         padding: 10px 25px 10px 0;
         vertical-align: top;
-        hyphens: auto;
 
         & p{
             @extend .sans-serif;
