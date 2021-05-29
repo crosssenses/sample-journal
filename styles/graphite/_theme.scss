@@ -216,6 +216,10 @@ object{
             flex-direction: column-reverse;
         }
 
+        & .marginals-overflowing{
+            max-height: unset !important;
+        }
+
     }
 }
 
