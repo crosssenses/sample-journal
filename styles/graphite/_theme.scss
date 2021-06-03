@@ -275,7 +275,7 @@ object{
     .ms-brand{
         @extend .navbar-brand;
         @extend .ml-auto;
-        @extend .mr-3;
+        @extend .mr-0;
 
         @extend .uppercase;
         color: gray(500);
@@ -286,21 +286,15 @@ object{
             height: 1.8em;
             vertical-align: -6px;
             margin-left: 1em;
-            margin-right: 1em;
+            margin-right: 0;
             width: 9em;
         }
 
     }
 
-    .navbar-toggler{
-        border: none;
-        padding: 0;
-        margin-left: 2em;
-
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-            background-size: 80%;
-        }
+    .navbar-toggler-icon {
+        background-size: 80%;
+        margin-left: 1rem;
     }
 
 }

@@ -15,7 +15,7 @@
         },
         "*.scss": {
             "spaceUnits": 4,
-            "brackets-git.gitPath": "/usr/bin/git",
+            "brackets-git.gitPath": "/usr/local/bin/git",
             "bracketsEditorBookmarks.bookmarks": {
                 "/Users/larissa/Development/sample-journal/styles/horst/horst.scss": [],
                 "/Users/larissa/Documents/Arbeiten/mStats/beautiful-reports.wiki/Writing/Paper-xCoAx.md": [],
