@@ -1,5 +1,5 @@
 /*!
- * Sample Journal theme based on graphite
+ * Manifesto theme based on graphite
  */
 
 // Import Functions first (needed in variables)
@@ -7,7 +7,10 @@
 @import "bootstrap/functions";
 
 //Import Theme graphite
+@import "GDHRNet/fonts";
 @import "graphite/fonts";
+
+@import "GDHRNet/variables";
 @import "graphite/variables";
 
 // Import Core Bootstrap 4
@@ -48,8 +51,9 @@
 @import "bootstrap/utilities";
 
 //Overwrite Bootstrap with Theme Details
+@import "GDHRNet/theme";
 @import "graphite/theme";
-@import "theme-sample-journal";
+
 
 //Import Iconset
 @import "materialdesignicons/materialdesignicons.scss";

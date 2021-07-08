@@ -1,5 +1,5 @@
 /*!
- * Manifesto theme based on graphite
+ * Sample Journal theme based on graphite
  */
 
 // Import Functions first (needed in variables)
@@ -9,7 +9,7 @@
 //Import Theme graphite
 @import "graphite/fonts";
 
-@import "manifesto/variables";
+@import "sample-journal/variables";
 @import "graphite/variables";
 
 // Import Core Bootstrap 4
@@ -50,9 +50,8 @@
 @import "bootstrap/utilities";
 
 //Overwrite Bootstrap with Theme Details
-@import "manifesto/theme";
 @import "graphite/theme";
-
+@import "sample-journal/theme";
 
 //Import Iconset
 @import "materialdesignicons/materialdesignicons.scss";

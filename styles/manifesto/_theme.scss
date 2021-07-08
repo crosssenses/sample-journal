@@ -1,5 +1,5 @@
 // ==================================================
-// Adaptaions for Sample Journal
+// Adaptaions for Manifesto
 // ==================================================
 
 // CONTENTS
@@ -31,6 +31,8 @@
 //
 // Variables
 // --------------------------------------------------
+
+// Overwritten by seperate variables file
 
 //
 // General classes
@@ -80,6 +82,18 @@
 /* Video */
 
 /* Quote */
+.ms-plugin-quote{
+
+    border: none !important;
+
+    .ms-col-content{
+
+        p{
+            font-family: $font-family-article !important;
+            font-size: $font-size-article !important;
+        }
+    }
+}
 
 /* Table */
 

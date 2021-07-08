@@ -1,6 +1,6 @@
 
 // -==================================================
-// Theme HORST
+// Theme GRAPHITE
 // ==================================================
 
 // CONTENTS
@@ -36,35 +36,37 @@
 
 /* General Variables */
 
-$standard-margin: 2rem;
-$path-to-img: "https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images";
+$standard-margin: 2rem !default;
+$path-to-img: "https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images" !default;
 // TODO
 
-//$header-image-url: url("/static/img/jumbo-background.jpg");
-$header-image-position: center center;
+//$header-image-url: url("/static/img/jumbo-background.jpg") !default;
+$header-image-position: center center !default !default;
 
 
 //
 //  Any icons that are added here can be instroduced as side element
 //
+//  module slug   :  Material icon slug
+//  ———————————      ——————————————————
 $ms-icons: (
-    link       :  earth,
-    licence    :  copyright,
-    caption    :  information-variant,
-    author     :  account,
-    twitter    :  twitter,
-    linkedin   :  linkedin,
-    glossary   :  book-open-variant,
-    note       :  star,
-    sidenote   :  star,
-    download   :  download,
-    slidedeck  :  chart-pie,
-    reference  :  tooltip-text,
-    translate  :  translate,
-    generalSource : format-quote-close,
-    institution:  domain,
-    facebook   :  facebook,
-    youtube    :  youtube-play,
+    link          :  earth,
+    licence       :  copyright,
+    caption       :  information-variant,
+    author        :  account,
+    twitter       :  twitter,
+    linkedin      :  linkedin,
+    glossary      :  book-open-variant,
+    note          :  star,
+    sidenote      :  star,
+    download      :  download,
+    slidedeck     :  chart-pie,
+    reference     :  tooltip-text,
+    translate     :  translate,
+    generalSource :  format-quote-close,
+    institution   :  domain,
+    facebook      :  facebook,
+    youtube       :  youtube-play,
 );
 
 /* z-index List */
@@ -94,7 +96,7 @@ $z-index: (
     color: #333;
 
     &:hover{
-        color: #fff !important;
+        color: #fff;
         cursor: pointer;
     }
 }
@@ -107,7 +109,7 @@ $z-index: (
 .serif{
     font-family: $font-family-article;
     font-size: $font-size-article;
-    font-weight: 400;
+    font-weight: $font-weight-article;
 }
 
 .sans-serif{
@@ -353,7 +355,6 @@ object{
     z-index: map-get($z-index, header);
 
     .card {
-        background: rgba(255,255,255,0.8);
         border-radius: 0;
         border: 0;
         min-height: 300px;
@@ -747,7 +748,7 @@ img{
         min-height: 300px;
         flex-direction: inherit;
         position: relative;
-        background: rgba(255,255,255,0.85);
+        background: $chapter-bg;
 
         .ms-col-content{
             @extend .py-4;
@@ -755,6 +756,19 @@ img{
             @extend .mt-auto;
             @extend .mb-auto;
         }
+    }
+
+    .authors{
+        @extend .col-md-7;
+        @extend .sans-serif;
+        @extend .uppercase;
+
+        font-size: 1em;
+        font-weight: 400;
+
+        margin-top: 0em;
+        margin-bottom: 2em;
+        padding-top: 1em;
     }
 
     h2{
@@ -766,10 +780,10 @@ img{
         }
     }
 
-    p{
+    h2 + p{
         @extend .col-md-7;
         font-size: 1.2em;
-        font-weight: 4    00;
+        font-weight: 400;
         color: black;
         font-family: $headings-font-family;
 
@@ -886,7 +900,7 @@ article{
 
 .ms-col-marginal {
 
-    $aside-icon-padding: 30px;
+    $aside-icon-padding: 30px !default;
     display: flex;
     flex-direction: column;
 
@@ -936,6 +950,7 @@ article{
         }
     }
 
+    // Assign icons to marginal module classes
     @each $ms-type, $ms-icon in $ms-icons {
         .ms-aside-#{$ms-type} p{ @extend .mdi-#{$ms-icon}; }
     }
