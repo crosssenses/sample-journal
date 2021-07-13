@@ -558,6 +558,21 @@ object{
         .ms-toc-abstract-entry {
             border-bottom: 1px solid rgba(0,0,0,0.3);
             transition: all 500ms ease;
+
+            a.nav-link.active {
+                vertical-align: bottom;
+                border-bottom: 3px solid theme-color(primary);
+                background-color: transparent;
+                border-radius: 0;
+                display: inline-block;
+                width: inherit;
+                padding: 0;
+                margin-bottom: -9px;
+            }
+
+            .nav-link {
+                padding: 0.721rem 1rem;
+            }
         }
 
         .ms-toc-abstract-entry.hp-toc-entry-is-title {
@@ -579,17 +594,6 @@ object{
         .ms-toc-abstract-entry-4 {
             width: 4px;
             display: none;
-        }
-
-        .ms-toc-abstract-entry a.nav-link.active {
-            vertical-align: bottom;
-            border-bottom: 3px solid theme-color(primary);
-            background-color: transparent;
-            border-radius: 0;
-            display: inline-block;
-            width: inherit;
-            padding: 0;
-            margin-bottom: -9px;
         }
     }
 
