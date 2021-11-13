@@ -759,6 +759,31 @@ img{
             @extend .px-0;
             @extend .mt-auto;
             @extend .mb-auto;
+
+            .has-thumbnail{
+                display: flex;
+
+                .thumbnail{
+                    display: flex;
+                    align-content: center;
+
+                    img{
+                        max-height: 200px;
+                        max-width: unset;
+                    }
+                }
+
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    height: min-content;
+                    margin: auto 0;
+                }
+
+                .authors, h2, h2 + p{
+                    max-width: 70%;
+                }
+            }
         }
     }
 
@@ -796,6 +821,7 @@ img{
         border-top: 4px solid #000;
         padding-top: 1em;
     }
+
 }
 
 section .ms-col-content p,
@@ -834,6 +860,14 @@ article{
             font-weight: bold !important;
             color: theme-color(primary);
         }
+
+    }
+
+    .ms-text li ul {
+        padding-left: 5rem;
+        margin-left: -2rem;
+        position: relative;
+        margin-top: 1rem;
     }
 
     .ms-text ol{
