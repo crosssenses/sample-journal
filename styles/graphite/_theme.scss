@@ -67,6 +67,8 @@ $ms-icons: (
     institution   :  domain,
     facebook      :  facebook,
     youtube       :  youtube-play,
+    bookmark      :  subdirectory-arrow-right,
+    contact       :  email-outline
 );
 
 /* z-index List */
@@ -824,14 +826,34 @@ img{
 
 }
 
-section .ms-col-content p,
-section .ms-col-content li{
-    @extend .sans-serif;
+section .ms-col-content {
+    p, li{
+        @extend .sans-serif;
+    }
 
-    &::marker {
+    ul li::marker {
         content: '—\00A0\00A0\00A0\00A0';
     }
+
+    ol{
+        counter-reset: ol;
+        list-style: none;
+        padding-left: 3rem;
+
+        li{
+            margin-bottom: $standard-margin/2
+        }
+
+        li::before{
+            counter-increment: ol;
+            content: counter(ol) '.';
+            position: absolute;
+            left: 2rem;
+        }
+    }
 }
+
+
 
 article{
 
@@ -849,6 +871,14 @@ article{
 
         list-style: none;
         padding-left: 3rem;
+
+        li{
+            margin-bottom: 1rem;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
 
         li:before{
             @extend .mdi;
