@@ -1,0 +1,122 @@
+// ==================================================
+// Adaptaions for Manifesto
+// ==================================================
+
+// CONTENTS
+// ==================================================
+//
+// Variables
+// General classes
+// Bootstrap Colums
+// General Layout Definitions
+// – BACKGROUND
+// – Topline
+// – Jumbotron
+// – Tabs
+// – Table of contents
+// – Article Top
+// – Article *//* Marginal notes
+// – Footer
+// Plugin Definitions
+// - Plugin general
+// - Full width plugin
+// - Infobox
+// - Slider
+// - Figure
+// - Video
+// - Quote
+// - Table
+// - Authors
+
+//
+// Variables
+// --------------------------------------------------
+
+// Overwritten by seperate variables file
+
+$header-image-position: center bottom;
+
+//
+// General classes
+// --------------------------------------------------
+
+section a:not([class^="ms-"]), article a:not([class^="ms-"]){
+    text-decoration: underline #ef0 2px solid;
+    text-underline-offset: 2px;
+}
+
+.btn:hover{
+    background: theme-color('highlight');
+    color: black !important;
+}
+
+//
+// Bootstrap Colums
+// --------------------------------------------------
+
+//
+// General Layout Definitions
+// --------------------------------------------------
+
+
+/* BACKGROUND */
+
+/* Topline */
+
+/* Jumbotron */
+
+.ms-header{
+    padding: 3rem 2rem 6rem;
+}
+
+/* Tabs */
+
+/* Table of contents */
+
+/* Article Top */
+
+/* Article */
+
+.ms-chapter{
+    h2 + p{
+        border-top: none !important;
+    }
+}
+
+/* Marginal notes */
+
+/* Footer */
+
+//
+// Plugin Definitions
+// --------------------------------------------------
+
+/* Plugin general */
+
+/* Full width plugin */
+
+/* Infobox */
+
+/* Slider */
+
+/* Figure */
+
+/* Video */
+
+/* Quote */
+.ms-plugin-quote{
+
+    border: none !important;
+
+    .ms-col-content{
+
+        p{
+            font-family: $font-family-article !important;
+            font-size: $font-size-article !important;
+        }
+    }
+}
+
+/* Table */
+
+/* Authors */

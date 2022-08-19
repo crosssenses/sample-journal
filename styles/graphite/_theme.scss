@@ -1,6 +1,6 @@
 
 // -==================================================
-// Theme HORST
+// Theme GRAPHITE
 // ==================================================
 
 // CONTENTS
@@ -36,33 +36,39 @@
 
 /* General Variables */
 
-$standard-margin: 2rem;
-$path-to-img: "https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images";
+$standard-margin: 2rem !default;
+$path-to-img: "https://www.impactdistillery.com/graphite/lrnlab-agile-de/theme/images" !default;
 // TODO
 
-//$header-image-url: url("/static/img/jumbo-background.jpg");
-$header-image-position: center center;
+//$header-image-url: url("/static/img/jumbo-background.jpg") !default;
+$header-image-position: center center !default !default;
 
 
 //
 //  Any icons that are added here can be instroduced as side element
 //
+//  module slug   :  Material icon slug
+//  ———————————      ——————————————————
 $ms-icons: (
-    link       :  earth,
-    licence    :  copyright,
-    caption    :  information-variant,
-    author     :  account,
-    twitter    :  twitter,
-    linkedin   :  linkedin,
-    glossary   :  book-open-variant,
-    note       :  star,
-    sidenote   :  star,
-    download   :  download,
-    slidedeck  :  chart-pie,
-    reference  :  tooltip-text,
-    translate  :  translate,
-    generalSource : format-quote-close,
-    institution: domain
+    link          :  earth,
+    licence       :  copyright,
+    caption       :  information-variant,
+    author        :  account,
+    twitter       :  twitter,
+    linkedin      :  linkedin,
+    glossary      :  book-open-variant,
+    note          :  star,
+    sidenote      :  star,
+    download      :  download,
+    slidedeck     :  chart-pie,
+    reference     :  tooltip-text,
+    translate     :  translate,
+    generalSource :  format-quote-close,
+    institution   :  domain,
+    facebook      :  facebook,
+    youtube       :  youtube-play,
+    bookmark      :  subdirectory-arrow-right,
+    contact       :  email-outline
 );
 
 /* z-index List */
@@ -92,7 +98,7 @@ $z-index: (
     color: #333;
 
     &:hover{
-        color: #fff !important;
+        color: #fff;
         cursor: pointer;
     }
 }
@@ -105,13 +111,41 @@ $z-index: (
 .serif{
     font-family: $font-family-article;
     font-size: $font-size-article;
-    font-weight: 400;
+    font-weight: $font-weight-article;
 }
 
 .sans-serif{
     font-family: $font-family-base;
     font-size: $font-size-base * 1.1;
     font-weight: 300;
+}
+
+.hyphenate{
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+    -webkit-hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-last: always;
+    -webkit-hyphenate-limit-zone: 8%;
+
+    -moz-hyphens: auto;
+    -moz-hyphenate-limit-chars: 6 3 3;
+    -moz-hyphenate-limit-lines: 2;
+    -moz-hyphenate-limit-last: always;
+    -moz-hyphenate-limit-zone: 8%;
+
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: 6 3 3;
+    -ms-hyphenate-limit-lines: 2;
+    -ms-hyphenate-limit-last: always;
+    -ms-hyphenate-limit-zone: 8%;
+
+    hyphens: auto;
+    hyphenate-limit-chars: 6 3 3;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-last: always;
+    hyphenate-limit-zone: 8%;
 }
 
 .grey{
@@ -186,6 +220,10 @@ object{
             flex-direction: column-reverse;
         }
 
+        & .marginals-overflowing{
+            max-height: unset !important;
+        }
+
     }
 }
 
@@ -241,7 +279,7 @@ object{
     .ms-brand{
         @extend .navbar-brand;
         @extend .ml-auto;
-        @extend .mr-3;
+        @extend .mr-0;
 
         @extend .uppercase;
         color: gray(500);
@@ -252,20 +290,15 @@ object{
             height: 1.8em;
             vertical-align: -6px;
             margin-left: 1em;
-            margin-right: 1em;
+            margin-right: 0;
+            width: 9em;
         }
 
     }
 
-    .navbar-toggler{
-        border: none;
-        padding: 0;
-        margin-left: 2em;
-
-        .navbar-toggler-icon {
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-            background-size: 80%;
-        }
+    .navbar-toggler-icon {
+        background-size: 80%;
+        margin-left: 1rem;
     }
 
 }
@@ -324,7 +357,6 @@ object{
     z-index: map-get($z-index, header);
 
     .card {
-        background: rgba(255,255,255,0.8);
         border-radius: 0;
         border: 0;
         min-height: 300px;
@@ -351,7 +383,7 @@ object{
             .card-subtitle{
                 font-size: 1.2em;
                 font-weight: 500;
-                color: gray(600);
+                color: gray(700);
             }
         }
 
@@ -528,6 +560,21 @@ object{
         .ms-toc-abstract-entry {
             border-bottom: 1px solid rgba(0,0,0,0.3);
             transition: all 500ms ease;
+
+            a.nav-link.active {
+                vertical-align: bottom;
+                border-bottom: 3px solid theme-color(primary);
+                background-color: transparent;
+                border-radius: 0;
+                display: inline-block;
+                width: inherit;
+                padding: 0;
+                margin-bottom: -9px;
+            }
+
+            .nav-link {
+                padding: 0.721rem 1rem;
+            }
         }
 
         .ms-toc-abstract-entry.hp-toc-entry-is-title {
@@ -547,18 +594,8 @@ object{
         }
 
         .ms-toc-abstract-entry-4 {
-            width: 4px
-        }
-
-        .ms-toc-abstract-entry a.nav-link.active {
-            vertical-align: bottom;
-            border-bottom: 3px solid theme-color(primary);
-            background-color: transparent;
-            border-radius: 0;
-            display: inline-block;
-            width: inherit;
-            padding: 0;
-            margin-bottom: -9px;
+            width: 4px;
+            display: none;
         }
     }
 
@@ -612,6 +649,10 @@ object{
 .ms-article-top{
 
     @extend .mb-4;
+
+    .ms-col-content p{
+        @extend .hyphenate;
+    }
 
     .ms-article-logo{
         max-height: 100px;
@@ -686,6 +727,12 @@ h4{
     }
 }
 
+h5{
+    font-size: 1.1em;
+    color: gray(600);
+    padding: 1em 0 0.5em;
+}
+
 img{
     @extend .img-fluid;
 }
@@ -707,46 +754,115 @@ img{
         min-height: 300px;
         flex-direction: inherit;
         position: relative;
-        background: rgba(255,255,255,0.85);
+        background: $chapter-bg;
 
         .ms-col-content{
             @extend .py-4;
             @extend .px-0;
             @extend .mt-auto;
-            @extend .mb-4;
+            @extend .mb-auto;
+
+            .has-thumbnail{
+                display: flex;
+
+                .thumbnail{
+                    display: flex;
+                    align-content: center;
+
+                    img{
+                        max-height: 200px;
+                        max-width: unset;
+                    }
+                }
+
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    height: min-content;
+                    margin: auto 0;
+                }
+
+                .authors, h2, h2 + p{
+                    max-width: 70%;
+                }
+            }
         }
     }
 
+    .authors{
+        @extend .col-md-7;
+        @extend .sans-serif;
+        @extend .uppercase;
+
+        font-size: 1em;
+        font-weight: 400;
+
+        margin-top: 0em;
+        margin-bottom: 2em;
+        padding-top: 1em;
+    }
+
     h2{
-        @extend .col-md-6;
+        @extend .col-md-7;
         color: black;
-        margin-bottom: 0 !important;
+        margin-bottom: 0.5em !important;
         @include media-breakpoint-down(sm) {
             font-size: 1.5rem;
         }
     }
 
-    p{
-        @extend .col-md-6;
+    h2 + p{
+        @extend .col-md-7;
         font-size: 1.2em;
-        font-weight: 4    00;
+        font-weight: 400;
         color: black;
         font-family: $headings-font-family;
 
-        margin-top: 2em;
+        margin-top: 1em;
+        margin-bottom: 0;
         border-top: 4px solid #000;
-        padding-top: 2em;
+        padding-top: 1em;
+    }
+
+}
+
+section .ms-col-content {
+    p, li{
+        @extend .sans-serif;
+    }
+
+    ul li::marker {
+        content: '—\00A0\00A0\00A0\00A0';
+    }
+
+    ol{
+        counter-reset: ol;
+        list-style: none;
+        padding-left: 3rem;
+
+        li{
+            margin-bottom: $standard-margin/2
+        }
+
+        li::before{
+            counter-increment: ol;
+            content: counter(ol) '.';
+            position: absolute;
+            left: 2rem;
+        }
     }
 }
 
-section .ms-col-content p{
-    @extend .sans-serif;
-}
+
 
 article{
 
     p{
         @extend .serif;
+
+        &:lang(de), &:lang(de_DE){
+            @extend .hyphenate;
+        }
     }
 
 
@@ -755,6 +871,14 @@ article{
 
         list-style: none;
         padding-left: 3rem;
+
+        li{
+            margin-bottom: 1rem;
+
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
 
         li:before{
             @extend .mdi;
@@ -766,6 +890,36 @@ article{
             font-weight: bold !important;
             color: theme-color(primary);
         }
+
+    }
+
+    .ms-text li ul {
+        padding-left: 5rem;
+        margin-left: -2rem;
+        position: relative;
+        margin-top: 1rem;
+    }
+
+    .ms-text ol{
+        @extend .serif;
+
+        counter-reset: ol;
+        list-style: none;
+        padding-left: 3rem;
+
+        li{
+            margin-bottom: $standard-margin/2
+        }
+
+        li::before{
+            counter-increment: ol;
+            content: counter(ol) '.';
+            font-weight: bold !important;
+            color: theme-color(primary);
+            position: absolute;
+            left: 2rem;
+
+        }
     }
 
     h3 {
@@ -774,37 +928,47 @@ article{
         font-size: 1.5rem;
     }
 
-    .ms-inline{
-        color: theme-color(primary);
-        white-space: nowrap;
+    .emphasis-primary {
+        font-weight: bold;
+        color: #007ba3;
+    }
+}
+
+/* Inline notes */
+.ms-inline{
+    color: theme-color(primary);
+    white-space: nowrap;
 
 //        &:hover{
 //            text-decoration: underline;
 //        }
+    &.ms-inline-thanks{
+        color: inherit
+    }
 
-        i{
-            @extend .mdi;
+    i{
+        @extend .mdi;
 
-            vertical-align: super;
-            font-size: 0.6em;
-            padding-left: 0.1em;
+        vertical-align: super;
+        font-size: 0.6em;
+        padding-left: 0.1em;
 
-            &:before {
-                display: inline !important;
-            }
+        &:before {
+            display: inline !important;
         }
     }
-
-    @each $ms-type, $ms-icon in $ms-icons {
-        .ms-inline-#{$ms-type} i { @extend .mdi-#{$ms-icon}; }
-    }
 }
+
+@each $ms-type, $ms-icon in $ms-icons {
+    .ms-inline-#{$ms-type} i { @extend .mdi-#{$ms-icon}; }
+}
+
 
 /* Marginal notes */
 
 .ms-col-marginal {
 
-    $aside-icon-padding: 30px;
+    $aside-icon-padding: 30px !default;
     display: flex;
     flex-direction: column;
 
@@ -843,6 +1007,10 @@ article{
 
             position: relative;
 
+            &:lang(de), &:lang(de_DE){
+                @extend .hyphenate;
+            }
+
             &:before{
                 position: absolute;
                 left: -$aside-icon-padding+2px;
@@ -850,6 +1018,7 @@ article{
         }
     }
 
+    // Assign icons to marginal module classes
     @each $ms-type, $ms-icon in $ms-icons {
         .ms-aside-#{$ms-type} p{ @extend .mdi-#{$ms-icon}; }
     }
@@ -861,7 +1030,8 @@ article{
         padding-left: 0 !important;
 
         p {
-            font-weight: 600,
+            font-weight: 600;
+            hyphens: none;
         }
     }
 
@@ -986,6 +1156,25 @@ footer.ms-footer{
 
     .popover-body{
         font-size: 1rem;
+
+        p:last-of-type {
+        display: inline;
+        }
+
+        a{
+            display: inline-block;
+            padding: 0 0.3em;
+        }
+    }
+}
+
+/* Reference list */
+
+.ms-directory .ms-entry {
+    margin-bottom: $standard-margin/2;
+
+        p {
+        display: inline;
     }
 }
 
@@ -1064,15 +1253,64 @@ article section{
 
 /* Infobox */
 .ms-plugin-infobox{
-  .ms-col-content{
-    h2{
-      font-size: 1.1em;
-      padding: 0 0 0.5em;
+    .ms-col-content{
+        h2{
+            font-size: 1.1em;
+            padding: 0 0 0.5em;
+        }
+        p{
+            @extend .sans-serif;
+        }
     }
-    p{
-      @extend .sans-serif;
+
+
+
+    &.collapse.infobox-overflowing {
+
+        &{
+            max-height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        &.show-collapsed{
+            max-height: unset;
+            height: auto;
+            transition: all 3s ease-in-out;
+        }
+
+        //Fade out and ellipsis
+
+        &:after{
+            content: '';
+            position: absolute;
+            display: block;
+            background: linear-gradient(to bottom, rgba(gray(100), 0) 0%, rgba(gray(100), 0.97) 90%);
+            bottom: 0;
+            z-index: map-get($z-index, marginal-more);
+            font-weight: 700;
+            text-align: center;
+            width: 100%;
+            height: 6em;
+            padding-top: 3.5em;
+            padding-right: 30px;
+        }
+
+        &.show-collapsed:after{
+            display: none;
+        }
+
     }
-  }
+
+    &.show {
+        height: auto;
+        max-height: unset;
+    }
+
+}
+.toggleInfobox{
+    margin: 0 auto $standard-margin/2;
+    display: block;
 }
 
 /* Slider */
@@ -1190,9 +1428,9 @@ figure{
     .ms-col-content{
 
         p{
-            //@extend .sans-serif;
-//            color: theme-color("primary");
-            color: #009BA5;
+            @extend .sans-serif;
+            color: theme-color("copy");
+//            color: #009BA5;
         }
 
         .nav-tabs{
@@ -1221,24 +1459,56 @@ figure{
 table {
 
     margin: $standard-margin 0;
+    table-layout: auto;
+
+    /* Bugfix chrome */
+    overflow: scroll;
+    display: block !important;
+
+    .ms-plugin-table & {
+        margin-top: 0;
+    }
 
     tr {
         border-bottom: 1px solid #eee;
+
+        .ms-plugin-table &:last-child{
+            border-bottom: none;
+        }
 
         &:hover{
             background: #fafafa none repeat scroll 0 0;
         }
     }
 
+    thead th{
+        font-weight: 600;
 
+        .ms-plugin-table &{
+            border-top: none;
+        }
+    }
 
-    td, th {
+    td, th, td p, th p {
+
+        @extend .hyphenate;
+
         padding: 10px 25px 10px 0;
         vertical-align: top;
+
+        & p{
+            @extend .sans-serif;
+            padding: 0;
+            margin: 0;
+        }
     }
 
     caption{
         margin: $standard-margin/2 0;
+    }
+
+    .tcol-head tr td:first-child {
+        font-weight: 500;
     }
 
 

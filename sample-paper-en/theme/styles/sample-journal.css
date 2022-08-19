@@ -875,7 +875,7 @@ pre code {
 .col-xl,
 .col-xl-auto, .col-xl-12, .col-xl-11, .col-xl-10, .col-xl-9, .col-xl-8, .col-xl-7, .col-xl-6, .col-xl-5, .col-xl-4, .col-xl-3, .col-xl-2, .col-xl-1, .col-lg,
 .col-lg-auto, .col-lg-12, .col-lg-11, .col-lg-10, .ms-tabs .nav-tabs, .col-lg-9, .col-lg-8, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .col-lg-1, .col-md,
-.col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .col-md-8, .col-md-7, .col-md-6, .ms-chapter p, .ms-chapter h2, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
+.col-md-auto, .col-md-12, .col-md-11, .col-md-10, .col-md-9, .ms-header .card .card-body .card-title, .ms-chapter .card .card-body .card-title, .col-md-8, .col-md-7, .ms-chapter p, .ms-chapter h2, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .col-md-2, .col-md-1, .col-sm,
 .col-sm-auto, .col-sm-12, .col-sm-11, .col-sm-10, .ms-header .card .card-body, .ms-chapter .card .card-body, .col-sm-9, .col-sm-8, .col-sm-7, .col-sm-6, .col-sm-5, .col-sm-4, .col-sm-3, .col-sm-2, .col-sm-1, .col,
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
@@ -1264,12 +1264,12 @@ pre code {
     max-width: 41.6666666667%;
   }
 
-  .col-md-6, .ms-chapter p, .ms-chapter h2 {
+  .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
 
-  .col-md-7 {
+  .col-md-7, .ms-chapter p, .ms-chapter h2 {
     flex: 0 0 58.3333333333%;
     max-width: 58.3333333333%;
   }
@@ -6646,7 +6646,7 @@ article section,
   margin-right: 1.5rem !important;
 }
 
-.mb-4, .ms-chapter .ms-row-full .ms-col-content, .ms-article-top,
+.mb-4, .ms-article-top,
 .my-4,
 article section,
 .ms-plugin,
@@ -6876,7 +6876,7 @@ article section,
   margin-right: auto !important;
 }
 
-.mb-auto,
+.mb-auto, .ms-chapter .ms-row-full .ms-col-content,
 .my-auto {
   margin-bottom: auto !important;
 }
@@ -8351,17 +8351,45 @@ a.text-dark:focus, a.text-dark:hover {
   letter-spacing: 0.04em;
 }
 
-.serif, article .ms-text ul, article p {
+.serif, article .ms-text ol, article .ms-text ul, article p {
   font-family: "Linux Libertine", Georgia, Times, serif;
   font-size: 1.3rem;
   font-weight: 400;
 }
 
-.sans-serif, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-plugin-infobox .ms-col-content p, .ms-col-marginal aside p,
-.ms-col-marginal [class*=ms-aside] p, section .ms-col-content p {
+.sans-serif, table td p, table th p, table td p p, table th p p, .ms-plugin-quote .ms-col-content .nav-tabs li a, .ms-plugin-quote .ms-col-content p, .ms-plugin-infobox .ms-col-content p, .ms-col-marginal aside p,
+.ms-col-marginal [class*=ms-aside] p, section .ms-col-content p,
+section .ms-col-content li {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+.hyphenate, .ms-col-marginal aside p:lang(de), .ms-col-marginal aside p:lang(de_DE),
+.ms-col-marginal [class*=ms-aside] p:lang(de),
+.ms-col-marginal [class*=ms-aside] p:lang(de_DE), article p:lang(de), article p:lang(de_DE) {
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-before: 3;
+  -webkit-hyphenate-limit-after: 3;
+  -webkit-hyphenate-limit-chars: 6 3 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-last: always;
+  -webkit-hyphenate-limit-zone: 8%;
+  -moz-hyphens: auto;
+  -moz-hyphenate-limit-chars: 6 3 3;
+  -moz-hyphenate-limit-lines: 2;
+  -moz-hyphenate-limit-last: always;
+  -moz-hyphenate-limit-zone: 8%;
+  -ms-hyphens: auto;
+  -ms-hyphenate-limit-chars: 6 3 3;
+  -ms-hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-last: always;
+  -ms-hyphenate-limit-zone: 8%;
+  hyphens: auto;
+  hyphenate-limit-chars: 6 3 3;
+  hyphenate-limit-lines: 2;
+  hyphenate-limit-last: always;
+  hyphenate-limit-zone: 8%;
 }
 
 .grey {
@@ -8569,7 +8597,7 @@ object {
 .ms-header .card .card-body .card-subtitle, .ms-chapter .card .card-body .card-subtitle {
   font-size: 1.2em;
   font-weight: 500;
-  color: #868e96;
+  color: #495057;
 }
 @media (max-width: 767px) {
   .ms-header .card .card-body, .ms-chapter .card .card-body {
@@ -8818,7 +8846,7 @@ h3 + h4 {
 }
 .ms-chapter h2 {
   color: black;
-  margin-bottom: 0 !important;
+  margin-bottom: 0.5em !important;
 }
 @media (max-width: 767px) {
   .ms-chapter h2 {
@@ -8830,9 +8858,15 @@ h3 + h4 {
   font-weight: 4 0;
   color: black;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  margin-top: 2em;
+  margin-top: 1em;
+  margin-bottom: 0;
   border-top: 4px solid #000;
-  padding-top: 2em;
+  padding-top: 1em;
+}
+
+section .ms-col-content p::marker,
+section .ms-col-content li::marker {
+  content: "—    ";
 }
 
 article .ms-text ul {
@@ -8845,23 +8879,49 @@ article .ms-text ul li:before {
   font-weight: bold !important;
   color: #007ba3;
 }
+article .ms-text ol {
+  counter-reset: ol;
+  list-style: none;
+  padding-left: 3rem;
+}
+article .ms-text ol li {
+  margin-bottom: 1rem;
+}
+article .ms-text ol li::before {
+  counter-increment: ol;
+  content: counter(ol) ".";
+  font-weight: bold !important;
+  color: #007ba3;
+  position: absolute;
+  left: 2rem;
+}
 article h3 {
   margin-bottom: 1rem !important;
   margin-top: 2rem;
   font-size: 1.5rem;
 }
-article .ms-inline {
+article .emphasis-primary {
+  font-weight: bold;
+  color: #007ba3;
+}
+
+/* Inline notes */
+.ms-inline {
   color: #007ba3;
   white-space: nowrap;
 }
-article .ms-inline i {
+.ms-inline.ms-inline-thanks {
+  color: inherit;
+}
+.ms-inline i {
   vertical-align: super;
   font-size: 0.6em;
   padding-left: 0.1em;
 }
-article .ms-inline i:before {
+.ms-inline i:before {
   display: inline !important;
 }
+
 /* Marginal notes */
 .ms-col-marginal {
   display: flex;
@@ -8907,6 +8967,7 @@ article .ms-inline i:before {
 .ms-text .ms-col-marginal .ms-aside-keystatement p,
 .ms-col-marginal .ms-aside-keystatement p {
   font-weight: 600;
+  hyphens: none;
 }
 .ms-col-marginal h3 {
   font-size: 14px;
@@ -8996,6 +9057,14 @@ footer.ms-footer {
   font-size: 1rem;
 }
 
+/* Reference list */
+.ms-directory .ms-entry {
+  margin-bottom: 1rem;
+}
+.ms-directory .ms-entry p {
+  display: inline;
+}
+
 /* Confetti overlay */
 #confetti {
   position: fixed;
@@ -9045,6 +9114,42 @@ article section .ms-plugin {
   font-size: 1.1em;
   padding: 0 0 0.5em;
 }
+.ms-plugin-infobox.collapse.infobox-overflowing {
+  max-height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.ms-plugin-infobox.collapse.infobox-overflowing.show-collapsed {
+  max-height: unset;
+  height: auto;
+  transition: all 3s ease-in-out;
+}
+.ms-plugin-infobox.collapse.infobox-overflowing:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: linear-gradient(to bottom, rgba(248, 249, 250, 0) 0%, rgba(248, 249, 250, 0.97) 90%);
+  bottom: 0;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  height: 6em;
+  padding-top: 3.5em;
+  padding-right: 30px;
+}
+.ms-plugin-infobox.collapse.infobox-overflowing.show-collapsed:after {
+  display: none;
+}
+.ms-plugin-infobox.show {
+  height: auto;
+  max-height: unset;
+}
+
+.toggleInfobox {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
 /* Slider */
 .carousel {
   margin-bottom: 1rem;
@@ -9121,9 +9226,6 @@ figure .ms-col-content a {
   padding-bottom: 0 !important;
   margin-bottom: 3rem !important;
 }
-.ms-plugin-quote .ms-col-content p {
-  color: #009BA5;
-}
 .ms-plugin-quote .ms-col-content .nav-tabs {
   border: none;
 }
@@ -9138,19 +9240,40 @@ figure .ms-col-content a {
 /* Table */
 table {
   margin: 2rem 0;
+  table-layout: auto;
+}
+.ms-plugin-table table {
+  margin-top: 0;
 }
 table tr {
   border-bottom: 1px solid #eee;
 }
+.ms-plugin-table table tr:last-child {
+  border-bottom: none;
+}
 table tr:hover {
   background: #fafafa none repeat scroll 0 0;
 }
-table td, table th {
+table thead th {
+  font-weight: 600;
+}
+.ms-plugin-table table thead th {
+  border-top: none;
+}
+table td, table th, table td p, table th p {
   padding: 10px 25px 10px 0;
   vertical-align: top;
+  hyphens: auto;
+}
+table td p, table th p, table td p p, table th p p {
+  padding: 0;
+  margin: 0;
 }
 table caption {
   margin: 1rem 0;
+}
+table .tcol-head tr td:first-child {
+  font-weight: 500;
 }
 
 /* Authors .ms-plugin-author */
@@ -9188,7 +9311,7 @@ table caption {
   font-weight: normal;
   font-style: normal;
 }
-.mdi:before, .ms-navigation-top .ms-article-title:before, .ms-tabs .ms-trigger-toc:before, .ms-article-top .ms-button i:before, article .ms-text ul li:before, article .ms-inline i:before, .ms-col-marginal aside p:before,
+.mdi:before, .ms-navigation-top .ms-article-title:before, .ms-tabs .ms-trigger-toc:before, .ms-article-top .ms-button i:before, article .ms-text ul li:before, .ms-inline i:before, .ms-col-marginal aside p:before,
 .ms-col-marginal [class*=ms-aside] p:before, .carousel .carousel-item.play:before,
 .carousel .carousel-item.pause:before, .embed-responsive i:before,
 .mdi-set {
@@ -9209,7 +9332,7 @@ table caption {
   content: "\F003";
 }
 
-.mdi-account:before, article .ms-inline-author i:before, .ms-col-marginal .ms-aside-author p:before {
+.mdi-account:before, .ms-inline-author i:before, .ms-col-marginal .ms-aside-author p:before {
   content: "\F004";
 }
 
@@ -10173,7 +10296,7 @@ table caption {
   content: "\F5DA";
 }
 
-.mdi-book-open-variant:before, article .ms-inline-glossary i:before, .ms-col-marginal .ms-aside-glossary p:before {
+.mdi-book-open-variant:before, .ms-inline-glossary i:before, .ms-col-marginal .ms-aside-glossary p:before {
   content: "\F0BE";
 }
 
@@ -10813,7 +10936,7 @@ table caption {
   content: "\F7B0";
 }
 
-.mdi-chart-pie:before, article .ms-inline-slidedeck i:before, .ms-col-marginal .ms-aside-slidedeck p:before {
+.mdi-chart-pie:before, .ms-inline-slidedeck i:before, .ms-col-marginal .ms-aside-slidedeck p:before {
   content: "\F12B";
 }
 
@@ -11365,7 +11488,7 @@ table caption {
   content: "\F198";
 }
 
-.mdi-copyright:before, article .ms-inline-licence i:before, .ms-col-marginal .ms-aside-licence p:before {
+.mdi-copyright:before, .ms-inline-licence i:before, .ms-col-marginal .ms-aside-licence p:before {
   content: "\F5E6";
 }
 
@@ -11769,7 +11892,7 @@ table caption {
   content: "\F6B2";
 }
 
-.mdi-domain:before, article .ms-inline-institution i:before, .ms-col-marginal .ms-aside-institution p:before {
+.mdi-domain:before, .ms-inline-institution i:before, .ms-col-marginal .ms-aside-institution p:before {
   content: "\F1D7";
 }
 
@@ -11797,7 +11920,7 @@ table caption {
   content: "\F699";
 }
 
-.mdi-download:before, .ms-article-top .ms-button-download i:before, article .ms-inline-download i:before, .ms-col-marginal .ms-aside-download p:before {
+.mdi-download:before, .ms-article-top .ms-button-download i:before, .ms-inline-download i:before, .ms-col-marginal .ms-aside-download p:before {
   content: "\F1DA";
 }
 
@@ -11857,7 +11980,7 @@ table caption {
   content: "\F7C4";
 }
 
-.mdi-earth:before, article .ms-inline-link i:before, .ms-col-marginal .ms-aside-link p:before {
+.mdi-earth:before, .ms-inline-link i:before, .ms-col-marginal .ms-aside-link p:before {
   content: "\F1E7";
 }
 
@@ -12069,7 +12192,7 @@ table caption {
   content: "\F644";
 }
 
-.mdi-facebook:before {
+.mdi-facebook:before, .ms-inline-facebook i:before, .ms-col-marginal .ms-aside-facebook p:before {
   content: "\F20C";
 }
 
@@ -12665,7 +12788,7 @@ table caption {
   content: "\F6D7";
 }
 
-.mdi-format-quote-close:before, article .ms-inline-generalSource i:before, .ms-col-marginal .ms-aside-generalSource p:before {
+.mdi-format-quote-close:before, .ms-inline-generalSource i:before, .ms-col-marginal .ms-aside-generalSource p:before {
   content: "\F27E";
 }
 
@@ -13429,7 +13552,7 @@ table caption {
   content: "\F2FD";
 }
 
-.mdi-information-variant:before, article .ms-inline-caption i:before, .ms-col-marginal .ms-aside-caption p:before {
+.mdi-information-variant:before, .ms-inline-caption i:before, .ms-col-marginal .ms-aside-caption p:before {
   content: "\F64E";
 }
 
@@ -13749,7 +13872,7 @@ table caption {
   content: "\F33A";
 }
 
-.mdi-linkedin:before, article .ms-inline-linkedin i:before, .ms-col-marginal .ms-aside-linkedin p:before {
+.mdi-linkedin:before, .ms-inline-linkedin i:before, .ms-col-marginal .ms-aside-linkedin p:before {
   content: "\F33B";
 }
 
@@ -16059,7 +16182,7 @@ table caption {
   content: "\F7EE";
 }
 
-.mdi-star:before, article .ms-inline-note i:before, article .ms-inline-sidenote i:before, .ms-col-marginal .ms-aside-note p:before, .ms-col-marginal .ms-aside-sidenote p:before {
+.mdi-star:before, .ms-inline-note i:before, .ms-inline-sidenote i:before, .ms-col-marginal .ms-aside-note p:before, .ms-col-marginal .ms-aside-sidenote p:before {
   content: "\F4CE";
 }
 
@@ -16543,7 +16666,7 @@ table caption {
   content: "\F527";
 }
 
-.mdi-tooltip-text:before, article .ms-inline-reference i:before, .ms-col-marginal .ms-aside-reference p:before {
+.mdi-tooltip-text:before, .ms-inline-reference i:before, .ms-col-marginal .ms-aside-reference p:before {
   content: "\F528";
 }
 
@@ -16595,7 +16718,7 @@ table caption {
   content: "\F6AD";
 }
 
-.mdi-translate:before, article .ms-inline-translate i:before, .ms-col-marginal .ms-aside-translate p:before {
+.mdi-translate:before, .ms-inline-translate i:before, .ms-col-marginal .ms-aside-translate p:before {
   content: "\F5CA";
 }
 
@@ -16695,7 +16818,7 @@ table caption {
   content: "\F543";
 }
 
-.mdi-twitter:before, article .ms-inline-twitter i:before, .ms-col-marginal .ms-aside-twitter p:before {
+.mdi-twitter:before, .ms-inline-twitter i:before, .ms-col-marginal .ms-aside-twitter p:before {
   content: "\F544";
 }
 
@@ -17379,7 +17502,7 @@ table caption {
   content: "\F67F";
 }
 
-.mdi-youtube-play:before, .embed-responsive i:before {
+.mdi-youtube-play:before, .ms-inline-youtube i:before, .ms-col-marginal .ms-aside-youtube p:before, .embed-responsive i:before {
   content: "\F5C3";
 }
 
@@ -17392,25 +17515,25 @@ table caption {
   visibility: hidden;
 }
 
-.mdi-18px.mdi-set, .mdi-18px.mdi:before, .ms-navigation-top .mdi-18px.ms-article-title:before, .ms-tabs .mdi-18px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-18px:before, article .ms-text ul li.mdi-18px:before, article .ms-inline i.mdi-18px:before, .ms-col-marginal aside p.mdi-18px:before,
+.mdi-18px.mdi-set, .mdi-18px.mdi:before, .ms-navigation-top .mdi-18px.ms-article-title:before, .ms-tabs .mdi-18px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-18px:before, article .ms-text ul li.mdi-18px:before, .ms-inline i.mdi-18px:before, .ms-col-marginal aside p.mdi-18px:before,
 .ms-col-marginal [class*=ms-aside] p.mdi-18px:before, .carousel .mdi-18px.carousel-item.play:before,
 .carousel .mdi-18px.carousel-item.pause:before, .embed-responsive i.mdi-18px:before {
   font-size: 18px;
 }
 
-.mdi-24px.mdi-set, .mdi-24px.mdi:before, .ms-navigation-top .mdi-24px.ms-article-title:before, .ms-tabs .mdi-24px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-24px:before, article .ms-text ul li.mdi-24px:before, article .ms-inline i.mdi-24px:before, .ms-col-marginal aside p.mdi-24px:before,
+.mdi-24px.mdi-set, .mdi-24px.mdi:before, .ms-navigation-top .mdi-24px.ms-article-title:before, .ms-tabs .mdi-24px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-24px:before, article .ms-text ul li.mdi-24px:before, .ms-inline i.mdi-24px:before, .ms-col-marginal aside p.mdi-24px:before,
 .ms-col-marginal [class*=ms-aside] p.mdi-24px:before, .carousel .mdi-24px.carousel-item.play:before,
 .carousel .mdi-24px.carousel-item.pause:before, .embed-responsive i.mdi-24px:before {
   font-size: 24px;
 }
 
-.mdi-36px.mdi-set, .mdi-36px.mdi:before, .ms-navigation-top .mdi-36px.ms-article-title:before, .ms-tabs .mdi-36px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-36px:before, article .ms-text ul li.mdi-36px:before, article .ms-inline i.mdi-36px:before, .ms-col-marginal aside p.mdi-36px:before,
+.mdi-36px.mdi-set, .mdi-36px.mdi:before, .ms-navigation-top .mdi-36px.ms-article-title:before, .ms-tabs .mdi-36px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-36px:before, article .ms-text ul li.mdi-36px:before, .ms-inline i.mdi-36px:before, .ms-col-marginal aside p.mdi-36px:before,
 .ms-col-marginal [class*=ms-aside] p.mdi-36px:before, .carousel .mdi-36px.carousel-item.play:before,
 .carousel .mdi-36px.carousel-item.pause:before, .embed-responsive i.mdi-36px:before {
   font-size: 36px;
 }
 
-.mdi-48px.mdi-set, .mdi-48px.mdi:before, .ms-navigation-top .mdi-48px.ms-article-title:before, .ms-tabs .mdi-48px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-48px:before, article .ms-text ul li.mdi-48px:before, article .ms-inline i.mdi-48px:before, .ms-col-marginal aside p.mdi-48px:before,
+.mdi-48px.mdi-set, .mdi-48px.mdi:before, .ms-navigation-top .mdi-48px.ms-article-title:before, .ms-tabs .mdi-48px.ms-trigger-toc:before, .ms-article-top .ms-button i.mdi-48px:before, article .ms-text ul li.mdi-48px:before, .ms-inline i.mdi-48px:before, .ms-col-marginal aside p.mdi-48px:before,
 .ms-col-marginal [class*=ms-aside] p.mdi-48px:before, .carousel .mdi-48px.carousel-item.play:before,
 .carousel .mdi-48px.carousel-item.pause:before, .embed-responsive i.mdi-48px:before {
   font-size: 48px;
