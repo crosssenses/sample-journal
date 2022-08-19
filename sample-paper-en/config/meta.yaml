@@ -34,10 +34,10 @@ background_url:         assets/images/glenn-carstens-peters-6rkJD0Uxois-unsplash
 
 # DISCLAIMER
 # —————————————————————
-data_usage:
-disclaimer:
-terms_of_use:
-licence:
+disclaimer:             ""
+data_usage:             ""
+terms_of_use:           ""
+licence:                ""
 
 # Author info is shown in footer bar and on the right, if no logo is provided.
 author_info:            Graphite – enhanced publications for a digital environment

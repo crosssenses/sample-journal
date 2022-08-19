@@ -13,9 +13,9 @@ PAGES_DIRECTORY = os.path.join(PROJECT_DIRECTORY, "pages")
 OUTPUT_DIRECTORY = os.path.join(PROJECT_DIRECTORY, "_build")
 STATIC_ROOT = os.path.join(PROJECT_DIRECTORY, "_build", "static")
 
-#STATICFILES_DIRS = [
-#    os.path.join(PROJECT_DIRECTORY, "static"),
-#]
+STATICFILES_DIRS = [
+    os.path.join(PROJECT_DIRECTORY, "static"),
+]
 
 LOCAL_JINJA_PATH = os.path.join(
     os.path.dirname(PROJECT_DIRECTORY),
@@ -26,5 +26,5 @@ TEMPLATES[0]["DIRS"] = [LOCAL_JINJA_PATH, ] + TEMPLATES[0]["DIRS"]
 
 # Domains
 
-SHARE_DOMAIN = "http://idist.io/g/lrnlab-agile/"
-SHARE_DOMAIN_FULL = "https://www.impactdistillery.com/graphite/lrnlab-agile-en/"
+SHARE_DOMAIN = "http://graphite.page/scholar-led-manifest/"
+SHARE_DOMAIN_FULL = "https://graphite.page/scholar-led-manifest/"
