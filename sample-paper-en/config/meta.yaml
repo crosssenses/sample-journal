@@ -67,12 +67,12 @@ imprint:                "This is a sample paper for the open source publication 
 To create you own graphite file, download the starter or build your own publication based on the pypi package graphite-paper."
 
 further_publications:
-  - label:  Freedom of Expression in the Digital Public Sphere
-    url: https://graphite.page/policy-brief-values/
+  - label:  The Strategic Guide to Responsible Platform Business
+    url: https://graphite.page/hiig-platformalternatives/
   - label:  Das Scholar-led.network-Manifest
-    url: https://graphite.page/scholar-led-manifesto/
-  - label: Agile. A whitepaper by LRNLAB
-    url: https://www.impactdistillery.com/graphite/lrnlab-agile-de/
+    url: https://graphite.page/scholar-led-manifest/
+  - label: Can Platforms Cancel Politicians?
+    url: https://graphite.page/gdhrnet-wp3/
 
 further_links:
   - label: Graphite project website
@@ -85,7 +85,7 @@ further_links:
 # —————————————————————
 
 tabs:
-  - title: "Manifest"
+  - title: "Article"
     slug: index
     include_abstract: true
     md_container: article
