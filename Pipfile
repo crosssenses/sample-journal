@@ -12,11 +12,9 @@ jinja2 = "*"
 pyyaml = "*"
 numpy = "*"
 pandas = "*"
-# graphite-paper = {editable = true, path = "./../graphite-paper"}
-# graphite-paper = {git = "git://github.com/impactdistillery/graphite-paper.git"}
 graphite-paper = {git = "https://github.com/crosssenses/graphite-paper.git"}
 sphinx = "*"
 sphinx-rtd-theme = "*"
 
 [requires]
-python_version = "3.8"s
+python_version = "3.8"
