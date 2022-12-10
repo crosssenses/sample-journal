@@ -40,14 +40,16 @@ $header-image-position: center bottom;
 // General classes
 // --------------------------------------------------
 
-section a:not([class^="ms-"]), article a:not([class^="ms-"]){
-    text-decoration: underline #ef0 2px solid;
-    text-underline-offset: 2px;
+section a:not([class^="ms-"]),
+article a:not([class^="ms-"]) {
+  text-decoration: underline theme-color("highlight") 2px solid;
+  text-underline-offset: 2px;
 }
 
-.btn:hover{
-    background: theme-color('highlight');
-    color: black !important;
+.btn:hover {
+  background: theme-color("highlight");
+  border-color: theme-color("highlight");
+  color: white !important;
 }
 
 //
@@ -58,29 +60,98 @@ section a:not([class^="ms-"]), article a:not([class^="ms-"]){
 // General Layout Definitions
 // --------------------------------------------------
 
-
 /* BACKGROUND */
 
 /* Topline */
 
 /* Jumbotron */
 
-.ms-header{
-    padding: 3rem 2rem 6rem;
+.ms-header {
+  padding: 3rem 2rem 6rem;
+
+  .card {
+    background-color: theme-color("primary");
+
+    .card-body {
+      .author,
+      h1,
+      .card-subtitle {
+        color: white !important;
+      }
+
+      .author {
+        font-weight: 300;
+        font-size: 1em !important;
+      }
+
+      h1 {
+        text-transform: none;
+      }
+    }
+  }
 }
 
 /* Tabs */
+
+.nav-tabs {
+  .nav-link {
+    font-weight: 500;
+  }
+  .nav-link.active {
+    color: theme-color("primary");
+  }
+}
 
 /* Table of contents */
 
 /* Article Top */
 
+.input-group-addon {
+  background: theme-color("primary");
+  color: white;
+}
+
 /* Article */
 
-.ms-chapter{
-    h2 + p{
-        border-top: none !important;
-    }
+.ms-chapter {
+  h2 + p {
+    border-top: none !important;
+  }
+
+  .ms-row-full {
+    background-color: theme-color("highlight") !important;
+
+      .author,
+      h2,
+      p {
+        color: white !important;
+      }
+
+      .author {
+        font-weight: 300;
+        font-size: 1em !important;
+      }
+
+      h1 {
+        text-transform: none;
+      }
+  }
+}
+
+.popover {
+  background-color: $surrey-light-gray-blue;
+
+  .popover-header {
+    background-color: $surrey-light-gray-blue;
+    border-bottom: none;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+  }
+
+  .arrow {
+    display: none;
+  }
 }
 
 /* Marginal notes */
@@ -104,17 +175,15 @@ section a:not([class^="ms-"]), article a:not([class^="ms-"]){
 /* Video */
 
 /* Quote */
-.ms-plugin-quote{
+.ms-plugin-quote {
+  border: none !important;
 
-    border: none !important;
-
-    .ms-col-content{
-
-        p{
-            font-family: $font-family-article !important;
-            font-size: $font-size-article !important;
-        }
+  .ms-col-content {
+    p {
+      font-family: $font-family-article !important;
+      font-size: $font-size-article !important;
     }
+  }
 }
 
 /* Table */
