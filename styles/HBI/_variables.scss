@@ -1,0 +1,30 @@
+// ==================================================
+// Adaptaions for GDHRNet
+// ==================================================
+
+$theme-colors: (
+  primary: #000,
+  secondary: #000,
+  highlight: #ef0
+);
+
+$header-image-position: bottom center;
+
+// Fonts
+
+$font-family-serif: "Cormorant Garamond", Georgia, Times, serif !default;
+
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+$font-size-article :  $font-size-base +.4;
+$font-weight-article: 400;
+
+$headings-line-height: 1.0;
+$headings-font-weight: 600;
+
+// Cards
+
+$card-bg:  rgba(#fff, .8);
+$chapter-bg: rgba(#fff, .95);
+

@@ -23,8 +23,3 @@ LOCAL_JINJA_PATH = os.path.join(
 )
 
 TEMPLATES[0]["DIRS"] = [LOCAL_JINJA_PATH, ] + TEMPLATES[0]["DIRS"]
-
-# Domains
-
-SHARE_DOMAIN = "http://graphite.page/scholar-led-manifest/"
-SHARE_DOMAIN_FULL = "https://graphite.page/scholar-led-manifest/"

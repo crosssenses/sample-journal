@@ -12,7 +12,7 @@ jinja2 = "*"
 pyyaml = "*"
 numpy = "*"
 pandas = "*"
-graphite-paper = {git = "https://github.com/crosssenses/graphite-paper.git"}
+graphite-paper = {git = "https://github.com/impactdistillery/graphite-paper.git"}
 sphinx = "*"
 sphinx-rtd-theme = "*"
 sphinx-panels = "*"

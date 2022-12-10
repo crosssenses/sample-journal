@@ -937,7 +937,8 @@ article{
 /* Inline notes */
 .ms-inline{
     color: theme-color(primary);
-    white-space: nowrap;
+    // Creates bug on mobile (content too wide)
+    // white-space: nowrap;
 
 //        &:hover{
 //            text-decoration: underline;
