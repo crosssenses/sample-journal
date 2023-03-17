@@ -1255,9 +1255,17 @@ article section{
 /* Infobox */
 .ms-plugin-infobox{
     .ms-col-content{
-        h2{
+        h2, h3{
             font-size: 1.1em;
             padding: 0 0 0.5em;
+            margin-bottom: 0 !important;
+
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+        h3{
+            color: gray(800);
         }
         p{
             @extend .sans-serif;
