@@ -2,17 +2,37 @@
 // Adaptaions for GDHRNet
 // ==================================================
 
+$hbi-light-grey: #f0f0f0;
+$hbi-grey: #b3b2b7;
+$hbi-zitronengelb: #ffed00;
+$hbi-sonnengelb: #ffcc00;
+$hbi-mais: #efa600;
+$hbi-orange: #ef7d00;
+$hbi-kuerbis: #e84e0f;
+$hbi-feuerrot: #e30613;
+$hbi-pink: #d70365;
+$hbi-purple: #951b81;
+$hbi-tintenblau: #0069b4;
+$hbi-himmelblau: #0090d7;
+$hbi-türkisblau: #00adba;
+$hbi-ozeanblau: #69c0ac;
+$hbi-maigruen: #3fa535;
+$hbi-apfelgruen: #76b82a;
+$hbi-lime: #dedc00;
+$hbi-purpleblue: #29235c;
+
+
 $theme-colors: (
   primary: #000,
-  secondary: #000,
-  highlight: #ef0
+  secondary: $hbi-türkisblau,
+  highlight: $hbi-ozeanblau
 );
 
 $header-image-position: bottom center;
 
 // Fonts
 
-$font-family-serif: "Cormorant Garamond", Georgia, Times, serif !default;
+$font-family-sans-serif: "Barlow", Helvetica, Arial, sans-serif !default;
 
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
@@ -20,8 +40,12 @@ $line-height-base: 1.6;
 $font-size-article :  $font-size-base +.4;
 $font-weight-article: 400;
 
+// $h3-font-size: 2.5rem;
+
 $headings-line-height: 1.0;
 $headings-font-weight: 600;
+$headings-font-family: "Barlow", Helvetica, Arial, sans-serif !default;
+
 
 // Cards
 

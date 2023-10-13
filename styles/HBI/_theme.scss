@@ -41,7 +41,7 @@ $header-image-position: center bottom;
 // --------------------------------------------------
 
 section a:not([class^="ms-"]), article a:not([class^="ms-"]){
-    text-decoration: underline #ef0 2px solid;
+    text-decoration: underline #00B6BE 1px solid;
     text-underline-offset: 2px;
 }
 
@@ -66,7 +66,7 @@ section a:not([class^="ms-"]), article a:not([class^="ms-"]){
 /* Jumbotron */
 
 .ms-header{
-    padding: 3rem 2rem 6rem;
+    padding: 3rem 2rem 4rem;
 }
 
 /* Tabs */
